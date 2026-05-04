@@ -104,12 +104,6 @@ export default withPwa(defineConfig({
           { text: '投资流派与方法论', link: '/investment/value-investing' },
           { text: '量化投资', link: '/quant/what-is-quant' }
         ]
-      },
-      {
-        text: '更多',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/zhycn/finance-study' }
-        ]
       }
     ],
     sidebar: {

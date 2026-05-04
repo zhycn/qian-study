@@ -2,22 +2,22 @@
 layout: home
 
 hero:
-  name: 'VitePress Starter'
-  text: '开箱即用的文档站点'
-  tagline: 基于 VitePress 2.x 构建，快速、美观、易定制
+  name: 'Finance Study'
+  text: '金融术语"人话"翻译器'
+  tagline: 拒绝晦涩难懂，通过生活化类比与可视化图解，带你轻松读懂金融世界的底层逻辑
   actions:
     - theme: brand
-      text: 开始使用
-      link: /guide/getting-started
+      text: 开始学习
+      link: /basics/what-is-finance
     - theme: alt
-      text: 查看示例
-      link: /examples/markdown
+      text: GitHub
+      link: https://github.com/zhycn/finance-study
 
 features:
-  - title: 极速开发体验
-    details: 基于 Vite 驱动，瞬间启动开发服务器，修改即时生效
-  - title: Markdown 增强
-    details: 内置语法高亮、自定义容器、代码分组等丰富的 Markdown 扩展
-  - title: Vue 驱动
-    details: 在 Markdown 中直接使用 Vue 组件和模板语法，实现交互式文档
+  - title: 生活化类比
+    details: 用买菜、租房等日常场景解释复杂金融概念，让知识不再高冷
+  - title: 可视化图解
+    details: 精心设计的图表和流程图，直观展示金融产品的运作机制
+  - title: 开源知识库
+    details: 社区驱动，持续更新，每个人都可以贡献自己的金融理解
 ---

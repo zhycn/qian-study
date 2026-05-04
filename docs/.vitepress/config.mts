@@ -5,26 +5,26 @@ import container from 'markdown-it-container'
 
 export default withPwa(defineConfig({
   lang: 'zh-CN',
-  title: 'VitePress Starter',
-  description: '开箱即用的 VitePress 文档站点',
-  base: '/VitePress-starter/',
+  title: 'Finance Study',
+  description: '将高冷金融术语翻译成"人话"的开源知识库',
+  base: '/finance-study/',
   cleanUrls: true,
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://zhycn.github.io/VitePress-starter/'
+    hostname: 'https://zhycn.github.io/finance-study/'
   },
   vite: {},
   pwa: {
     registerType: 'autoUpdate',
     includeAssets: ['favicon.svg'],
     manifest: {
-      name: 'VitePress Starter',
-      short_name: 'VitePress',
-      description: '开箱即用的 VitePress 文档站点',
-      theme_color: '#e8740c',
+      name: 'Finance Study',
+      short_name: 'FinanceStudy',
+      description: '将高冷金融术语翻译成"人话"的开源知识库',
+      theme_color: '#1e6bff',
       icons: [
         {
-          src: '/VitePress-starter/favicon.svg',
+          src: '/finance-study/favicon.svg',
           sizes: '32x32',
           type: 'image/svg+xml'
         }
@@ -47,10 +47,10 @@ export default withPwa(defineConfig({
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
-    ['meta', { name: 'theme-color', content: '#e8740c' }],
+    ['meta', { name: 'theme-color', content: '#1e6bff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#e8740c' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#1e6bff' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     // Google Fonts - Noto Sans SC
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -72,66 +72,37 @@ export default withPwa(defineConfig({
     // Open Graph
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
-    ['meta', { property: 'og:site_name', content: 'VitePress Starter' }],
+    ['meta', { property: 'og:site_name', content: 'Finance Study' }],
     // Twitter Card
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
   ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '指南', link: '/guide/getting-started' },
-      { text: 'API', link: '/api/config' },
-      { text: '示例', link: '/examples/markdown' },
+      { text: '基础概念', link: '/basics/what-is-finance' },
       {
         text: '更多',
         items: [
-          { text: 'Markdown 扩展', link: '/markdown-examples' },
-          { text: '运行时 API', link: '/api-examples' },
-          { text: 'GitHub', link: 'https://github.com/zhycn/VitePress-starter' }
+          { text: 'GitHub', link: 'https://github.com/zhycn/finance-study' }
         ]
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/basics/': [
         {
-          text: '入门',
+          text: '基础概念',
           collapsed: false,
           items: [
-            { text: '快速开始', link: '/guide/getting-started' },
-            { text: '配置指南', link: '/guide/config' },
-            { text: '性能优化', link: '/guide/performance' },
-            { text: '多版本文档', link: '/guide/versioning' }
-          ]
-        }
-      ],
-      '/api/': [
-        {
-          text: 'API 参考',
-          collapsed: false,
-          items: [
-            { text: '配置 API', link: '/api/config' },
-            { text: '运行时 API', link: '/api/runtime' }
-          ]
-        }
-      ],
-      '/examples/': [
-        {
-          text: '示例',
-          collapsed: false,
-          items: [
-            { text: 'Markdown 扩展', link: '/examples/markdown' },
-            { text: '组件示例', link: '/examples/components' },
-            { text: '数学公式', link: '/examples/katex' }
+            { text: '什么是金融', link: '/basics/what-is-finance' }
           ]
         }
       ],
       '/': [
         {
-          text: '示例',
+          text: '基础概念',
           collapsed: false,
           items: [
-            { text: 'Markdown 扩展', link: '/markdown-examples' },
-            { text: '运行时 API', link: '/api-examples' }
+            { text: '什么是金融', link: '/basics/what-is-finance' }
           ]
         }
       ]
@@ -172,7 +143,7 @@ export default withPwa(defineConfig({
       }
     },
     editLink: {
-      pattern: 'https://github.com/zhycn/VitePress-starter/edit/main/docs/:path',
+      pattern: 'https://github.com/zhycn/finance-study/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     footer: {
@@ -200,6 +171,6 @@ export default withPwa(defineConfig({
       linkText: '回到首页'
     },
     externalLinkIcon: true,
-    socialLinks: [{ icon: 'github', link: 'https://github.com/zhycn/VitePress-starter' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/zhycn/finance-study' }]
   }
 }))

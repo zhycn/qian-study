@@ -1,12 +1,12 @@
 :root {
-  --vp-c-brand-1: #e8740c;
-  --vp-c-brand-2: #d06808;
-  --vp-c-brand-3: #c05e06;
-  --vp-c-brand-soft: #e8740c18;
+  --vp-c-brand-1: #1e6bff;
+  --vp-c-brand-2: #1a5fe0;
+  --vp-c-brand-3: #1652c4;
+  --vp-c-brand-soft: #1e6bff18;
 
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #e8740c 10%, #c05e06 100%);
-  --vp-home-hero-image-background-image: linear-gradient(135deg, #e8740c22 10%, #c05e0622 100%);
+  --vp-home-hero-name-background: linear-gradient(135deg, #1e6bff 10%, #1652c4 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #1e6bff22 10%, #1652c422 100%);
   --vp-home-hero-image-filter: blur(44px);
 
   /* 中文字体优化 */
@@ -15,10 +15,10 @@
 }
 
 .dark {
-  --vp-c-brand-1: #f09030;
-  --vp-c-brand-2: #e8740c;
-  --vp-c-brand-3: #d06808;
-  --vp-c-brand-soft: #f0903018;
+  --vp-c-brand-1: #4d8fff;
+  --vp-c-brand-2: #1e6bff;
+  --vp-c-brand-3: #1a5fe0;
+  --vp-c-brand-soft: #4d8fff18;
 }
 
 .vp-doc .card-grid {

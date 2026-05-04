@@ -1,6 +1,6 @@
 # AGENTS.md
 
-VitePress 2.x 文档站点模板。中文 (zh-CN)，部署于 GitHub Pages。
+Finance Study - 将高冷金融术语翻译成"人话"的开源知识库。中文 (zh-CN)，部署于 GitHub Pages。
 
 ## 开发命令
 
@@ -24,7 +24,7 @@ pnpm type-check        # TypeScript 类型检查
 - **VitePress**: 2.0.0-alpha.17（alpha 版本）
 - **配置文件**: `docs/.vitepress/config.mts`，必须用 `withPwa()` 包裹 `defineConfig()`
 - **TypeScript 别名**: `@/*` -> `./docs/.vitepress/*`
-- **部署 base**: `/VitePress-starter/`，部署到 `https://zhycn.github.io/VitePress-starter/`
+- **部署 base**: `/finance-study/`，部署到 `https://zhycn.github.io/finance-study/`
 
 ## 代码风格
 
@@ -42,12 +42,10 @@ docs/
     env.d.ts            # 类型声明
     theme/
       index.ts          # 主题入口，继承 DefaultTheme
-      custom.css        # 品牌色 #e8740c，字体 Noto Sans SC + JetBrains Mono
+      custom.css        # 品牌色 #1e6bff，字体 Noto Sans SC + JetBrains Mono
       components/       # 全局注册组件（Card、Badge）
   public/               # 静态资源（favicon.svg）
-  guide/                # 指南文档
-  api/                  # API 文档
-  examples/             # 示例文档
+  basics/               # 基础概念文档
   index.md              # 首页（layout: home）
 ```
 

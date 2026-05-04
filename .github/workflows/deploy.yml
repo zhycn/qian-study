@@ -1,4 +1,4 @@
-name: Deploy VitePress site to Pages
+name: Deploy Finance Study to Pages
 
 on:
   push:

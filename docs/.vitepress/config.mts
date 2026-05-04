@@ -85,6 +85,7 @@ export default withPwa(defineConfig({
         link: '/glossary/index',
         activeMatch: '^/(basics|money-banking|investing|derivatives|corporate-finance|macro|personal-finance|fintech|international|economics|finance-theory|financial-history|regulation|investment|quant|glossary)/'
       },
+      { text: '工具资源', link: '/tools/index' },
       {
         text: '分类导航',
         items: [
@@ -414,6 +415,20 @@ export default withPwa(defineConfig({
               { text: '著名量化基金', link: '/quant/famous-quant-funds' },
               { text: '量化投资书籍推荐', link: '/quant/quant-book-recommendations' }
             ]}
+          ]
+        }
+      ],
+      '/tools/': [
+        {
+          text: '工具资源',
+          collapsed: false,
+          items: [
+            { text: '工具首页', link: '/tools/index' },
+            { text: '交易软件', link: '/tools/trading' },
+            { text: '量化工具', link: '/tools/quant' },
+            { text: '数据与分析', link: '/tools/data' },
+            { text: '学习资源', link: '/tools/learning' },
+            { text: '在线计算器', link: '/tools/calculator' }
           ]
         }
       ],

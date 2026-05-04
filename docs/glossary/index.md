@@ -301,3 +301,13 @@ description: 188 个金融术语，用"人话"解释金融世界的底层逻辑
 | [Python 量化生态](/quant/python-quant-ecosystem) | pandas、numpy、zipline、backtrader，量化人的工具箱 |
 | [著名量化基金](/quant/famous-quant-funds) | 文艺复兴、DE Shaw、Citadel，华尔街的算法巨头 |
 | [量化投资书籍推荐](/quant/quant-book-recommendations) | 从入门到精通，量化投资必读书单 |
+
+## 工具资源
+
+| 工具 | 一句话简介 |
+|------|------------|
+| [交易软件](/tools/trading) | A 股、港股、美股、基金交易软件大全 |
+| [量化工具](/tools/quant) | 量化平台、Python 库、数据源推荐 |
+| [数据与分析](/tools/data) | 宏观经济、股票、基金数据源 |
+| [学习资源](/tools/learning) | 课程、社区、播客、书籍推荐 |
+| [在线计算器](/tools/calculator) | 复利、房贷、定投、汇率计算器 |

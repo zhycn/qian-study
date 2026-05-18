@@ -5,26 +5,26 @@ import container from 'markdown-it-container'
 
 export default withPwa(defineConfig({
   lang: 'zh-CN',
-  title: 'Finance Study',
+  title: 'Qian Study',
   description: '将高冷金融术语翻译成"人话"的开源知识库',
-  base: '/finance-study/',
+  base: '/qian-study/',
   cleanUrls: true,
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://zhycn.github.io/finance-study/'
+    hostname: 'https://zhycn.github.io/qian-study/'
   },
   vite: {},
   pwa: {
     registerType: 'autoUpdate',
     includeAssets: ['favicon.svg'],
     manifest: {
-      name: 'Finance Study',
-      short_name: 'FinanceStudy',
+      name: 'Qian Study',
+      short_name: 'QianStudy',
       description: '将高冷金融术语翻译成"人话"的开源知识库',
       theme_color: '#1e6bff',
       icons: [
         {
-          src: '/finance-study/favicon.svg',
+          src: '/qian-study/favicon.svg',
           sizes: '32x32',
           type: 'image/svg+xml'
         }
@@ -73,7 +73,7 @@ export default withPwa(defineConfig({
     // Open Graph
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
-    ['meta', { property: 'og:site_name', content: 'Finance Study' }],
+    ['meta', { property: 'og:site_name', content: 'Qian Study' }],
     // Twitter Card
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
   ],
@@ -81,31 +81,80 @@ export default withPwa(defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
+        text: '学习路径',
+        link: '/learning-path/',
+        activeMatch: '^/learning-path/',
+        items: [
+          {
+            text: '📖 新手入门',
+            items: [
+              { text: '什么是金融', link: '/basics/what-is-finance' },
+              { text: '货币 → 利息 → 通货膨胀', link: '/basics/money' },
+              { text: '风险与收益', link: '/basics/risk-return' }
+            ]
+          },
+          {
+            text: '🎯 实用场景',
+            items: [
+              { text: '个人理财入门', link: '/personal-finance/savings' },
+              { text: '投资入门', link: '/investing/stock' },
+              { text: '公司金融基础', link: '/corporate-finance/balance-sheet' }
+            ]
+          },
+          {
+            text: '🚀 进阶探索',
+            items: [
+              { text: '量化投资入门', link: '/quant/what-is-quant' },
+              { text: '金融学核心理论', link: '/finance-theory/capm' },
+              { text: '金融科技前沿', link: '/fintech/blockchain' }
+            ]
+          }
+        ]
+      },
+      {
         text: '金融百科',
         link: '/glossary/index',
-        activeMatch: '^/(basics|money-banking|investing|derivatives|corporate-finance|macro|personal-finance|fintech|international|economics|finance-theory|financial-history|regulation|investment|quant|glossary)/'
-      },
-      { text: '工具资源', link: '/tools/index' },
-      {
-        text: '分类导航',
+        activeMatch: '^/(basics|money-banking|investing|derivatives|corporate-finance|macro|personal-finance|fintech|international|economics|finance-theory|financial-history|regulation|investment|quant|glossary)/',
         items: [
-          { text: '基础概念', link: '/basics/what-is-finance' },
-          { text: '货币与银行', link: '/money-banking/central-bank' },
-          { text: '投资市场', link: '/investing/stock' },
-          { text: '衍生品与风控', link: '/derivatives/futures' },
-          { text: '公司金融', link: '/corporate-finance/balance-sheet' },
-          { text: '宏观经济', link: '/macro/gdp' },
-          { text: '个人理财', link: '/personal-finance/savings' },
-          { text: '金融科技', link: '/fintech/blockchain' },
-          { text: '国际金融', link: '/international/exchange-rate' },
-          { text: '经济学经典理论', link: '/economics/das-kapital' },
-          { text: '金融学核心理论', link: '/finance-theory/capm' },
-          { text: '金融史与重大危机', link: '/financial-history/tulip-bubble' },
-          { text: '金融监管与机构', link: '/regulation/basel-accord' },
-          { text: '投资流派与方法论', link: '/investment/value-investing' },
-          { text: '量化投资', link: '/quant/what-is-quant' }
+          {
+            text: '📊 市场与投资',
+            items: [
+              { text: '投资市场', link: '/investing/stock' },
+              { text: '投资流派', link: '/investment/value-investing' },
+              { text: '衍生品与风控', link: '/derivatives/futures' }
+            ]
+          },
+          {
+            text: '🏦 经济与理论',
+            items: [
+              { text: '宏观经济', link: '/macro/gdp' },
+              { text: '金融学核心理论', link: '/finance-theory/capm' },
+              { text: '经济学经典理论', link: '/economics/das-kapital' }
+            ]
+          },
+          {
+            text: '💻 科技与实务',
+            items: [
+              { text: '金融科技', link: '/fintech/blockchain' },
+              { text: '量化投资', link: '/quant/what-is-quant' },
+              { text: '工具资源', link: '/tools/index' }
+            ]
+          },
+          {
+            text: '📚 更多分类',
+            items: [
+              { text: '基础概念', link: '/basics/what-is-finance' },
+              { text: '货币与银行', link: '/money-banking/central-bank' },
+              { text: '个人理财', link: '/personal-finance/savings' },
+              { text: '公司金融', link: '/corporate-finance/balance-sheet' },
+              { text: '国际金融', link: '/international/exchange-rate' },
+              { text: '金融监管', link: '/regulation/basel-accord' },
+              { text: '金融史与重大危机', link: '/financial-history/tulip-bubble' }
+            ]
+          }
         ]
-      }
+      },
+      { text: '工具资源', link: '/tools/index' }
     ],
     sidebar: {
       '/basics/': [
@@ -441,6 +490,42 @@ export default withPwa(defineConfig({
           ]
         }
       ],
+      '/learning-path/': [
+        {
+          text: '学习路径',
+          collapsed: false,
+          items: [
+            { text: '总览', link: '/learning-path/' },
+            {
+              text: '📖 新手入门',
+              collapsed: false,
+              items: [
+                { text: '什么是金融', link: '/basics/what-is-finance' },
+                { text: '货币 → 利息 → 通货膨胀', link: '/basics/money' },
+                { text: '风险与收益', link: '/basics/risk-return' }
+              ]
+            },
+            {
+              text: '🎯 实用场景',
+              collapsed: false,
+              items: [
+                { text: '个人理财入门', link: '/personal-finance/savings' },
+                { text: '投资入门', link: '/investing/stock' },
+                { text: '公司金融基础', link: '/corporate-finance/balance-sheet' }
+              ]
+            },
+            {
+              text: '🚀 进阶探索',
+              collapsed: false,
+              items: [
+                { text: '量化投资入门', link: '/quant/what-is-quant' },
+                { text: '金融学核心理论', link: '/finance-theory/capm' },
+                { text: '金融科技前沿', link: '/fintech/blockchain' }
+              ]
+            }
+          ]
+        }
+      ],
       '/': [
         {
           text: '基础概念',
@@ -496,7 +581,7 @@ export default withPwa(defineConfig({
       }
     },
     editLink: {
-      pattern: 'https://github.com/zhycn/finance-study/edit/main/docs/:path',
+      pattern: 'https://github.com/zhycn/qian-study/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     footer: {
@@ -524,6 +609,6 @@ export default withPwa(defineConfig({
       linkText: '回到首页'
     },
     externalLinkIcon: true,
-    socialLinks: [{ icon: 'github', link: 'https://github.com/zhycn/finance-study' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/zhycn/qian-study' }]
   }
 }))

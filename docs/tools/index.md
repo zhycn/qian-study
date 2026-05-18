@@ -79,6 +79,6 @@ description: 金融学习、交易、量化、数据分析工具大全
 
 发现了好用的金融工具？欢迎贡献！
 
-1. 在 [GitHub Issues](https://github.com/zhycn/finance-study/issues) 提交推荐
+1. 在 [GitHub Issues](https://github.com/zhycn/qian-study/issues) 提交推荐
 2. 说明工具名称、简介、链接、所属分类
 3. 维护者审核后会添加到本页

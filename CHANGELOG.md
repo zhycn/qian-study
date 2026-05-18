@@ -8,15 +8,15 @@
 
 ### Added
 
-- Finance Study 金融知识库项目初始化
+- Qian Study 金融知识库项目初始化
 - 基础概念文档结构
 
 ### Changed
 
-- 从 VitePress Starter 模板改造为 Finance Study 项目
+- 从 VitePress Starter 模板改造为 Qian Study 项目
 - 品牌色改为金融蓝 (#1e6bff)
-- 部署路径改为 /finance-study/
-- 导航和侧边栏调整为金融知识库结构
+- 部署路径改为 /qian-study/
+- 导航和侧边栏调整为 Qian Study 知识库结构
 
 ## [1.0.0] - 2026-04-27
 
@@ -34,5 +34,5 @@
 - KaTeX 数学公式支持
 - 自定义 Markdown 容器（card-grid、steps）
 
-[Unreleased]: https://github.com/zhycn/finance-study/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/zhycn/finance-study/releases/tag/v1.0.0
+[Unreleased]: https://github.com/zhycn/qian-study/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/zhycn/qian-study/releases/tag/v1.0.0

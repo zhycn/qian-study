@@ -1,4 +1,4 @@
-name: Deploy Finance Study to Pages
+name: Deploy Qian Study to Pages
 
 on:
   push:

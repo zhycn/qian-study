@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Finance Study - 将高冷金融术语翻译成"人话"的开源知识库。中文 (zh-CN)，部署于 GitHub Pages。
+Qian Study - 将高冷金融术语翻译成"人话"的开源知识库。中文 (zh-CN)，部署于 GitHub Pages。
 
 ## 开发命令
 
@@ -24,7 +24,7 @@ pnpm type-check        # TypeScript 类型检查
 - **VitePress**: 2.0.0-alpha.17（alpha 版本）
 - **配置文件**: `docs/.vitepress/config.mts`，必须用 `withPwa()` 包裹 `defineConfig()`
 - **TypeScript 别名**: `@/*` -> `./docs/.vitepress/*`
-- **部署 base**: `/finance-study/`，部署到 `https://zhycn.github.io/finance-study/`
+- **部署 base**: `/qian-study/`，部署到 `https://zhycn.github.io/qian-study/`
 
 ## 代码风格
 
@@ -35,7 +35,7 @@ pnpm type-check        # TypeScript 类型检查
 
 ## 目录结构
 
-```
+```plain
 docs/
   .vitepress/
     config.mts          # 站点配置（withPwa + defineConfig）

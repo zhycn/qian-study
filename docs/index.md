@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: 'Finance Study'
+  name: 'Qian Study'
   text: '金融术语"人话"翻译器'
   tagline: 拒绝晦涩难懂，通过生活化类比与可视化图解，带你轻松读懂金融世界的底层逻辑
   image:
     src: /hero.png
-    alt: Finance Study
+    alt: Qian Study
   actions:
     - theme: brand
       text: 开始学习
@@ -17,7 +17,7 @@ hero:
       link: /basics/what-is-finance
     - theme: alt
       text: GitHub
-      link: https://github.com/zhycn/finance-study
+link: https://github.com/zhycn/qian-study
 
 features:
   - icon: 📖
@@ -40,6 +40,6 @@ features:
   - icon: 🌐
     title: 开源知识库
     details: 社区驱动，持续更新，每个人都可以贡献自己的金融理解
-    link: https://github.com/zhycn/finance-study
+    link: https://github.com/zhycn/qian-study
     linkText: 参与贡献
 ---

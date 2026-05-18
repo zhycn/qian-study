@@ -12,6 +12,7 @@ agent: build
 ### 步骤 1：代码质量检查
 
 串行运行，全部记录：
+
 ```bash
 pnpm lint:check
 pnpm type-check
@@ -57,6 +58,7 @@ pnpm docs:build
 ### 步骤 5：用户确认
 
 展示报告后询问：
+
 1. 修复发现的问题（按严重程度）
 2. 通过 `/vp:commit-push` 提交
 

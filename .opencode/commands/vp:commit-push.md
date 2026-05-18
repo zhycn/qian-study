@@ -25,6 +25,7 @@ agent: build
 ### 步骤 4：获取提交信息
 
 如用户未提供，询问用户。建议按 Conventional Commits 格式：
+
 - `feat:` 新功能
 - `fix:` 修复
 - `docs:` 文档
@@ -47,24 +48,28 @@ git push
 ```
 
 检查退出码。如果失败：
+
 - 无 upstream → 提示设置：`git push --set-upstream origin <branch>`
 - 冲突 → 提示先 pull
 
 ## 输出格式
 
-```
+```markdown
 ## 提交完成
 
 ### 变更概览
+
 - 变更文件：X 个
 - 新增：X 个
 - 修改：X 个
 - 删除：X 个
 
 ### 提交信息
+
 {提交信息}
 
 ### 推送状态
+
 - commit：✅（{commit hash}）
 - push：✅/❌
 ```

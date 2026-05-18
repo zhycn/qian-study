@@ -17,6 +17,7 @@ agent: build
 用 Write 工具创建文件 `docs/.vitepress/theme/components/{PascalCase}.vue`
 
 模板结构：
+
 ```vue
 <template>
   <div class="xxx">
@@ -40,6 +41,7 @@ defineProps<{
 ### 步骤 3：全局注册
 
 用 Read 读取 `docs/.vitepress/theme/index.ts`，在 `enhanceApp` 中添加：
+
 ```ts
 import XxxComponent from './components/XxxComponent.vue'
 // 在 enhanceApp 中：
@@ -52,18 +54,21 @@ app.component('XxxComponent', XxxComponent)
 
 ## 输出格式
 
-```
+```markdown
 ## 组件创建完成
 
 ### 基本信息
+
 - 组件名：AlertBox
 - 文件路径：docs/.vitepress/theme/components/AlertBox.vue
 - 全局注册名：AlertBox
 
 ### 验证
+
 - docs:build ✅/❌
 
 ### 使用方式
+
 <AlertBox type="tip">内容</AlertBox>
 ```
 

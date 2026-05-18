@@ -29,21 +29,25 @@ pnpm format:check
 
 ## 输出格式
 
-```
+```markdown
 ## 自动修复结果
 
 ### 修复操作
+
 - pnpm lint：✅（修复了 X 个文件）
 - pnpm format：✅（格式化了 X 个文件）
 
 ### 验证
+
 - lint:check ✅/❌
 - format:check ✅/❌
 
 ### 剩余问题（如有）
+
 - [文件:行号] 问题描述（无法自动修复）
 
 ### 建议
+
 1. 手动修复剩余 X 个问题
 2. 运行 `/vp:check` 重新检查
 ```

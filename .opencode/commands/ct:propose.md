@@ -6,6 +6,7 @@ agent: build
 策划并创建新的金融词条。
 
 如果用户未提供词条名称，询问：
+
 1. 词条名称是什么？（中文或英文）
 2. 一句话简介是什么？
 3. 属于哪个分类？
@@ -23,6 +24,7 @@ agent: build
 - 缩写概念小写（如 `lpr.md`、`etf.md`）
 
 分类目录路径规则：
+
 - 基础概念 → `basics/`
 - 货币与银行 → `money-banking/`
 - 投资市场 → `investing/`
@@ -37,6 +39,7 @@ agent: build
 ### 步骤 3：创建词条文件
 
 用 Write 工具创建文件，包含：
+
 - frontmatter（title、description、depth）
   - `depth` 可选值：`beginner`（默认，1000-1500 字）、`intermediate`（1500-3000 字）、`advanced`（3000-5000 字）
 - 一级标题（`# 词条名`）
@@ -58,20 +61,23 @@ agent: build
 
 ## 输出格式
 
-```
+```markdown
 ## 新词条已创建
 
 ### 基本信息
+
 - 词条名：做市商
 - 文件名：/derivatives/market-maker.md
 - 分类：衍生品与风控
 - depth：beginner
 
 ### 配置更新
+
 - docs/glossary/index.md ✅
 - docs/.vitepress/config.mts ✅
 
 ### 验证
+
 - docs:build ✅/❌
 ```
 

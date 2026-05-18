@@ -9,45 +9,45 @@ agent: build
 
 ## 非本命令职责
 
-| 任务 | 使用命令 |
-|------|----------|
-| 新增/修改导航栏菜单 | `/vp:nav` |
-| 配置侧边栏 | `/vp:sidebar` |
-| 新增文档页面 | `/vp:new-page` |
-| 修改品牌色 | `/vp:theme-color` |
-| 配置搜索 | `/vp:search` |
-| SEO 优化 | `/vp:seo` |
-| 写词条内容 | `/ct:write` |
-| 词条审查 | `/ct:review` |
-| 运行全套质量检查 | `/vp:check` |
+| 任务                | 使用命令          |
+| ------------------- | ----------------- |
+| 新增/修改导航栏菜单 | `/vp:nav`         |
+| 配置侧边栏          | `/vp:sidebar`     |
+| 新增文档页面        | `/vp:new-page`    |
+| 修改品牌色          | `/vp:theme-color` |
+| 配置搜索            | `/vp:search`      |
+| SEO 优化            | `/vp:seo`         |
+| 写词条内容          | `/ct:write`       |
+| 词条审查            | `/ct:review`      |
+| 运行全套质量检查    | `/vp:check`       |
 
 ## 维护范围
 
 ### 文档类
 
-| 文件 | 检查项 |
-|------|--------|
-| `README.md` | 项目描述、快速开始、特性列表 |
-| `CHANGELOG.md` | 记录近期变更，Keep a Changelog 格式 |
-| `AGENTS.md` | 项目结构、编码规范、开发命令 |
-| `CONTRIBUTING.md` | 贡献指南 |
+| 文件              | 检查项                              |
+| ----------------- | ----------------------------------- |
+| `README.md`       | 项目描述、快速开始、特性列表        |
+| `CHANGELOG.md`    | 记录近期变更，Keep a Changelog 格式 |
+| `AGENTS.md`       | 项目结构、编码规范、开发命令        |
+| `CONTRIBUTING.md` | 贡献指南                            |
 
 ### 站点配置类
 
-| 文件 | 检查项 |
-|------|--------|
-| `docs/index.md` | hero name/text/tagline，features 列表，actions 按钮 |
-| `package.json` | description、keywords、scripts、engines |
-| `docs/.vitepress/theme/custom.css` | 品牌色、字体一致性 |
-| `docs/.vitepress/theme/components/` | 组件命名和使用 |
+| 文件                                | 检查项                                              |
+| ----------------------------------- | --------------------------------------------------- |
+| `docs/index.md`                     | hero name/text/tagline，features 列表，actions 按钮 |
+| `package.json`                      | description、keywords、scripts、engines             |
+| `docs/.vitepress/theme/custom.css`  | 品牌色、字体一致性                                  |
+| `docs/.vitepress/theme/components/` | 组件命名和使用                                      |
 
 ### 开发配置类
 
-| 检查项 | 标准 |
-|--------|------|
-| `.opencode/commands/` 结构 | 命令文件同步 |
+| 检查项                         | 标准                        |
+| ------------------------------ | --------------------------- |
+| `.opencode/commands/` 结构     | 命令文件同步                |
 | `.github/workflows/deploy.yml` | base 路径与 config.mts 一致 |
-| `docs/.vitepress/config.mts` | 各配置项准确 |
+| `docs/.vitepress/config.mts`   | 各配置项准确                |
 
 ## 执行步骤
 
@@ -76,22 +76,26 @@ agent: build
 
 ## 输出格式
 
-```
+```markdown
 ## 维护报告
 
 ### 📄 文档
+
 - README.md：✅/❌ [建议]
 - CHANGELOG.md：✅/❌ [建议]
 
 ### ⚙️ 站点配置
+
 - docs/index.md：✅/❌ [建议]
 - package.json：✅/❌ [建议]
 
 ### 🔧 开发配置
+
 - config.mts：✅/❌ [建议]
 - CI/CD：✅/❌ [建议]
 
 ### 验证
+
 - docs:build ✅/❌
 ```
 

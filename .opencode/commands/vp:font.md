@@ -6,6 +6,7 @@ agent: build
 配置 VitePress 的字体设置。
 
 如果用户未提供字体，询问：
+
 1. 基础字体族？（如 Noto Sans SC、Inter、Roboto）
 2. 代码字体族？（如 JetBrains Mono、Fira Code、Source Code Pro）
 3. 字体来源？（Google Fonts、本地字体）
@@ -19,6 +20,7 @@ agent: build
 ### 步骤 2：更新 CSS 变量
 
 用 Edit 工具在 `custom.css` 的 `:root` 中设置或更新：
+
 ```css
 --vp-font-family-base: 'FontName', sans-serif;
 --vp-font-family-mono: 'CodeFont', monospace;
@@ -27,11 +29,18 @@ agent: build
 ### 步骤 3：添加 Google Fonts 链接（如果是 Google Fonts 来源）
 
 格式：
+
 ```ts
 head: [
   ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
   ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-  ['link', { href: 'https://fonts.googleapis.com/css2?family=FontName:wght@400;600;700&display=swap', rel: 'stylesheet' }]
+  [
+    'link',
+    {
+      href: 'https://fonts.googleapis.com/css2?family=FontName:wght@400;600;700&display=swap',
+      rel: 'stylesheet'
+    }
+  ]
 ]
 ```
 
@@ -41,19 +50,22 @@ head: [
 
 ## 输出格式
 
-```
+```markdown
 ## 字体配置更新
 
 ### 变更
+
 - 基础字体：Noto Sans SC
 - 代码字体：JetBrains Mono
 - Google Fonts 链接：已添加/已更新
 
 ### 文件
+
 - docs/.vitepress/theme/custom.css
 - docs/.vitepress/config.mts
 
 ### 验证
+
 - docs:build ✅/❌
 ```
 

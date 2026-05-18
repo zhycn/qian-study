@@ -6,6 +6,7 @@ agent: build
 配置 VitePress 的搜索功能。
 
 如果用户未提供参数，询问：
+
 1. 使用哪种搜索？（本地搜索 local / Algolia）
 
 ## 执行步骤
@@ -17,6 +18,7 @@ agent: build
 ### 步骤 2：写入配置
 
 **本地搜索**：
+
 ```ts
 search: {
   provider: 'local',
@@ -34,6 +36,7 @@ search: {
 ```
 
 **Algolia**（需要用户提供 appId、apiKey、indexName）：
+
 ```ts
 search: {
   provider: 'algolia',
@@ -49,14 +52,16 @@ Algolia 凭据属于敏感信息，告知用户不要提交到版本控制。
 
 ## 输出格式
 
-```
+```markdown
 ## 搜索配置已完成
 
 ### 配置
+
 - 搜索类型：local/algolia
 - 配置位置：docs/.vitepress/config.mts → themeConfig.search
 
 ### 验证
+
 - docs:build ✅/❌
 ```
 

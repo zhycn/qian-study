@@ -14,6 +14,7 @@ agent: build
 ### 步骤 2：验证配置一致性
 
 用 Read 读取 `docs/.vitepress/config.mts` 和 `.github/workflows/deploy.yml`，验证：
+
 - `base`：应为 `/qian-study/`
 - CI 构建命令：应为 `pnpm install --frozen-lockfile && pnpm docs:build`
 - 产物路径：应为 `docs/.vitepress/dist`
@@ -26,19 +27,22 @@ agent: build
 
 ## 输出格式
 
-```
+```markdown
 ## 部署配置检查
 
 ### GitHub Pages
+
 - deploy.yml: ✅ 存在 / ❌ 不存在
 - base 路径: /qian-study/ ✅/❌
 - 构建命令: ✅/❌
 - 产物路径: ✅/❌
 
 ### Sitemap
+
 - hostname: ✅/❌
 
 ### 状态
+
 - 配置完整：✅ 可以直接通过推送 main 分支部署
 - 配置缺失：❌ [缺失项]
 ```

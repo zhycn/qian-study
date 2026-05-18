@@ -6,6 +6,7 @@ agent: build
 修改 VitePress 的品牌色配置。
 
 如果用户未提供颜色，询问：
+
 1. 新的品牌色是什么？（提供色值或描述）
 2. 是否需要同时调整深色模式的颜色？
 
@@ -19,11 +20,11 @@ agent: build
 
 用 Edit 更新 `custom.css` 中的颜色变量：
 
-| 变量 | 用途 | 示例 |
-|------|------|------|
-| `--vp-c-brand-1` | 主品牌色 | `#1e6bff` |
-| `--vp-c-brand-2` | hover 色 | `#4a8bff` |
-| `--vp-c-brand-3` | 激活色 | `#0055cc` |
+| 变量                | 用途        | 示例                    |
+| ------------------- | ----------- | ----------------------- |
+| `--vp-c-brand-1`    | 主品牌色    | `#1e6bff`               |
+| `--vp-c-brand-2`    | hover 色    | `#4a8bff`               |
+| `--vp-c-brand-3`    | 激活色      | `#0055cc`               |
 | `--vp-c-brand-soft` | 背景/柔和色 | `rgba(30,107,255,0.08)` |
 
 同时更新 `.dark` 下的对应变量和其他相关颜色变量（渐变、阴影）。
@@ -38,20 +39,23 @@ agent: build
 
 ## 输出格式
 
-```
+```markdown
 ## 品牌色已更新
 
 ### 颜色变更
+
 - --vp-c-brand-1: #1e6bff → #ff6b1e
 - --vp-c-brand-2: 已同步
 - --vp-c-brand-3: 已同步
 - --vp-c-brand-soft: 已同步
 
 ### 其他更新
+
 - theme-color meta 标签 ✅
 - .dark 模式 ✅
 
 ### 验证
+
 - docs:build ✅/❌
 ```
 

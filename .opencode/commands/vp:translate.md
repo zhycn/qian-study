@@ -8,6 +8,7 @@ agent: build
 **注意**：本项目当前为单一中文（zh-CN）站点，如需多语言支持，需同时配置 VitePress 的 i18n。
 
 如果用户未提供参数，询问：
+
 1. 要翻译哪个文件？
 2. 目标语言是什么？（如 en、ja、ko）
 
@@ -40,16 +41,18 @@ agent: build
 
 ## 输出格式
 
-```
+```markdown
 ## 翻译完成
 
 ### 基本信息
+
 - 源文件：docs/basics/what-is-finance.md
 - 目标语言：en
 - 目标路径：docs/en/basics/what-is-finance.md
 - 字数：X 字
 
 ### 待处理
+
 - i18n 配置：需要更新 docs/.vitepress/config.mts 的 locales
 ```
 

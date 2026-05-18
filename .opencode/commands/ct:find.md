@@ -6,6 +6,7 @@ agent: build
 快速定位并展示指定词条的详细信息。
 
 如果用户未指定词条名称，询问：
+
 1. 要查找哪个词条？（支持模糊匹配）
 
 ## 执行步骤
@@ -19,7 +20,8 @@ agent: build
 ### 步骤 2：多结果处理
 
 如果找到多个匹配项，列表展示让用户选择：
-```
+
+```plain
 1. /docs/basics/option.md（期权 - 基础概念）
 2. /docs/derivatives/option.md（期权 - 衍生品）
 ```
@@ -34,8 +36,9 @@ agent: build
 
 ### 步骤 4：输出
 
-```
+```markdown
 ## 词条信息：[词条名]
+
 - 文件路径：/docs/basics/what-is-finance.md
 - 分类：基础概念
 - 标题：{frontmatter.title}

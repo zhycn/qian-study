@@ -6,6 +6,7 @@ agent: build
 为 VitePress 项目添加新的插件。
 
 如果用户未提供插件名，询问：
+
 1. 要添加什么插件？
 
 ## 执行步骤
@@ -43,14 +44,16 @@ head: [['link', { rel: '...', href: '...' }]]
 
 ## 输出格式
 
-```
+```markdown
 ## 插件安装完成
 
 ### 基本信息
+
 - 插件名：@mdit/plugin-xxx
 - 类型：vite/markdown
 
 ### 验证
+
 - pnpm docs:build ✅/❌
 ```
 

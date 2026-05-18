@@ -6,6 +6,7 @@ agent: build
 将简单词条扩展为独立的专题目录。
 
 如果用户未指定词条，询问：
+
 1. 哪个词条需要扩展为专题？
 2. 专题目录名称？（如 `corporate-finance/`、`quant/`）
 
@@ -21,7 +22,7 @@ agent: build
 
 用 Glob 工具检查目标目录是否已存在。如已存在，询问是否覆盖。不存在则创建：
 
-```
+```plain
 docs/<topic>/
   index.md      # 专题概览
   basics.md     # 基础
@@ -51,23 +52,27 @@ docs/<topic>/
 
 ## 输出格式
 
-```
+```markdown
 ## 扩展计划：[词条名] → [专题名]
 
 ### 保留在词条的内容
+
 - 概述定义
 - 核心要点
 - 延伸阅读链接 → /<topic>/
 
 ### 迁移到专题的内容
+
 - 详细原理 → basics.md
 - 进阶实践 → advanced.md
 
 ### 配置变更
+
 - nav: 已添加专题入口
 - sidebar: 已添加专题分组
 
 ### 验证
+
 - docs:build ✅/❌
 ```
 

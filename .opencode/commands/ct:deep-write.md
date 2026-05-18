@@ -296,10 +296,11 @@ agent: build
 
 完成后输出处理报告：
 
-```
+```markdown
 ## 深度写作完成：[词条名]
 
 ### 处理流程
+
 - 词条类型：[识别结果]
 - 写作策略：[匹配策略]
 - 深度层级：[beginner / intermediate / advanced]
@@ -307,6 +308,7 @@ agent: build
 - 正文字数：约 X 字
 
 ### 审查结果
+
 - 准确性: X/5
 - 完整性: X/5
 - 可读性: X/5
@@ -314,9 +316,11 @@ agent: build
 - 数据溯源: X/5
 
 ### 自动修复
+
 - 修复了 X 个问题
 
 ### 验证
+
 - lint:check ✅/❌
 - type-check ✅/❌
 - docs:build ✅/❌
@@ -324,13 +328,13 @@ agent: build
 
 ## 工具绑定
 
-| 步骤 | 工具 |
-|------|------|
-| 读取词条和 index.md | Read |
-| 写入大纲/正文 | Write（新文件）或 Edit（追加） |
-| 统计字数 | Grep 排除 frontmatter |
-| 自动修复 | Edit |
-| 验证 | Bash 运行 pnpm 命令 |
+| 步骤                | 工具                           |
+| ------------------- | ------------------------------ |
+| 读取词条和 index.md | Read                           |
+| 写入大纲/正文       | Write（新文件）或 Edit（追加） |
+| 统计字数            | Grep 排除 frontmatter          |
+| 自动修复            | Edit                           |
+| 验证                | Bash 运行 pnpm 命令            |
 
 ## 容错
 

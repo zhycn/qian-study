@@ -8,9 +8,13 @@
     "qian-study",
     "knowledge-base",
     "financial-terms",
+    "finance",
+    "金融",
     "education",
     "chinese",
-    "vitepress"
+    "vitepress",
+    "开源知识库",
+    "金融术语"
   ],
   "license": "MIT",
   "engines": {

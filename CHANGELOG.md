@@ -8,15 +8,22 @@
 
 ### Added
 
-- Qian Study 金融知识库项目初始化
-- 基础概念文档结构
+- 188 个金融词条深度写作，覆盖 15+ 分类
+- 量化投资主题专区
+- 工具资源页面（计算器、数据、学习工具、交易工具、量化工具）
+- 知识学习路径体系
 
 ### Changed
 
+- 项目名称从 Finance Study 重命名为 Qian Study
 - 从 VitePress Starter 模板改造为 Qian Study 项目
 - 品牌色改为金融蓝 (#1e6bff)
 - 部署路径改为 /qian-study/
 - 导航和侧边栏调整为 Qian Study 知识库结构
+
+### Fixed
+
+- 移除导航栏重复的 GitHub 文字链接
 
 ## [1.0.0] - 2026-04-27
 

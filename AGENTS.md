@@ -45,7 +45,11 @@ docs/
       custom.css        # 品牌色 #1e6bff，字体 Noto Sans SC + JetBrains Mono
       components/       # 全局注册组件（Card、Badge）
   public/               # 静态资源（favicon.svg）
-  basics/               # 基础概念文档
+  basics/               # 基础概念
+  glossary/             # 金融词条（核心）
+  tools/                # 工具资源
+  corporate-finance/    # 公司金融
+  ...                   # 其他分类目录
   index.md              # 首页（layout: home）
 ```
 
@@ -70,8 +74,7 @@ docs/
 
 ## 已知问题
 
-- README 和 CHANGELOG 中提到 "RSS 订阅" 但该功能已移除（vitepress-plugin-rss 有兼容性问题）
-- README 中目录结构提到 `plugins/` 目录但实际不存在
+- README 中目录结构需保持与最新结构一致
 
 ## OpenCode 自定义命令
 

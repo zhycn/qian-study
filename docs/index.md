@@ -17,12 +17,12 @@ hero:
       link: /basics/what-is-finance
     - theme: alt
       text: GitHub
-link: https://github.com/zhycn/qian-study
+      link: https://github.com/zhycn/qian-study
 
 features:
   - icon: 📖
-    title: 158 个金融词条
-    details: 覆盖基础概念、投资市场、公司金融、宏观经济、金融科技等 15 大分类
+    title: 188+ 个金融词条
+    details: 覆盖基础概念、投资市场、公司金融、宏观经济、量化投资等 15+ 大分类
     link: /glossary/index
     linkText: 浏览全部词条
   - icon: 💡

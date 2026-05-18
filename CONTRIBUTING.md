@@ -1,11 +1,11 @@
 # 贡献指南
 
-感谢你对 VitePress Starter 的关注！我们欢迎所有形式的贡献。
+感谢你对 Qian Study 的关注！我们欢迎所有形式的贡献。
 
 ## 开始之前
 
 1. Fork 本仓库
-2. 克隆到本地：`git clone https://github.com/YOUR_USERNAME/VitePress-starter.git`
+2. 克隆到本地：`git clone https://github.com/YOUR_USERNAME/qian-study.git`
 3. 安装依赖：`pnpm install`
 4. 创建分支：`git checkout -b feature/your-feature`
 
@@ -14,6 +14,8 @@
 ```bash
 pnpm docs:dev
 ```
+
+访问 http://localhost:5173 预览。
 
 ## 提交 PR
 
@@ -29,10 +31,11 @@ pnpm docs:dev
 - 遵循 ESLint 和 Prettier 配置
 - 组件使用 PascalCase 命名
 - 文件使用 kebab-case 命名
+- 使用中文撰写文档内容
 
 ## AI 辅助开发
 
-本项目包含 `AGENTS.md` 文件，为 AI 编码代理（如 OpenCode、Claude Code）提供项目上下文和开发规范。使用 `/vp:` 前缀可触发 25 个自定义命令辅助开发。
+本项目包含 `AGENTS.md` 文件，为 AI 编码代理（如 OpenCode、Claude Code）提供项目上下文和开发规范。使用 `/vp:` 前缀触发开发运维命令，`/ct:` 前缀触发词条创作命令，共 36 个自定义命令。
 
 ## 许可
 

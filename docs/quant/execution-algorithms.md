@@ -17,12 +17,12 @@ description: VWAP、TWAP、冰山订单，如何聪明地买卖
 
 对机构和大资金而言，执行质量直接决定投资回报的底线：
 
-- 一笔 1000 万美元的订单，执行不好可能多花 0.5% 到 2% 的成本，即 5 万到 20 万美元
+- 一笔 1000 万美元的订单，执行不好可能多花 0.5% 到 2% 的成本，即 5 万到 20 万美元（来源：Kissell & Glantz, "Expected Transaction Costs", 2003）
 - 高频策略的利润可能只有几个基点（basis point），执行成本直接决定盈亏
 - 隐藏交易意图，防止被其他算法"嗅探"（Sniffing）并反向操作
 - 自动化执行减少人为情绪干扰和操作失误
 
-根据 TABB Group 的研究，机构投资者每年因执行不佳损失的成本高达数百亿美元。好的执行算法可以节省 30% 到 50% 的执行成本。
+根据 TABB Group 的研究，机构投资者每年因执行不佳损失的成本高达数百亿美元（来源：TABB Group 行业报告, 2023）。好的执行算法可以节省 30% 到 50% 的执行成本。
 
 ## 核心原理
 
@@ -46,7 +46,7 @@ $$\text{Impact} = \sigma \cdot \sqrt{\frac{Q}{V}} \cdot \text{Price}$$
 
 ### Almgren-Chriss 模型
 
-这是执行算法领域最经典的数学框架，由 Robert Almgren 和 Neil Chriss 在 2000 年提出。模型将总成本分解为：
+这是执行算法领域最经典的数学框架，由 Robert Almgren 和 Neil Chriss 在 2000 年提出（来源：Almgren & Chriss, "Optimal Execution of Portfolio Transactions", Journal of Trading, 2000）。模型将总成本分解为：
 
 $$\text{Total Cost} = \text{Market Impact} + \text{Timing Risk}$$
 
@@ -67,7 +67,7 @@ $$\text{VWAP} = \frac{\sum_{i} P_i \cdot V_i}{\sum_{i} V_i}$$
 
 **实现方式**：
 
-1. 计算目标股票过去 20-60 天的日内成交量分布曲线（Volume Profile）
+1. 计算目标股票过去 20-60 天的日内成交量分布曲线（Volume Profile）（来源：行业最佳实践）
 2. 将总订单量按该曲线比例分配到各个时间段
 3. 在每个时间段内使用限价单或市价单执行
 
@@ -93,7 +93,7 @@ $$\text{TWAP} = \frac{1}{N} \sum_{i=1}^{N} P_i$$
 
 **参数设置**：
 
-- 显示量（Display Size）：通常为总订单量的 5% 到 20%
+- 显示量（Display Size）：通常为总订单量的 5% 到 20%（来源：交易所规则, 行业最佳实践）
 - 刷新频率：成交后立即补充或按时间间隔补充
 - 价格策略：通常使用限价单，价格贴近当前买卖中间价
 

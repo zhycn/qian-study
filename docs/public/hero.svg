@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e6bff;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#1e6bff;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e6bff"/>
+      <stop offset="100%" style="stop-color:#4a8bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" rx="16"/>
+  <g transform="translate(300, 180)">
+    <rect x="-120" y="-80" width="240" height="160" rx="12" fill="white" stroke="#1e6bff" stroke-width="2" opacity="0.9"/>
+    <text x="0" y="-30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#1e6bff">金融术语</text>
+    <text x="0" y="10" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#1e6bff">大白话翻译</text>
+    <line x1="-80" y1="30" x2="80" y2="30" stroke="#1e6bff" stroke-width="2" opacity="0.3"/>
+    <text x="0" y="55" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#666">拒绝晦涩，轻松读懂</text>
+  </g>
+  <g transform="translate(100, 80)">
+    <circle cx="0" cy="0" r="20" fill="#1e6bff" opacity="0.2"/>
+    <text x="0" y="6" text-anchor="middle" font-size="20">📖</text>
+  </g>
+  <g transform="translate(500, 100)">
+    <circle cx="0" cy="0" r="20" fill="#1e6bff" opacity="0.2"/>
+    <text x="0" y="6" text-anchor="middle" font-size="20">💡</text>
+  </g>
+  <g transform="translate(150, 320)">
+    <circle cx="0" cy="0" r="20" fill="#1e6bff" opacity="0.2"/>
+    <text x="0" y="6" text-anchor="middle" font-size="20">📊</text>
+  </g>
+  <g transform="translate(450, 300)">
+    <circle cx="0" cy="0" r="20" fill="#1e6bff" opacity="0.2"/>
+    <text x="0" y="6" text-anchor="middle" font-size="20">🎓</text>
+  </g>
+</svg>

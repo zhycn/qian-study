@@ -23,7 +23,7 @@ description: 找到驱动收益的关键变量，量化投资的核心方法论
 - **可复制性**：因子策略可以系统化执行，不依赖个人能力
 - **学术支撑**：因子投资有坚实的学术研究基础，是诺贝尔经济学奖级别的研究成果
 
-截至 2024 年，全球 Smart Beta ETF 规模已超过 1.5 万亿美元，因子投资已从学术理论走向主流投资工具。
+截至 2024 年，全球 Smart Beta ETF 规模已超过 1.5 万亿美元（来源：ETFGI 行业报告, 2024），因子投资已从学术理论走向主流投资工具。
 
 ## 核心原理
 
@@ -35,7 +35,7 @@ $$E[R_i] = R_f + \beta_i (E[R_m] - R_f)$$
 
 但实证研究发现，CAPM 无法解释很多市场异象（Anomalies）。于是学者们提出了多因子模型。
 
-**Fama-French 三因子模型**（1993）：
+**Fama-French 三因子模型**（1993）（来源：Fama & French, "Common Risk Factors in the Returns on Stocks and Bonds", Journal of Financial Economics, 1993）：
 
 $$R_i - R_f = \alpha_i + \beta_i(R_m - R_f) + s_i \cdot SMB + h_i \cdot HML + \varepsilon_i$$
 
@@ -45,12 +45,12 @@ $$R_i - R_f = \alpha_i + \beta_i(R_m - R_f) + s_i \cdot SMB + h_i \cdot HML + \v
 - $SMB$（Small Minus Big）：规模因子，小盘股减大盘股的收益差
 - $HML$（High Minus Low）：价值因子，高账面市值比减低账面市值比的收益差
 
-**Fama-French 五因子模型**（2015）在三因子基础上增加了：
+**Fama-French 五因子模型**（2015）（来源：Fama & French, "A Five-Factor Asset Pricing Model", Journal of Financial Economics, 2015）在三因子基础上增加了：
 
 - $RMW$（Robust Minus Weak）：盈利能力因子
 - $CMA$（Conservative Minus Aggressive）：投资风格因子
 
-**Carhart 四因子模型**（1997）在三因子基础上增加了：
+**Carhart 四因子模型**（1997）（来源：Carhart, "On Persistence in Mutual Fund Performance", Journal of Finance, 1997）在三因子基础上增加了：
 
 - $MOM$（Momentum）：动量因子，过去赢家减过去输家的收益差
 
@@ -60,14 +60,14 @@ $$R_i - R_f = \alpha_i + \beta_i(R_m - R_f) + s_i \cdot SMB + h_i \cdot HML + \v
 
 学术界和业界公认的主要因子包括：
 
-| 因子                 | 逻辑                               | 构建方法                                  | 长期年化超额 |
-| -------------------- | ---------------------------------- | ----------------------------------------- | ------------ |
-| **价值（Value）**    | 便宜的股票长期跑赢贵的股票         | 低 PE/PB/PC 组合减高 PE/PB/PC 组合        | 3%-5%        |
-| **规模（Size）**     | 小盘股长期回报高于大盘股           | 小市值组合减大市值组合                    | 2%-3%        |
-| **动量（Momentum）** | 过去涨得好的股票短期内倾向于继续涨 | 过去 12 个月赢家减输家（跳过最近 1 个月） | 4%-8%        |
-| **质量（Quality）**  | 盈利能力强、负债低的公司表现更好   | 高 ROE/低杠杆/稳定盈利组合减反之          | 3%-5%        |
-| **低波（Low Vol）**  | 波动小的股票反而能跑赢波动大的股票 | 低波动率组合减高波动率组合                | 2%-4%        |
-| **红利（Dividend）** | 持续分红的公司长期回报更优         | 高股息率组合减低股息率组合                | 2%-3%        |
+| 因子                 | 逻辑                               | 构建方法                                  | 长期年化超额                            |
+| -------------------- | ---------------------------------- | ----------------------------------------- | --------------------------------------- |
+| **价值（Value）**    | 便宜的股票长期跑赢贵的股票         | 低 PE/PB/PC 组合减高 PE/PB/PC 组合        | 3%-5%（来源：Fama & French, 1993）      |
+| **规模（Size）**     | 小盘股长期回报高于大盘股           | 小市值组合减大市值组合                    | 2%-3%（来源：Fama & French, 1993）      |
+| **动量（Momentum）** | 过去涨得好的股票短期内倾向于继续涨 | 过去 12 个月赢家减输家（跳过最近 1 个月） | 4%-8%（来源：Jegadeesh & Titman, 1993） |
+| **质量（Quality）**  | 盈利能力强、负债低的公司表现更好   | 高 ROE/低杠杆/稳定盈利组合减反之          | 3%-5%（来源：Novy-Marx, 2013）          |
+| **低波（Low Vol）**  | 波动小的股票反而能跑赢波动大的股票 | 低波动率组合减高波动率组合                | 2%-4%（来源：Baker, 2011）              |
+| **红利（Dividend）** | 持续分红的公司长期回报更优         | 高股息率组合减低股息率组合                | 2%-3%（来源：Ang, 2014）                |
 
 ### 因子构建方法
 

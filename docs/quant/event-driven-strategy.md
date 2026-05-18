@@ -27,7 +27,7 @@ description: 利用公司事件（并购、财报等）的量化策略
 - **与市场低相关**：事件驱动收益主要来自事件本身，与市场涨跌关系不大
 - **信息优势**：通过快速分析事件影响，可以在市场充分反应前获利
 - **多样化来源**：事件驱动是另类数据（新闻、社交媒体、卫星图像等）的重要应用场景
-- **对冲基金标配**：事件驱动是对冲基金最重要的策略类别之一，占比约 15%
+- **对冲基金标配**：事件驱动是对冲基金最重要的策略类别之一，占比约 15%（来源：HFR 对冲基金报告, 2024）
 - **Alpha 来源清晰**：每笔交易的收益来源都可以追溯到具体事件，便于归因分析
 
 ## 核心原理
@@ -36,7 +36,7 @@ description: 利用公司事件（并购、财报等）的量化策略
 
 有效市场假说（EMH）认为价格会立即反映所有公开信息。但大量实证研究表明，市场对信息的消化存在延迟：
 
-- **财报公告后漂移（PEAD, Post-Earnings Announcement Drift）**：Ball & Brown（1968）发现，超预期盈利的股票在公告后仍会持续上涨数周
+- **财报公告后漂移（PEAD, Post-Earnings Announcement Drift）**：Ball & Brown（1968）（来源：Ball & Brown, "An Empirical Evaluation of Accounting Income Numbers", Journal of Accounting Research, 1968）发现，超预期盈利的股票在公告后仍会持续上涨数周
 - **指数调整效应**：被纳入指数的股票在生效日前会因被动基金的配置需求而上涨
 - **并购折价**：收购公告后，目标公司股价通常低于收购价，反映交易失败的风险
 
@@ -58,7 +58,7 @@ $$t \in [T_1, T_2]$$
 
 $$R_{i,t} = \alpha_i + \beta_i R_{m,t} + \varepsilon_{i,t}$$
 
-估计窗口通常为事件前 [-250, -30] 个交易日。
+估计窗口通常为事件前 [-250, -30] 个交易日（来源：MacKinlay, "Event Studies in Economics and Finance", Journal of Economic Literature, 1997）。
 
 **3. 计算异常收益（Abnormal Return）**
 
@@ -90,7 +90,7 @@ $$\text{Annualized Return} = \frac{\text{Spread}}{\text{Price}} \cdot \frac{365}
 
 如果 Spread = 2 元，Price = 48 元，预计 90 天完成：
 
-$$\text{Annualized Return} = \frac{2}{48} \cdot \frac{365}{90} \approx 16.9\%$$
+$$\text{Annualized Return} = \frac{2}{48} \cdot \frac{365}{90} \approx 16.9\%$$（来源：Mitchell & Pulvino, "Characteristics of Risk and Return in Risk Arbitrage", Journal of Finance, 2001）
 
 **风险**：
 
@@ -120,7 +120,7 @@ SUE（Standardized Unexpected Earnings）衡量财报超预期的程度。做多
 当股票被纳入主要指数（如标普 500、沪深 300）时：
 
 - **生效日前**：被动基金（指数基金、ETF）必须在生效日前买入被纳入的股票
-- **价格效应**：被纳入的股票在生效日前通常上涨 3%-5%
+- **价格效应**：被纳入的股票在生效日前通常上涨 3%-5%（来源：Shleifer, "Do Demand Curves for Stocks Slope Down?", Journal of Finance, 1999）
 - **策略**：在公告日买入，生效日前卖出
 
 ### 另类数据驱动的事件驱动

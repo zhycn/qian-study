@@ -9,9 +9,9 @@ description: 亏 100 块的痛苦远大于赚 100 块的快乐
 
 ## 概述
 
-损失厌恶（Loss Aversion）是指**人们对损失的敏感度远高于对同等收益的敏感度**。行为经济学研究表明，损失带来的心理痛苦大约是同等收益带来的快乐的 **2 到 2.5 倍**。
+损失厌恶（Loss Aversion）是指**人们对损失的敏感度远高于对同等收益的敏感度**。行为经济学研究表明，损失带来的心理痛苦大约是同等收益带来的快乐的 **2 到 2.5 倍**（来源：Kahneman & Tversky, 1979; 后续元分析研究）。
 
-损失厌恶是前景理论（[Prospect Theory](/finance-theory/prospect-theory)）的核心组成部分，由丹尼尔·卡尼曼（Daniel Kahneman）和阿莫斯·特沃斯基（Amos Tversky）在 1979 年提出。
+损失厌恶是前景理论（[Prospect Theory](/finance-theory/prospect-theory)）的核心组成部分，由丹尼尔·卡尼曼（Daniel Kahneman）和阿莫斯·特沃斯基（Amos Tversky）在 1979 年（来源：Kahneman & Tversky, 1979）提出。
 
 在投资中的典型表现：
 
@@ -36,7 +36,7 @@ description: 亏 100 块的痛苦远大于赚 100 块的快乐
 
 $$v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda(-x)^\beta & x < 0 \end{cases}$$
 
-其中 $\lambda$ 就是损失厌恶系数（Loss Aversion Coefficient）。卡尼曼和特沃斯基的原始估计 $\lambda \approx 2.25$，后续研究的估计范围在 1.5 到 2.75 之间。
+其中 $\lambda$ 就是损失厌恶系数（Loss Aversion Coefficient）。卡尼曼和特沃斯基的原始估计 $\lambda \approx 2.25$（来源：Tversky & Kahneman, 1992），后续研究的估计范围在 1.5 到 2.75 之间（来源：维基百科，损失厌恶）。
 
 这意味着：**1 元的损失在心理上的影响 ≈ 2.25 元的收益**。
 
@@ -78,7 +78,7 @@ $$v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda(-x)^\beta & x < 0 \end{ca
 
 ### 处置效应的数学模型
 
-Odean（1998）定义了**实现盈亏比例**（Proportion of Gains Realized, PGR）和**实现亏损比例**（Proportion of Losses Realized, PLR）：
+Odean（1998）（来源：Odean, 1998）定义了**实现盈亏比例**（Proportion of Gains Realized, PGR）和**实现亏损比例**（Proportion of Losses Realized, PLR）：
 
 $$PGR = \frac{RG}{RG + UG}$$
 
@@ -90,7 +90,7 @@ $$PLR = \frac{RL}{RL + UL}$$
 
 ### 损失厌恶与股权溢价之谜
 
-Mehra 和 Prescott（1985）发现，历史股票收益率比债券高出约 6%，远超传统模型可以解释的范围。Benartzi 和 Thaler（1995）提出**短视性损失厌恶**（Myopic Loss Aversion）解释：
+Mehra 和 Prescott（1985）（来源：Mehra & Prescott, 1985）发现，历史股票收益率比债券高出约 6%（来源：CRSP 历史数据），远超传统模型可以解释的范围。Benartzi 和 Thaler（1995）（来源：Benartzi & Thaler, 1995）提出**短视性损失厌恶**（Myopic Loss Aversion）解释：
 
 - 投资者频繁评估投资组合（短视）
 - 每次评估时，损失厌恶放大了对股票波动的恐惧

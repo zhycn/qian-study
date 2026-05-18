@@ -38,11 +38,11 @@ $$\text{Total Cost} = \text{Commission} + \text{Tax} + \text{Slippage} + \text{I
 
 **1. 佣金（Commission）**
 
-券商收取的交易手续费。A 股目前佣金率约为 0.025%-0.03%（万 2.5 到万 3），美股约为 $0.005/股或免费（零佣金券商）。
+券商收取的交易手续费。A 股目前佣金率约为 0.025%-0.03%（万 2.5 到万 3）（来源：各大券商官网, 2024），美股约为 $0.005/股或免费（零佣金券商）（来源：Robinhood, Charles Schwab 官网）。
 
 **2. 税费（Tax）**
 
-- A 股：印花税 0.05%（卖方单边收取，2023 年 8 月后减半）
+- A 股：印花税 0.05%（卖方单边收取，2023 年 8 月后减半（来源：中国财政部公告, 2023））
 - 美股：无印花税，但有 SEC 费（极小）
 
 **3. 滑点（Slippage）**
@@ -94,11 +94,11 @@ $$\text{Impact} = a + b \cdot \frac{Q}{V}$$
 
 $$\text{Impact} = \sigma \cdot Y \cdot \sqrt{\frac{Q}{V}}$$
 
-其中 $Y$ 是经验常数（通常在 0.1-1.0 之间）。
+其中 $Y$ 是经验常数（通常在 0.1-1.0 之间（来源：Almgren et al., "Equity Market Impact Models", 2005））。
 
 **3. Almgren-Chriss 模型**
 
-Almgren & Chriss（2000）提出了最优执行框架，将冲击分为永久性冲击和临时性冲击：
+Almgren & Chriss（2000）（来源：Almgren & Chriss, "Optimal Execution of Portfolio Transactions", Journal of Trading, 2000）提出了最优执行框架，将冲击分为永久性冲击和临时性冲击：
 
 $$\text{Permanent Impact} = \gamma \cdot Q$$
 $$\text{Temporary Impact} = \eta \cdot v_t$$

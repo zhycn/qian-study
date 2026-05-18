@@ -9,7 +9,7 @@ description: 在险价值，最多可能亏多少钱
 
 ## 概述
 
-VaR（Value at Risk）是一种风险度量方法，由 J.P. Morgan 在 1994 年推出的 RiskMetrics 系统中首次大规模应用。它回答这样一个问题：
+VaR（Value at Risk）是一种风险度量方法，由 J.P. Morgan 在 1994 年推出的 RiskMetrics 系统中首次大规模应用（来源：J.P. Morgan，1994 年）。它回答这样一个问题：
 
 > "在正常市场条件下，我的投资组合在未来一天（或一周、一月）内，有 95%（或 99%）的把握，最多会亏多少钱？"
 
@@ -84,7 +84,7 @@ $$VaR = 1 亿 \times 1.645 \times 1.5\% = 246.75 万$$
 
 ### 预期短缺（Expected Shortfall）
 
-由于 VaR 不反映尾部损失的严重程度，巴塞尔协议 III 引入了**预期短缺**（Expected Shortfall, ES），也称条件 VaR（Conditional VaR, CVaR）：
+由于 VaR 不反映尾部损失的严重程度，巴塞尔协议 III 引入了**预期短缺**（Expected Shortfall, ES），也称条件 VaR（Conditional VaR, CVaR）（来源：BIS，Basel III）：
 
 $$ES = E[损失 | 损失 > VaR]$$
 
@@ -146,7 +146,7 @@ $$Marginal\ VaR_i = \frac{\partial VaR_{portfolio}}{\partial w_i}$$
 
 这意味着：在正常市场条件下，10 天内亏损超过 1.6 亿元的概率只有 1%。
 
-根据巴塞尔协议，银行需要持有的市场风险资本至少为：
+根据巴塞尔协议，银行需要持有的市场风险资本至少为（来源：BIS，Basel Accords）：
 
 $$资本要求 = 3 \times VaR + 附加资本$$
 

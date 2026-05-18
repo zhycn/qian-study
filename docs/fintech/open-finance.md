@@ -96,7 +96,7 @@ description: 金融数据和服务的全面开放共享
 
 ## 实战应用
 
-- **英国**：Open Banking 已覆盖 9 家主要银行，正在向 Open Finance 扩展
+- **英国**：Open Banking 已覆盖 9 家主要银行（来源：OBIE），正在向 Open Finance 扩展
 - **澳大利亚**：CDR 已覆盖银行领域，正在扩展到能源、电信
 - **巴西**：Open Finance 分阶段实施，已覆盖银行、保险、证券
 - **中国**：银行业协会发布《开放银行 API 安全规范》，部分银行试点开放 API

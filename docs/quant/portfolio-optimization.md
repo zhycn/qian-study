@@ -11,11 +11,11 @@ description: 在收益和风险之间找到最优的资产配置比例
 
 组合优化（Portfolio Optimization）就是解决一个经典问题：手里有一笔钱，怎么分配到不同的资产上，才能在可承受的风险范围内获得最高收益，或者在目标收益下承担最小风险。
 
-这不是拍脑袋决定的。1952 年，哈里·马科维茨（Harry Markowitz）发表了开创性论文《Portfolio Selection》，用数学方法解决了这个问题，并因此获得了 1990 年诺贝尔经济学奖。
+这不是拍脑袋决定的。1952 年，哈里·马科维茨（Harry Markowitz）发表了开创性论文《Portfolio Selection》（来源：Markowitz, "Portfolio Selection", Journal of Finance, 1952），用数学方法解决了这个问题，并因此获得了 1990 年诺贝尔经济学奖。
 
 ## 为什么重要
 
-投资中最重要的决策不是"买什么"，而是"买多少"。Brinson, Hood & Beebower（1986）的经典研究发现，投资组合 93.6% 的收益波动可以由资产配置解释。组合优化的价值在于：
+投资中最重要的决策不是"买什么"，而是"买多少"。Brinson, Hood & Beebower（1986）（来源：Brinson, Hood & Beebower, "Determinants of Portfolio Performance", Financial Analysts Journal, 1986）的经典研究发现，投资组合 93.6% 的收益波动可以由资产配置解释。组合优化的价值在于：
 
 - 科学分配资金，避免"把所有鸡蛋放在一个篮子里"
 - 利用资产之间的相关性降低整体风险（分散化）
@@ -115,7 +115,7 @@ $$w_i \frac{\partial \sigma_p}{\partial w_i} = w_j \frac{\partial \sigma_p}{\par
 
 **3. 层次风险平价（Hierarchical Risk Parity, HRP）**
 
-Lopez de Prado（2016）提出的方法：
+Lopez de Prado（2016）（来源：Lopez de Prado, "Building Diversified Portfolios that Outperform Out-of-Sample", Journal of Portfolio Management, 2016）提出的方法：
 
 1. 用聚类算法将资产分层
 2. 在每一层内按风险平价分配权重

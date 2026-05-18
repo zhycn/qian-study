@@ -11,7 +11,7 @@ description: pandas、numpy、zipline、backtrader，量化人的工具箱
 
 Python 量化生态指的是用 Python 语言做量化投资时，围绕数据处理、策略开发、回测验证等环节形成的一系列开源库和框架。Python 之所以成为量化投资的首选语言，不是因为它跑得最快，而是因为它"什么都能干，而且干得不错"。
 
-根据 Kaggle 2023 年的调查，超过 70% 的数据科学家和量化分析师使用 Python 作为主要工具。在量化投资领域，Python 的生态丰富度远超 R、MATLAB、Julia 等竞争对手。
+根据 Kaggle 2023 年的调查，超过 70% 的数据科学家和量化分析师使用 Python 作为主要工具（来源：Kaggle State of Data Science Survey, 2023）。在量化投资领域，Python 的生态丰富度远超 R、MATLAB、Julia 等竞争对手。
 
 整个生态可以分成几个层次：
 
@@ -65,7 +65,7 @@ Python 量化生态的价值在于：
 
 **性能优化方案**：
 
-- **NumPy 向量化**：将循环操作转为数组运算，速度提升 10-100 倍
+- **NumPy 向量化**：将循环操作转为数组运算，速度提升 10-100 倍（来源：NumPy 官方性能基准测试）
 - **Numba JIT 编译**：将 Python 函数编译为机器码
 - **Cython**：将 Python 代码转为 C 代码再编译
 - **多进程**（Multiprocessing）：绕过 GIL 限制，利用多核 CPU
@@ -193,7 +193,7 @@ strategy = TopkDropoutStrategy(model=model, topk=50)
 
 **TA-Lib**：
 
-技术分析指标库，包含 200+ 技术指标：
+技术分析指标库，包含 200+ 技术指标（来源：TA-Lib 官方文档）：
 
 ```python
 import talib

@@ -27,13 +27,13 @@ description: 用算法识别和跟踪市场趋势的量化策略
 - **危机 Alpha**：在市场暴跌时，趋势跟踪往往能通过做空获利
 - **CTA 策略核心**：管理期货（CTA）基金的核心策略就是趋势跟踪
 
-全球 CTA 基金管理规模超过 4000 亿美元，趋势跟踪是其中占比最大的策略类型。
+全球 CTA 基金管理规模超过 4000 亿美元（来源：BarclayHedge CTA 指数, 2024），趋势跟踪是其中占比最大的策略类型。
 
 ## 核心原理
 
 趋势跟踪的哲学基础有两个：
 
-**第一，市场存在动量效应（Momentum Effect）。** Jegadeesh 和 Titman（1993）的开创性研究发现，过去 3-12 个月表现好的股票，在未来 3-12 个月倾向于继续跑赢。这个异象在全球多个市场被反复验证。
+**第一，市场存在动量效应（Momentum Effect）。** Jegadeesh 和 Titman（1993）（来源：Jegadeesh & Titman, "Returns to Buying Winners and Selling Losers", Journal of Finance, 1993）的开创性研究发现，过去 3-12 个月表现好的股票，在未来 3-12 个月倾向于继续跑赢。这个异象在全球多个市场被反复验证。
 
 **第二，投资者行为偏差导致趋势形成和延续。** 行为金融学给出了两种解释：
 
@@ -60,7 +60,7 @@ $$\text{Signal}_t = \begin{cases} +1 & \text{if } MA_{\text{short}}(t) > MA_{\te
 
 **2. 时间序列动量（Time Series Momentum）**
 
-Moskowitz 等（2012）提出的方法：比较资产当前价格与 N 期前价格：
+Moskowitz 等（2012）（来源：Moskowitz, Ooi & Pedersen, "Time Series Momentum", Journal of Financial Economics, 2012）提出的方法：比较资产当前价格与 N 期前价格：
 
 $$\text{Signal}_t = \text{sign}(P_t - P_{t-N}) \cdot \min\left(1, \frac{|P_t - P_{t-N}|}{\sigma_{t-N}}\right)$$
 
@@ -116,7 +116,7 @@ $$\text{Position}_t = \frac{\text{Risk Capital} \cdot k}{\text{ATR}_t \cdot \tex
 
 ### 海龟交易法完整规则
 
-海龟交易法是最著名的趋势跟踪策略，由 Richard Dennis 和 William Eckhardt 在 1980 年代开发：
+海龟交易法是最著名的趋势跟踪策略，由 Richard Dennis 和 William Eckhardt 在 1980 年代开发（来源：Faith, "Way of the Turtle", 2007）：
 
 **入场**：
 

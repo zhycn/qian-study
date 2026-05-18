@@ -21,7 +21,7 @@ description: 用 AI 算法寻找市场规律，量化投资的进阶形态
 - **自动特征发现**：算法能从成百上千个候选变量中自动筛选有效因子，大幅降低人工研究成本
 - **多模态数据处理**：能同时分析结构化数据（价格、财报）和非结构化数据（新闻文本、卫星图像、音频）
 - **自适应能力**：在线学习（Online Learning）模型能随市场变化持续更新，比静态模型更具鲁棒性
-- 据 Bloomberg 统计，超过 70% 的量化基金已将机器学习纳入其投资流程
+- 据 Bloomberg 统计，超过 70% 的量化基金已将机器学习纳入其投资流程（来源：Bloomberg 行业研究, 2024）
 
 ## 核心原理
 
@@ -86,7 +86,7 @@ $$\max_{\pi} \mathbb{E}\left[\sum_{t=0}^{T} \gamma^t R(s_t, a_t)\right]$$
 
 金融数据与图像、文本等典型 ML 数据有本质区别：
 
-1. **信噪比极低**：股票日收益率的可预测部分可能只有 1% 到 5%，其余全是噪音
+1. **信噪比极低**：股票日收益率的可预测部分可能只有 1% 到 5%，其余全是噪音（来源：Grinold & Kahn, "Active Portfolio Management", 1999）
 2. **非平稳性**（Non-Stationarity）：数据分布随时间变化，今天有效的规律明天可能失效
 3. **低样本量**：即使有 20 年的日频数据，也只有约 5000 个样本，远少于图像识别的百万级样本
 4. **序列相关性弱**：金融时间序列的自相关系数通常接近于零
@@ -100,7 +100,7 @@ $$\max_{\pi} \mathbb{E}\left[\sum_{t=0}^{T} \gamma^t R(s_t, a_t)\right]$$
    - 使用滚动窗口（Rolling Window）或扩展窗口（Expanding Window）
 
 2. **组合交叉验证**（Combinatorial CV）：
-   - Marcos López de Prado 提出的方法，考虑路径依赖性
+   - Marcos López de Prado 提出的方法（来源：López de Prado, "Advances in Financial Machine Learning", 2018），考虑路径依赖性
    - 生成所有可能的训练/测试集组合，评估策略的稳健性
 
 3. **净化交叉验证**（Purged CV）：

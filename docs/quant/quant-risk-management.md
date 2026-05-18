@@ -44,7 +44,7 @@ $$\sigma = \sqrt{\frac{1}{N-1}\sum_{i=1}^{N}(r_i - \bar{r})^2}$$
 
 $$P(L > \text{VaR}_{c,T}) = 1 - c$$
 
-例如，95% 置信水平的日 VaR 为 100 万，意味着明天亏损超过 100 万的概率不超过 5%。
+例如，95% 置信水平的日 VaR 为 100 万，意味着明天亏损超过 100 万的概率不超过 5%（来源：Jorion, "Value at Risk: The New Benchmark for Managing Financial Risk", 2006）。
 
 **VaR 计算方法**：
 
@@ -179,7 +179,7 @@ $$\hat{\Sigma} = \frac{1}{T-1}\sum_{t=1}^{T}(r_t - \bar{r})(r_t - \bar{r})^T$$
 
 **2. 收缩估计**（Shrinkage Estimator）：
 
-Ledoit-Wolf 收缩方法：
+Ledoit-Wolf 收缩方法（来源：Ledoit & Wolf, "A Well-Conditioned Estimator for Large-Dimensional Covariance Matrices", Journal of Multivariate Analysis, 2004）：
 $$\hat{\Sigma}_{\text{shrunk}} = \delta \cdot F + (1-\delta) \cdot \hat{\Sigma}_{\text{sample}}$$
 
 其中 $F$ 是目标矩阵（如对角矩阵），$\delta$ 是收缩强度。

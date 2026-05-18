@@ -47,7 +47,7 @@ $$IC = \text{Corr}(\text{Signal}_t, R_{t+1})$$
 
 即信号值与下一期收益率的秩相关系数（Rank IC）或线性相关系数。
 
-- $IC > 0.05$：信号有一定预测力
+- $IC > 0.05$：信号有一定预测力（来源：Grinold & Kahn, "Active Portfolio Management", 1999）
 - $IC > 0.10$：信号有较强预测力
 - $IC > 0.15$：信号非常强（但需要警惕过拟合）
 

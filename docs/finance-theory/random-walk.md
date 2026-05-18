@@ -98,7 +98,7 @@ $$\rho_k = \text{Corr}(R_t, R_{t-k})$$
 
 **3. 方差比检验**（Variance Ratio Test）
 
-Lo 和 MacKinlay（1988）提出：
+Lo 和 MacKinlay（1988）（来源：Lo & MacKinlay, 1988）提出：
 
 $$VR(k) = \frac{\text{Var}(R_t^{(k)})}{k \times \text{Var}(R_t)}$$
 
@@ -116,10 +116,10 @@ $$\Delta P_t = \gamma P_{t-1} + \sum_{i=1}^p \delta_i \Delta P_{t-i} + \varepsil
 
 **1. 可预测性证据**
 
-- **估值指标**：高 Shiller PE（CAPE）预测未来 10 年低收益（Campbell & Shiller, 1988）
-- **股息收益率**：高股息率预测高未来收益（Fama & French, 1988）
+- **估值指标**：高 Shiller PE（CAPE）预测未来 10 年低收益（来源：Campbell & Shiller, 1988）
+- **股息收益率**：高股息率预测高未来收益（来源：Fama & French, 1988）
 - **利率期限结构**：收益率曲线斜率预测股票收益
-- **动量效应**：过去 3-12 个月的收益预测未来收益（Jegadeesh & Titman, 1993）
+- **动量效应**：过去 3-12 个月的收益预测未来收益（来源：Jegadeesh & Titman, 1993）
 
 **2. 日历异象**
 

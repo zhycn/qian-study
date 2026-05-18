@@ -29,7 +29,7 @@ pnpm install
 pnpm docs:dev
 ```
 
-访问 http://localhost:5173 预览。
+访问 <http://localhost:5173> 预览。
 
 ### 构建
 
@@ -57,7 +57,7 @@ pnpm docs:preview
 
 ## 项目结构
 
-```
+```plain
 ├── docs/
 │   ├── .vitepress/
 │   │   ├── config.mts            # 站点配置

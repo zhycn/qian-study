@@ -15,7 +15,7 @@
 pnpm docs:dev
 ```
 
-访问 http://localhost:5173 预览。
+访问 <http://localhost:5173> 预览。
 
 ## 提交 PR
 

@@ -30,6 +30,15 @@ export default [
   },
   prettier,
   {
+    files: ['scripts/**/*.mjs'],
+    languageOptions: {
+      globals: {
+        console: 'readonly',
+        process: 'readonly'
+      }
+    }
+  },
+  {
     ignores: ['node_modules/', 'docs/.vitepress/dist/', 'docs/.vitepress/cache/', '.idea']
   }
 ]

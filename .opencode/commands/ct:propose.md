@@ -17,7 +17,11 @@ agent: build
 2. 确定文件名：使用 kebab-case，如 `what-is-finance.md`
 3. 确定分类：如果用户未指定，根据词条内容推荐
 4. 创建词条文件，包含：
-   - 标准 frontmatter（title、description）
+   - 标准 frontmatter（title、description、depth）
+   - `depth` 可选值：`beginner` | `intermediate` | `advanced`（默认 `beginner`）
+     - `beginner`：生活化类比 + 无公式 + 1000-1500 字
+     - `intermediate`：关键公式/模型 + 案例 + 1500-3000 字
+     - `advanced`：完整数学模型 + 代码示例 + 历史演变 + 3000-5000 字
    - 一级标题（# 词条名）
    - 预留章节结构（概述、为什么重要、与其他概念的关系、延伸阅读）
 5. 更新 `docs/glossary/index.md`，在对应分类表格中添加新词条

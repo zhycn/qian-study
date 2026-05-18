@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Qian Study - 将高冷金融术语翻译成"人话"的开源知识库。中文 (zh-CN)，部署于 GitHub Pages。
+Qian Study - 将高冷金融术语翻译成大白话的开源知识库。中文 (zh-CN)，部署于 GitHub Pages。
 
 ## 开发命令
 

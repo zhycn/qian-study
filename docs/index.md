@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 'Qian Study'
-  text: '金融术语"人话"翻译器'
+  text: '金融术语大白话翻译器'
   tagline: 拒绝晦涩难懂，通过生活化类比与可视化图解，带你轻松读懂金融世界的底层逻辑
   image:
     src: /hero.png

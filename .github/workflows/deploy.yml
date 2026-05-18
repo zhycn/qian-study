@@ -32,6 +32,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Lint check
+        run: pnpm lint:check
+      - name: Type check
+        run: pnpm type-check
+      - name: Format check
+        run: pnpm format:check
       - name: Build with VitePress
         run: pnpm docs:build
       - name: Upload artifact

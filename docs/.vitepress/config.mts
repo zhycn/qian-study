@@ -7,7 +7,7 @@ export default withPwa(
   defineConfig({
     lang: 'zh-CN',
     title: 'Qian Study',
-    description: '将高冷金融术语翻译成"人话"的开源知识库',
+    description: '将高冷金融术语翻译成大白话的开源知识库',
     base: '/qian-study/',
     cleanUrls: true,
     lastUpdated: true,
@@ -21,7 +21,7 @@ export default withPwa(
       manifest: {
         name: 'Qian Study',
         short_name: 'QianStudy',
-        description: '将高冷金融术语翻译成"人话"的开源知识库',
+        description: '将高冷金融术语翻译成"大白话"的开源知识库',
         theme_color: '#1e6bff',
         icons: [
           {

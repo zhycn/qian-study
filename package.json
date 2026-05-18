@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "packageManager": "pnpm@10.30.1",
-  "description": "将高冷金融术语翻译成\"人话\"的开源知识库",
+  "description": "将高冷金融术语翻译成大白话的开源知识库",
   "author": "zhycn",
   "homepage": "https://zhycn.github.io/qian-study/",
   "repository": {
@@ -54,7 +54,8 @@
     "lint:check": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "verify:all": "pnpm lint:check && pnpm type-check && pnpm format:check && node scripts/verify-structure.mjs && pnpm docs:build"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

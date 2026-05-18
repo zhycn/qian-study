@@ -322,4 +322,21 @@ agent: build
 - docs:build ✅/❌
 ```
 
+## 工具绑定
+
+| 步骤 | 工具 |
+|------|------|
+| 读取词条和 index.md | Read |
+| 写入大纲/正文 | Write（新文件）或 Edit（追加） |
+| 统计字数 | Grep 排除 frontmatter |
+| 自动修复 | Edit |
+| 验证 | Bash 运行 pnpm 命令 |
+
+## 容错
+
+- 词条文件不存在 → 先用 `/ct:propose` 创建
+- 分类不在映射表中 → 使用"知识科普"作为默认策略
+- `docs:build` 失败 → 读取错误日志，修复后重试（最多 3 次）
+- 正文字数超预期过多（> 阈值 150%）→ 建议拆分为专题
+
 示例：`/ct:deep-write 期权` 或 `/ct:deep-write 量化投资`

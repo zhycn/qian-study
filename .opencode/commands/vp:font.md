@@ -11,11 +11,13 @@ agent: build
 2. 代码字体族？（如 JetBrains Mono、Fira Code、Source Code Pro）
 3. 字体来源？（Google Fonts、本地字体）
 
-修改位置：
+执行步骤：
 
-- docs/.vitepress/config.mts 的 head 标签（Google Fonts 链接）
-- docs/.vitepress/theme/custom.css 的 CSS 变量
-  - --vp-font-family-base
-  - --vp-font-family-mono
+1. 先读取 `docs/.vitepress/config.mts` 和 `docs/.vitepress/theme/custom.css` 了解当前字体配置
+2. 在 `config.mts` 的 head 标签添加 Google Fonts 链接（或更新现有链接）
+3. 在 `custom.css` 中更新 CSS 变量：
+   - `--vp-font-family-base`（正文字体）
+   - `--vp-font-family-mono`（代码字体）
+4. 运行 `pnpm docs:build` 验证构建正常
 
 示例：`/vp:font` 或 `/vp:font "Inter" "Fira Code"`

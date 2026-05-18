@@ -12,11 +12,12 @@ agent: build
 
 执行步骤：
 
-1. 安装插件包（pnpm add -D）
-2. 在 docs/.vitepress/config.mts 中导入
-3. 添加到 vite.plugins 或 markdown.config
-4. 添加必要的 head 标签（如果需要）
-5. 验证构建是否正常
+1. 读取 `docs/.vitepress/config.mts` 了解现有插件和配置结构
+2. 安装插件包：`pnpm add -D 插件包名`
+3. 在 `config.mts` 中导入插件
+4. 添加到 `vite.plugins`（构建/开发插件）或 `markdown.config`（Markdown 渲染插件）
+5. 添加必要的 head 标签（如果需要）
+6. 运行 `pnpm docs:build` 验证构建正常
 
 常见插件：
 

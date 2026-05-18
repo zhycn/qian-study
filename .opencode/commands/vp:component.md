@@ -12,10 +12,13 @@ agent: build
 
 创建步骤：
 
-1. 在 docs/.vitepress/theme/components/ 创建 .vue 文件
-2. 使用 `<script setup lang="ts">` 语法
-3. 使用 VitePress 的 CSS 变量
-4. 在 docs/.vitepress/theme/index.ts 中全局注册
+1. 先读取 `docs/.vitepress/theme/index.ts` 了解现有组件注册模式
+2. 读取现有组件（如 Card.vue、Badge.vue）参考命名和风格
+3. 在 `docs/.vitepress/theme/components/` 创建 `.vue` 文件
+4. 使用 `<script setup lang="ts">` 语法，参考现有组件的 props 定义风格
+5. 使用 VitePress 的 CSS 变量
+6. 在 `docs/.vitepress/theme/index.ts` 中全局注册
+7. 运行 `pnpm docs:build` 验证构建正常
 
 组件模板包含：
 

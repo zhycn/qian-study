@@ -10,9 +10,11 @@ agent: build
 1. 使用哪种搜索？（本地搜索 local / Algolia）
 2. 如果是 Algolia，提供 appId、apiKey、indexName
 
-修改位置：
+执行步骤：
 
-- docs/.vitepress/config.mts 的 themeConfig.search
+1. 读取 `docs/.vitepress/config.mts` 中 `themeConfig.search` 现有配置
+2. 根据用户选择的搜索类型进行配置
+3. 运行 `pnpm docs:build` 验证构建正常
 
 本地搜索配置：
 

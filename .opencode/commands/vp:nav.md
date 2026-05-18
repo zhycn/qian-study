@@ -12,10 +12,12 @@ agent: build
 3. 链接地址是什么？
 4. 是否需要下拉菜单？
 
-修改位置：
+执行步骤：
 
-- docs/.vitepress/config.mts 的 themeConfig.nav
-- 支持简单链接和下拉菜单（items 数组）
+1. 读取 `docs/.vitepress/config.mts` 中 `themeConfig.nav` 现有配置
+2. 确定导航结构：简单链接（`text + link`）或下拉菜单（`text + items`）
+3. 在已有 nav 数组中添加/修改对应项
+4. 运行 `pnpm docs:build` 验证构建正常
 
 示例：
 

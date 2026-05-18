@@ -30,6 +30,6 @@ agent: build
 ...
 ```
 
-如果用户要求修复不一致，同步 index.md 与实际文件。
+注意：本命令仅做**展示和查看**。如需修复不一致，请使用 `/ct:structure` 执行同步修复。
 
 示例：`/ct:list` 或 `/ct:list --fix`

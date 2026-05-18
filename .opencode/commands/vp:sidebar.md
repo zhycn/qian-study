@@ -11,11 +11,12 @@ agent: build
 2. 分组名称是什么？
 3. 包含哪些页面？
 
-修改位置：
+执行步骤：
 
-- docs/.vitepress/config.mts 的 themeConfig.sidebar
-- 支持分组（text + items）
-- 支持折叠（collapsed: true/false）
+1. 读取 `docs/.vitepress/config.mts` 中 `themeConfig.sidebar` 现有配置
+2. 确定操作类型：新建分组、在已有分组中添加项、修改已有项
+3. 更新 sidebar 对象
+4. 运行 `pnpm docs:build` 验证构建正常
 
 示例：
 

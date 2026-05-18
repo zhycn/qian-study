@@ -10,11 +10,13 @@ agent: build
 1. 要修改哪些元素？（特定组件、全局样式、自定义类）
 2. 只在深色模式生效还是都生效？
 
-修改位置：
+执行步骤：
 
-- docs/.vitepress/theme/custom.css
-- 使用 VitePress 内置 CSS 变量
-- 必要时添加新的 CSS 变量到 :root
+1. 先读取 `docs/.vitepress/theme/custom.css` 了解现有样式
+2. 在 `custom.css` 中添加或修改样式
+3. 使用 VitePress 内置 CSS 变量（如 `--vp-c-brand-1`）
+4. 必要时添加新的 CSS 变量到 `:root` 或 `.dark`
+5. 运行 `pnpm docs:build` 验证构建正常
 
 支持：
 

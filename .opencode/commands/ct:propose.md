@@ -24,8 +24,12 @@ agent: build
      - `advanced`：完整数学模型 + 代码示例 + 历史演变 + 3000-5000 字
    - 一级标题（# 词条名）
    - 预留章节结构（概述、为什么重要、与其他概念的关系、延伸阅读）
-5. 更新 `docs/glossary/index.md`，在对应分类表格中添加新词条
-6. 更新 `docs/.vitepress/config.mts` 侧边栏配置
+5. 更新 `docs/glossary/index.md`：
+   - 先读取当前 index.md 找到对应分类的表格
+   - 在分类表格末尾追加新行：`| [词条名](/分类目录/文件名) | 概述 | 准备中 |`
+6. 更新 `docs/.vitepress/config.mts` 侧边栏配置：
+   - 读取 `themeConfig.sidebar` 找到对应分类分组
+   - 在 `items` 数组中追加：`{ text: '词条名', link: '/分类目录/文件名' }`
 
 文件名规范：
 

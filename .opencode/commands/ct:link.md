@@ -14,9 +14,11 @@ agent: build
 ### 操作 1：检查断链
 
 1. 用 Glob 找到 `docs/` 下所有 `*.md` 文件
-2. 用 Grep 查找所有 `](/` 模式的内部链接
-3. 用 Read 工具逐一验证每个链接目标文件存在
-4. 列出不存在的链接
+2. 用 Grep 查找所有 `]\(/` 模式的内部链接
+3. 提取所有唯一链接路径并去重
+4. 将 VitePress 链接路径转换为文件系统路径：`/category/name` → `docs/category/name.md`，`/category/name#section` → 只验证 `docs/category/name.md`（忽略锚点）
+5. 用 Read 工具批量验证每个链接目标文件存在
+6. 列出不存在的链接
 
 ### 操作 2：添加关联
 
@@ -45,20 +47,30 @@ agent: build
 
 ### 断链（X 个）
 
-| 来源文件           | 断链        | 建议修复   |
-| ------------------ | ----------- | ---------- |
-| what-is-finance.md | /basics/xxx | 文件不存在 |
+| 来源文件           | 断链（VitePress 路径） | 建议修复   |
+| ------------------ | ---------------------- | ---------- |
+| what-is-finance.md | /basics/xxx            | 文件不存在 |
 
 ### 缺失关联（X 个）
 
-| 来源文件 | 提到概念 | 目标文件                |
-| -------- | -------- | ----------------------- |
-| 期权.md  | 期货     | /derivatives/futures.md |
+| 来源文件   | 提到概念 | 目标文件（VitePress 路径） |
+| ---------- | -------- | -------------------------- |
+| options.md | 期货     | /derivatives/futures       |
 
 ### 推荐新增延伸阅读
 
-- 量化投资.md → /quant/
+- quant-investing.md → /quant/
 ```
+
+## 工具绑定
+
+| 步骤           | 工具               |
+| -------------- | ------------------ |
+| 查找所有文件   | Glob               |
+| 查找内部链接   | Grep               |
+| 验证链接存在性 | Read               |
+| 添加关联       | Read + Glob + Edit |
+| 批量更新       | Grep + Edit        |
 
 ## 容错
 
@@ -66,9 +78,10 @@ agent: build
 - 无缺失关联 → 输出"关联完整"
 - 建议修改前先用输出报告让用户确认再执行
 - 批量替换时使用 Edit 工具而非 sed，避免语法错误
+- 带锚点的链接（如 `/path#section`）只需验证文件存在，不验证锚点
 
 ## 示例
 
-- `/ct:link --check-broken`
-- `/ct:link --add 期权`
-- `/ct:link --update <old-path> <new-path>`
+- `/ct:link --check-broken` — 检查断链（对应操作 1）
+- `/ct:link --add 期权` — 为词条添加关联（对应操作 2）
+- `/ct:link --update <old-path> <new-path>` — 批量更新路径（对应操作 3）

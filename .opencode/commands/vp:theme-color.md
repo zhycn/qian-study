@@ -14,7 +14,7 @@ agent: build
 
 ### 步骤 1：读取当前颜色
 
-用 Read 读取 `docs/.vitepress/theme/custom.css` 查找 `--vp-c-brand-*` 变量。
+用 Read 读取 `docs/.vitepress/theme/custom.css` 查找 `--vp-c-brand-*` 变量。同时读取 `docs/.vitepress/config.mts` 查看 PWA manifest 和 hero 相关变量。
 
 ### 步骤 2：更新 CSS 变量
 
@@ -23,19 +23,25 @@ agent: build
 | 变量                | 用途        | 示例                    |
 | ------------------- | ----------- | ----------------------- |
 | `--vp-c-brand-1`    | 主品牌色    | `#1e6bff`               |
-| `--vp-c-brand-2`    | hover 色    | `#4a8bff`               |
+| `--vp-c-brand-2`    | hover 色    | `#1a5fe0`               |
 | `--vp-c-brand-3`    | 激活色      | `#0055cc`               |
 | `--vp-c-brand-soft` | 背景/柔和色 | `rgba(30,107,255,0.08)` |
 
-同时更新 `.dark` 下的对应变量和其他相关颜色变量（渐变、阴影）。
+同时更新 `.dark` 下的对应变量和其他相关颜色变量：
 
-### 步骤 3：更新 meta 标签
+- `--vp-home-hero-name-background`（首页 hero 渐变背景）
+- `--vp-home-hero-image-background-image`（首页 hero 图片背景）
 
-用 Read 读取 `docs/.vitepress/config.mts`，更新 `theme-color` meta 标签的 content 值。
+### 步骤 3：更新 meta 标签和 PWA 配置
+
+- 用 Read 读取 `docs/.vitepress/config.mts`
+- 更新 `theme-color` meta 标签的 content 值
+- 更新 `msapplication-TileColor` meta 标签的 content 值
+- 更新 `pwa.manifest.theme_color` 的值
 
 ### 步骤 4：验证
 
-运行 `pnpm docs:build`。
+按 AGENTS.md 验证顺序运行：`pnpm lint:check` → `pnpm type-check` → `pnpm docs:build`。
 
 ## 输出格式
 
@@ -52,12 +58,26 @@ agent: build
 ### 其他更新
 
 - theme-color meta 标签 ✅
+- msapplication-TileColor meta 标签 ✅
+- PWA manifest theme_color ✅
+- hero 渐变变量 ✅
 - .dark 模式 ✅
 
 ### 验证
 
+- lint:check ✅/❌
+- type-check ✅/❌
 - docs:build ✅/❌
 ```
+
+## 工具绑定
+
+| 步骤          | 工具 |
+| ------------- | ---- |
+| 读取当前配置  | Read |
+| 更新 CSS 变量 | Edit |
+| 更新 meta/PWA | Edit |
+| 验证          | Bash |
 
 ## 容错
 

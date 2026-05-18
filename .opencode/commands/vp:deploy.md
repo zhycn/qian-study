@@ -16,8 +16,10 @@ agent: build
 用 Read 读取 `docs/.vitepress/config.mts` 和 `.github/workflows/deploy.yml`，验证：
 
 - `base`：应为 `/qian-study/`
-- CI 构建命令：应为 `pnpm install --frozen-lockfile && pnpm docs:build`
+- CI 构建流程：检查是否包含 `pnpm install --frozen-lockfile` 和 `pnpm docs:build` 两个步骤（不要求单行命令，分步执行也可）
+- 质量门禁：检查 CI 是否包含 `pnpm lint:check`、`pnpm type-check`、`pnpm format:check` 步骤
 - 产物路径：应为 `docs/.vitepress/dist`
+- Node 版本：应为 >= 20
 
 ### 步骤 3：验证 sitemap
 
@@ -32,10 +34,12 @@ agent: build
 
 ### GitHub Pages
 
-- deploy.yml: ✅ 存在 / ❌ 不存在
+- deploy.yml: 存在 / 不存在
 - base 路径: /qian-study/ ✅/❌
-- 构建命令: ✅/❌
+- 构建流程: ✅/❌
+- 质量门禁: ✅/❌
 - 产物路径: ✅/❌
+- Node 版本: >= 20 ✅/❌
 
 ### Sitemap
 
@@ -47,10 +51,19 @@ agent: build
 - 配置缺失：❌ [缺失项]
 ```
 
+## 工具绑定
+
+| 步骤               | 工具        |
+| ------------------ | ----------- |
+| 检查 workflow 文件 | Glob        |
+| 读取配置           | Read        |
+| 验证配置           | Read + 分析 |
+
 ## 容错
 
 - deploy.yml 不存在 → 用 Write 创建标准 GitHub Pages 部署配置
 - `base` 与部署平台不匹配 → 提示修复
+- 质量门禁步骤缺失 → 建议添加 lint:check、type-check、format:check
 
 ## 支持的部署平台
 

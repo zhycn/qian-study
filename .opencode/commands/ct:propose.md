@@ -23,18 +23,28 @@ agent: build
 - 多词概念用连字符连接（如 `what-is-finance.md`）
 - 缩写概念小写（如 `lpr.md`、`etf.md`）
 
-分类目录路径规则：
+分类目录路径规则（以实际目录为准）：
 
-- 基础概念 → `basics/`
-- 货币与银行 → `money-banking/`
-- 投资市场 → `investing/`
-- 衍生品与风控 → `derivatives/`
-- 公司金融 → `corporate-finance/`
-- 宏观经济 → `macroeconomics/`
-- 个人理财 → `personal-finance/`
-- 金融科技 → `fintech/`
-- 国际金融 → `international-finance/`
-- 其他分类 → 分类名拼音 kebab-case
+| 分类             | 目录                    |
+| ---------------- | ----------------------- |
+| 基础概念         | `basics/`               |
+| 货币与银行       | `money-banking/`        |
+| 投资市场         | `investing/`            |
+| 衍生品与风控     | `derivatives/`          |
+| 公司金融         | `corporate-finance/`    |
+| 宏观经济         | `macro/`                |
+| 个人理财         | `personal-finance/`     |
+| 金融科技         | `fintech/`              |
+| 国际金融         | `international/`        |
+| 经济学经典理论   | `economics/`            |
+| 金融学核心理论   | `finance-theory/`       |
+| 金融史与重大危机 | `financial-history/`    |
+| 投资流派与方法论 | `investment/`           |
+| 量化投资         | `quant/`                |
+| 金融监管与机构   | `regulation/`           |
+| 新金融概念       | `new-finance-concepts/` |
+| 工具资源         | `tools/`                |
+| 其他分类         | 分类名拼音 kebab-case   |
 
 ### 步骤 3：创建词条文件
 
@@ -48,7 +58,9 @@ agent: build
 ### 步骤 4：更新索引
 
 1. 用 Read 工具读取 `docs/glossary/index.md`，找到对应分类表格
-2. 用 Edit 工具在表格末尾追加：`| [词条名](/分类目录/文件名) | 概述 | 准备中 |`
+2. 用 Edit 工具在表格末尾追加：`| [词条名](/分类目录/文件名) | 一句话简介 |`
+
+注意：index.md 表格为 2 列（词条、一句话简介），**不要**添加"准备中"状态列。
 
 ### 步骤 5：更新侧边栏
 
@@ -57,7 +69,7 @@ agent: build
 
 ### 步骤 6：验证
 
-运行 `pnpm docs:build`。
+按 AGENTS.md 验证顺序运行：`pnpm lint:check` → `pnpm type-check` → `pnpm docs:build`。
 
 ## 输出格式
 
@@ -78,14 +90,26 @@ agent: build
 
 ### 验证
 
+- lint:check ✅/❌
+- type-check ✅/❌
 - docs:build ✅/❌
 ```
+
+## 工具绑定
+
+| 步骤         | 工具        |
+| ------------ | ----------- |
+| 检查去重     | Glob        |
+| 创建词条文件 | Write       |
+| 更新索引     | Read + Edit |
+| 更新侧边栏   | Read + Edit |
+| 验证         | Bash        |
 
 ## 容错
 
 - 文件名冲突 → 添加序号后缀（如 `market-maker-2.md`）
 - index.md 中找不到对应分类表格 → 在末尾新建分类表格
-- `pnpm docs:build` 失败 → 检查 sidebar 语法，修复后重试
+- `pnpm docs:build` 失败 → 先检查 sidebar 语法，若仍失败则清理缓存 `rm -rf docs/.vitepress/.temp docs/.vitepress/cache` 后重试
 - 用户指定的分类不存在 → 推荐最近匹配的分类或新建分类
 
 ## 示例

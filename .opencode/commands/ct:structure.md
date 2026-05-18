@@ -14,7 +14,7 @@ agent: build
 1. 分析当前结构：
    - 读取 `docs/glossary/index.md` 的分类表
    - 读取 `docs/.vitepress/config.mts` 的侧边栏配置
-   - 扫描 `docs/glossary/` 实际文件
+   - 扫描 `docs/` 下各分类目录的实际文件
 2. 检查不一致：
    - index.md 中有但文件不存在的词条
    - 文件存在但 index.md 中未列出的词条

@@ -12,13 +12,13 @@ agent: build
 执行步骤：
 
 1. **检查断链**：
-   - 扫描所有词条文件中的 `/glossary/` 链接
+   - 扫描所有词条文件中的内部链接
    - 验证链接目标文件是否存在
    - 列出不存在的链接
 
 2. **添加关联**：
    - 读取指定词条内容
-   - 识别文中提到的相关概念
+   - 识别文中提到的相关金融概念
    - 检查是否已添加对应词条链接
    - 为未链接的概念添加内部链接
 
@@ -39,15 +39,15 @@ agent: build
 ## 交叉引用报告
 
 ### 断链 (3 个)
-- `ai.md`: `/glossary/neural-net` → 文件不存在
+- `what-is-finance.md`: `/basics/xxx` → 文件不存在
 
 ### 缺失关联 (5 个)
-- `llm.md`: 提到"Transformer"但未链接
+- `期权.md`: 提到"期货"但未链接
 
 ### 推荐新增延伸阅读
-- `mcp.md` → `/agent/framework`
+- `量化投资.md` → `/quant/`
 ```
 
 用户确认后执行修复。
 
-示例：`/ct:link` 或 `/ct:link --check-broken` 或 `/ct:link docs/glossary/ai.md`
+示例：`/ct:link` 或 `/ct:link --check-broken`

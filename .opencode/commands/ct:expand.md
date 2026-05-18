@@ -8,26 +8,30 @@ agent: build
 如果用户未指定词条，询问：
 
 1. 哪个词条需要扩展为专题？
-2. 专题目录名称？（如 `prompt/`、`rag/`、`agent/`）
+2. 专题目录名称？（如 `corporate-finance/`、`quant/`）
 
 执行步骤：
 
 1. 评估扩展必要性：
    - 词条内容是否超过 2000 字
    - 是否包含多个子主题
-   - 是否有独立的实践案例
+   - 是否有独立的实践案例或历史脉络
+
 2. 创建专题目录结构：
    - `docs/<topic>/index.md`（专题概览）
    - `docs/<topic>/basics.md`（基础）
    - `docs/<topic>/advanced.md`（进阶）
    - 根据需要添加更多页面
+
 3. 从词条中提取内容：
    - 将概述保留在词条中
    - 将详细内容迁移到专题目录
    - 在词条中添加"延伸阅读"链接指向专题
+
 4. 更新导航配置：
    - 在 `docs/.vitepress/config.mts` 的 nav 中添加入口
    - 在 sidebar 中添加专题侧边栏配置
+
 5. 更新词条关联：
    - 在词条的"延伸阅读"部分添加专题链接
    - 在专题的 index.md 中链接回词条
@@ -52,4 +56,4 @@ agent: build
 
 用户确认后执行。
 
-示例：`/ct:expand 提示词工程 prompt` 或 `/ct:expand RAG rag`
+示例：`/ct:expand 期权 derivatives` 或 `/ct:expand 量化投资 quant`

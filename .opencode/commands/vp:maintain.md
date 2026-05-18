@@ -55,18 +55,18 @@ agent: build
 
 ## 非本命令职责（请转用专项命令）
 
-| 任务                | 使用命令                            |
-| ------------------- | ----------------------------------- |
-| 新增/修改导航栏菜单 | `/vp:nav`                           |
-| 配置侧边栏          | `/vp:sidebar`                       |
-| 新增文档页面        | `/vp:new-page`                      |
-| 修改品牌色          | `/vp:theme-color`                   |
-| 配置搜索            | `/vp:search`                        |
-| SEO 优化            | `/vp:seo`                           |
-| 写词条内容          | `/ct:write`                         |
-| 词条审查            | `/ct:review`                        |
-| 结构一致性校验      | `node scripts/verify-structure.mjs` |
-| 运行全套质量检查    | `pnpm verify:all` 或 `/vp:check`    |
+| 任务                | 使用命令          |
+| ------------------- | ----------------- |
+| 新增/修改导航栏菜单 | `/vp:nav`         |
+| 配置侧边栏          | `/vp:sidebar`     |
+| 新增文档页面        | `/vp:new-page`    |
+| 修改品牌色          | `/vp:theme-color` |
+| 配置搜索            | `/vp:search`      |
+| SEO 优化            | `/vp:seo`         |
+| 写词条内容          | `/ct:write`       |
+| 词条审查            | `/ct:review`      |
+
+| 运行全套质量检查 | `pnpm verify:all` 或 `/vp:check` |
 
 ## 执行步骤
 

@@ -16,7 +16,7 @@ agent: build
 - `pnpm lint:check`
 - `pnpm type-check`
 - `pnpm format:check`
-- `node scripts/verify-structure.mjs`（结构一致性校验）
+
 - `pnpm docs:build`
 
 记录任何失败项。

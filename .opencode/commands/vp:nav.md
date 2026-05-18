@@ -20,8 +20,8 @@ agent: build
 示例：
 
 ```ts
-{ text: '指南', link: '/guide/' }
+{ text: '基础概念', link: '/basics/what-is-finance' }
 { text: '更多', items: [{ text: 'GitHub', link: '...' }] }
 ```
 
-示例：`/vp:nav` 或 `/vp:nav 添加博客链接 /blog`
+示例：`/vp:nav` 或 `/vp:nav 添加工具页面 /tools/index`

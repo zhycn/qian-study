@@ -7,7 +7,7 @@ agent: build
 
 如果用户未提供参数，询问：
 
-1. 在哪个路径下添加侧边栏？（/guide/、/api/、/examples/）
+1. 在哪个路径下添加侧边栏？（/basics/、/glossary/、/tools/ 或对应分类目录）
 2. 分组名称是什么？
 3. 包含哪些页面？
 
@@ -20,13 +20,13 @@ agent: build
 示例：
 
 ```ts
-'/guide/': [{
-  text: '入门',
+'/basics/': [{
+  text: '基础概念',
   collapsed: false,
   items: [
-    { text: '快速开始', link: '/guide/getting-started' }
+    { text: '什么是金融', link: '/basics/what-is-finance' }
   ]
 }]
 ```
 
-示例：`/vp:sidebar` 或 `/vp:sidebar /guide/ 进阶 高级用法`
+示例：`/vp:sidebar` 或 `/vp:sidebar /basics/ 基础概念 什么是金融`

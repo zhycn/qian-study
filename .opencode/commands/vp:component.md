@@ -16,7 +16,6 @@ agent: build
 2. 使用 `<script setup lang="ts">` 语法
 3. 使用 VitePress 的 CSS 变量
 4. 在 docs/.vitepress/theme/index.ts 中全局注册
-5. 添加使用示例到 docs/examples/components.md
 
 组件模板包含：
 

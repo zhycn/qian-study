@@ -28,4 +28,4 @@ agent: build
 - 内容要点
 ```
 
-示例：`/vp:outline` 或 `/vp:outline API 参考文档`
+示例：`/vp:outline` 或 `/vp:outline 期权交易入门`

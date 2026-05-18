@@ -158,18 +158,18 @@ description: 从入门到精通，量化投资必读书单
 
 ## 主流方案对比
 
-| 阶段 | 推荐书目 | 难度 | 时间投入 | 前置知识 |
-|------|----------|------|----------|----------|
-| 入门 | 打开量化投资的黑箱 | ★☆☆ | 1-2 周 | 无 |
-| 入门 | 海龟交易法则 | ★☆☆ | 1 周 | 无 |
-| 基础 | Python for Finance | ★★☆ | 2-4 周 | Python 基础 |
-| 基础 | 利用 Python 进行数据分析 | ★★☆ | 2-4 周 | Python 基础 |
-| 基础 | 商务与经济统计 | ★★☆ | 4-8 周 | 高中数学 |
-| 进阶 | Quantitative Trading | ★★★ | 2-4 周 | Python、统计基础 |
-| 进阶 | Active Portfolio Management | ★★★★ | 4-8 周 | 统计、金融基础 |
-| 进阶 | Finding Alphas | ★★★ | 2-4 周 | 因子投资基础 |
-| 精通 | Advances in Financial ML | ★★★★★ | 4-8 周 | ML、量化基础 |
-| 精通 | Algorithmic Trading and DMA | ★★★★ | 4-8 周 | 金融市场基础 |
+| 阶段 | 推荐书目                    | 难度  | 时间投入 | 前置知识         |
+| ---- | --------------------------- | ----- | -------- | ---------------- |
+| 入门 | 打开量化投资的黑箱          | ★☆☆   | 1-2 周   | 无               |
+| 入门 | 海龟交易法则                | ★☆☆   | 1 周     | 无               |
+| 基础 | Python for Finance          | ★★☆   | 2-4 周   | Python 基础      |
+| 基础 | 利用 Python 进行数据分析    | ★★☆   | 2-4 周   | Python 基础      |
+| 基础 | 商务与经济统计              | ★★☆   | 4-8 周   | 高中数学         |
+| 进阶 | Quantitative Trading        | ★★★   | 2-4 周   | Python、统计基础 |
+| 进阶 | Active Portfolio Management | ★★★★  | 4-8 周   | 统计、金融基础   |
+| 进阶 | Finding Alphas              | ★★★   | 2-4 周   | 因子投资基础     |
+| 精通 | Advances in Financial ML    | ★★★★★ | 4-8 周   | ML、量化基础     |
+| 精通 | Algorithmic Trading and DMA | ★★★★  | 4-8 周   | 金融市场基础     |
 
 ## 实战应用
 

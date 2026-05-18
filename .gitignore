@@ -4,6 +4,5 @@ docs/.vitepress/cache
 .env
 .env.local
 .idea
-.vscode
 .DS_Store
 *.log

@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "packageManager": "pnpm@10.30.1",
-  "description": "将高冷金融术语翻译成“人话”的开源知识库",
+  "description": "将高冷金融术语翻译成\"人话\"的开源知识库",
+  "author": "zhycn",
+  "homepage": "https://zhycn.github.io/qian-study/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhycn/qian-study"
+  },
+  "bugs": {
+    "url": "https://github.com/zhycn/qian-study/issues"
+  },
   "keywords": [
     "qian-study",
     "knowledge-base",
@@ -26,6 +35,7 @@
     "@mdit/plugin-katex": "^0.25.2",
     "@vite-pwa/vitepress": "^1.1.0",
     "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.9.0",
     "katex": "^0.16.45",
     "lint-staged": "^16.4.0",

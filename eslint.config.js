@@ -2,6 +2,7 @@ import js from '@eslint/js'
 import ts from 'typescript-eslint'
 import vue from 'eslint-plugin-vue'
 import vueParser from 'vue-eslint-parser'
+import prettier from 'eslint-config-prettier'
 
 export default [
   js.configs.recommended,
@@ -27,6 +28,7 @@ export default [
       '@typescript-eslint/no-explicit-any': 'warn'
     }
   },
+  prettier,
   {
     ignores: ['node_modules/', 'docs/.vitepress/dist/', 'docs/.vitepress/cache/', '.idea']
   }

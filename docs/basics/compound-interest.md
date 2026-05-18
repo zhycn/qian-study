@@ -16,6 +16,7 @@ description: 世界第八大奇迹，利滚利的魔力
 $$FV = PV \times (1 + r)^n$$
 
 其中：
+
 - $FV$ = 未来价值（Future Value）
 - $PV$ = 本金（Present Value，现值）
 - $r$ = 每期利率

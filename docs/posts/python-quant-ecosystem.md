@@ -6,7 +6,7 @@ category: quant
 
 # Python 量化生态
 
-> Python 就是量化投资界的"瑞士军刀"，而 pandas、numpy 这些库就是刀上的各种工具
+Python 就是量化投资界的"瑞士军刀"——不是最快的，但什么活都能干，而且干得不错。pandas、numpy 这些库就是刀上的各种工具，开箱即用。
 
 ## 概述
 

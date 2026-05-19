@@ -1,6 +1,6 @@
 ---
 title: 贸易逆差/顺差
-description: 进出口贸易的盈亏状况及其经济含义
+description: 贸易平衡指出口与进口差额，顺差是卖多买少，逆差是买多卖少。顺差不一定好逆差不一定坏，关键看结构。美国长期逆差与美元霸权相关
 category: international
 ---
 

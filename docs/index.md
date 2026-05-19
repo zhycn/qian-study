@@ -1,5 +1,6 @@
 ---
 layout: home
+description: 将高冷金融术语翻译成大白话的开源知识库，通过生活化类比与可视化图解，带你轻松读懂金融世界的底层逻辑，从基础概念到量化投资全覆盖
 
 hero:
   name: 'Qian Study'

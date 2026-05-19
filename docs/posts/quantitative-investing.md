@@ -1,6 +1,6 @@
 ---
 title: 量化投资
-description: 用数学模型和算法做投资决策
+description: 量化投资就是把投资从艺术变成科学，用数学模型统计方法和计算机算法做决策，让数据说话让模型执行，不再靠拍脑袋和感觉来买卖股票
 category: strategies
 ---
 

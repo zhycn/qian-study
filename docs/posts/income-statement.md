@@ -1,6 +1,6 @@
 ---
 title: 利润表
-description: 公司一段时间赚了多少钱
+description: 利润表记录公司一段时间赚了多少钱，从营业收入扣减成本费用到净利润，是衡量企业盈利能力的核心报表，投资者评估公司赚钱能力必看
 category: corporate
 ---
 

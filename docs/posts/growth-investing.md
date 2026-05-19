@@ -1,6 +1,6 @@
 ---
 title: 成长投资
-description: 买未来能高速增长的公司
+description: 成长投资是买入收入利润预计高速增长的公司股票——不介意今天 PE 贵，相信未来增长能消化高估值，早期的亚马逊、特斯拉、英伟达都是经典成长股
 category: strategies
 ---
 

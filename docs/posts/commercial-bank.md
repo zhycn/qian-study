@@ -1,6 +1,6 @@
 ---
 title: 商业银行
-description: 存贷汇业务的金融超市
+description: 商业银行是面向公众和企业的金融超市——吸收存款、发放贷款、办理结算，靠存贷利差赚钱。工行、建行、招行等都是商业银行，受严格资本充足率监管
 category: money-banking
 ---
 

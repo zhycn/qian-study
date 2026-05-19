@@ -1,6 +1,6 @@
 ---
 title: 最后贷款人
-description: 央行在危机时刻的"救市"角色
+description: 最后贷款人就是央行的终极救火队，当所有资金来源枯竭时只有央行还能借钱，但只救暂时缺钱的不救已经破产的，是金融稳定的定海神针
 category: money-banking
 ---
 

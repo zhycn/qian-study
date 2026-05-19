@@ -1,6 +1,6 @@
 ---
 title: Dodd-Frank 法案
-description: 次贷危机后美国最严金融监管改革
+description: Dodd-Frank 法案是 2008 年金融危机后美国最严金融监管改革——限制银行自营交易、设立消费者金融保护局、加强衍生品监管，给华尔街套上紧箍咒
 category: regulation
 ---
 

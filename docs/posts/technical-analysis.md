@@ -1,6 +1,6 @@
 ---
 title: 技术分析
-description: 看 K 线图找规律，预测价格走势
+description: 技术分析通过研究历史价格和成交量预测走势，核心工具包括 K 线图均线 MACD RSI 布林带。三大假设是市场包容一切价格沿趋势运动历史会重演
 category: strategies
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 机会成本
-description: 选择 A 就意味着放弃 B 的价值
+description: 机会成本就像只有一个座位的旋转椅，你坐上去选了 A 就意味着别人不能坐放弃了 B，真正的成本不是你付出了什么而是因此错过了什么
 category: basics
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 量化工具
-description: 量化投资平台、Python 库、数据源推荐
+description: 量化工具就是从回测到实盘的全套武器库，在线平台 Python 库数据源实盘接口一应俱全，有了它们你也能像专业量化基金一样用数据做投资
 category: tools
 ---
 

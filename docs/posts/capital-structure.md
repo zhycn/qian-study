@@ -1,6 +1,6 @@
 ---
 title: 资本结构
-description: 公司资金来源中股权和债务的比例
+description: 资本结构是公司资金来源中股权和债务的组合比例——负债能放大收益但也增加破产风险，找对股权和债务的黄金比例是 CFO 的核心任务
 category: corporate
 ---
 

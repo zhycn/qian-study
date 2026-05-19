@@ -1,6 +1,6 @@
 ---
 title: 黑箱与可解释性
-description: 模型为什么做出这个决策？量化投资的透明度困境
+description: 黑箱可解释性研究如何让复杂的量化模型说出决策理由——SHAP 和 LIME 等技术打开 AI 黑箱，满足监管合规要求和投资者信任需求
 category: quant
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 保证金
-description: 衍生品交易的"押金"
+description: 保证金就是衍生品交易的押金，买一百万的期货不用掏一百万，交十万押金就行，亏了从里面扣赚了加进去，平仓后扣除亏损全额退还，是杠杆交易的基础
 category: derivatives
 ---
 

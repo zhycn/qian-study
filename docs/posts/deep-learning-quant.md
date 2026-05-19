@@ -1,6 +1,6 @@
 ---
 title: 深度学习与量化
-description: 神经网络在量化交易中的应用与局限
+description: 深度学习用多层神经网络从金融数据中自动学习复杂模式——LSTM 处理时间序列、Transformer 分析新闻情绪，但金融数据信噪比极低容易过拟合
 category: quant
 ---
 

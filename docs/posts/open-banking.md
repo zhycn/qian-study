@@ -1,6 +1,6 @@
 ---
 title: 开放银行
-description: 银行通过 API 开放数据和服务
+description: 开放银行就是银行数据的共享经济，通过 API 接口第三方应用可以安全访问你的银行数据，打破银行数据垄断提供更个性化的金融服务
 category: fintech
 ---
 

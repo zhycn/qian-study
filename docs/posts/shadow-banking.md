@@ -1,6 +1,6 @@
 ---
 title: 影子银行
-description: 不在监管视线内的"地下"信贷体系
+description: 影子银行是银行体系外的信用中介，包括信托理财 P2P 小贷等。弥补传统银行服务不足但也带来监管盲区，期限错配和刚性兑付是主要风险
 category: money-banking
 ---
 

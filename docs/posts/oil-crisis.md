@@ -1,6 +1,6 @@
 ---
 title: 石油危机
-description: 1973 年 OPEC 禁运，油价翻四倍
+description: 石油危机就是工业社会的断粮危机，一九七三年 OPEC 禁运导致油价翻四倍，交通瘫痪工厂停工物价飞涨，现代工业太依赖石油了
 category: history
 ---
 

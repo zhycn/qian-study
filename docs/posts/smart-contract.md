@@ -1,6 +1,6 @@
 ---
 title: 智能合约
-description: 自动执行的数字化合同
+description: 智能合约是区块链上自动执行的代码，条件满足即触发无需第三方。以太坊是最流行平台，DeFi 和 NFT 都依赖它驱动。代码即法律但可能有漏洞，部署后难修改
 category: fintech
 ---
 

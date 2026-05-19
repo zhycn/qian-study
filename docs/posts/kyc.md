@@ -1,6 +1,6 @@
 ---
 title: KYC
-description: 了解你的客户，金融机构的尽职调查
+description: KYC 就是金融机构的相亲前背景调查，核实客户身份了解资金来源评估风险等级，是反洗钱体系的第一道防线，开户时填表就是它在起作用
 category: regulation
 ---
 

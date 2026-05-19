@@ -1,6 +1,6 @@
 ---
 title: DAO
-description: 去中心化自治组织，没有老板的公司
+description: DAO 去中心化自治组织是没有 CEO 的公司——规则写在智能合约里自动执行，所有决策靠代币持有者投票决定，代码即法律，实现全球化扁平协作
 category: fintech
 ---
 

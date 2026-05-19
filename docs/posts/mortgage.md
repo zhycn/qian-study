@@ -1,6 +1,6 @@
 ---
 title: 房贷
-description: 借钱买房，等额本息 vs 等额本金
+description: 房贷就是向银行借钱买房用房子做抵押，然后分十到三十年慢慢还，等额本息月供固定等额本金总利息更少，普通人一生中金额最大的负债
 category: personal
 ---
 

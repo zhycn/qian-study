@@ -1,6 +1,6 @@
 ---
 title: DeFi
-description: 去中心化金融，没有银行的银行服务
+description: DeFi 去中心化金融是基于区块链和智能合约的金融服务——借贷、交易、理财全靠代码自动执行，不需要银行中介，任何人有加密钱包就能参与
 category: fintech
 ---
 

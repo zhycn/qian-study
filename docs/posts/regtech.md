@@ -1,6 +1,6 @@
 ---
 title: 监管科技
-description: 用技术帮金融机构满足监管要求
+description: 监管科技用 AI 和大数据帮金融机构高效合规，涵盖反洗钱、KYC、交易监控和报告自动化。比人工审核降本三成以上，问题发现从天级缩短到秒级
 category: fintech
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: CPI
-description: 消费者价格指数，衡量通胀的"温度计"
+description: CPI 消费者价格指数衡量一篮子消费品和服务的价格变动——是判断通货膨胀最直观的温度计，央行根据 CPI 决定加息还是降息，影响房贷和理财收益
 category: macro
 ---
 

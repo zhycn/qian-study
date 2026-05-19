@@ -1,6 +1,6 @@
 ---
 title: 主权债务
-description: 国家借的债，也会还不起
+description: 主权债务是国家以政府信用借入的债务，分内债和外债。外债风险更大因为不能印本币偿还。违约后常见解决方式是债务重组，希腊阿根廷等都曾违约
 category: international
 ---
 

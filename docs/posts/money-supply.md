@@ -1,6 +1,6 @@
 ---
 title: M0/M1/M2
-description: 衡量市场上"钱"的不同口径
+description: M0M1M2 就像衡量市场上钱有多少的三把尺子，M0 是手头现金 M1 是随时能花的钱 M2 连定期存款都算上，口径从小到大流动性从高到低
 category: money-banking
 ---
 

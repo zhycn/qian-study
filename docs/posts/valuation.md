@@ -1,6 +1,6 @@
 ---
 title: 估值
-description: 一个公司到底值多少钱
+description: 估值是给资产或公司定价的过程，核心是计算内在价值。三大方法是相对估值看 PE PB、绝对估值用 DCF 折现、资产基础法逐项清算。结果是区间非精确数字
 category: corporate
 ---
 

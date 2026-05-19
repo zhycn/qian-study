@@ -1,6 +1,6 @@
 ---
 title: Alpha 与 Beta
-description: Alpha 是真本事，Beta 是大势给的
+description: 投资收益拆成两部分：Beta 是市场大势白送的钱，Alpha 是凭真本事赚的超额收益。牛市人人都是巴菲特，潮水退去才知道谁在裸泳
 category: quant
 ---
 

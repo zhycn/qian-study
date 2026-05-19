@@ -1,6 +1,6 @@
 ---
 title: GDP
-description: 一个国家一段时间内生产的全部最终产品和服务价值
+description: GDP 国内生产总值是一个国家一定时期内生产的所有最终产品和服务的市场价值——GDP=C+I+G+(X-M)，是衡量经济健康状况最核心的指标
 category: macro
 ---
 

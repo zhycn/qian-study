@@ -1,6 +1,6 @@
 ---
 title: 特别提款权
-description: IMF 创造的"超主权储备资产"，国际货币体系改革的探索
+description: 特别提款权是 IMF 创设的国际储备资产，由美元欧元人民币日元英镑五种货币篮子定价。人民币 2016 年加入，SDR 不能在私人市场使用，仅在成员国间兑换
 category: international
 ---
 

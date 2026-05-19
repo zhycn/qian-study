@@ -1,6 +1,6 @@
 ---
 title: WACC（加权平均资本成本）
-description: 公司的"资金成本线"
+description: WACC 加权平均资本成本衡量公司使用每元资金的平均代价，是 DCF 折现率和投资决策及格线。按股权债务权重加权，债务成本因税盾更低
 category: corporate
 ---
 

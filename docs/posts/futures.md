@@ -1,6 +1,6 @@
 ---
 title: 期货
-description: 约定未来某个时间买卖的标准化合约
+description: 期货是约定未来以锁定价格买卖标的资产的标准化合约——果农提前签合同锁定苹果售价规避价格风险，采用保证金交易和每日无负债结算制度
 category: derivatives
 ---
 

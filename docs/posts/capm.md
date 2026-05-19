@@ -1,6 +1,6 @@
 ---
 title: CAPM
-description: 资本资产定价模型，描述风险与收益之间的数学关系
+description: CAPM 资本资产定价模型描述风险与收益的数学关系——预期收益等于无风险利率加上 Beta 乘以市场风险溢价，是计算股权成本和评估投资回报的基石
 category: finance-theory
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 因子投资
-description: 找到驱动收益的关键变量，量化投资的核心方法论
+description: 因子投资是通过识别驱动资产收益的关键特征来构建组合的方法——价值、规模、动量、质量等因子长期存在溢价，Smart Beta ETF 规模已超 1.5 万亿美元
 category: quant
 ---
 

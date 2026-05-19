@@ -1,6 +1,6 @@
 ---
 title: 量化交易平台
-description: JoinQuant、RiceQuant、QuantConnect，从零开始做量化
+description: 量化交易平台就是量化投资者的厨房，历史数据、研究工具、回测环境一应俱全，你只需要专心写策略代码，不用自己搭建数据源和回测引擎，大幅降低入门门槛
 category: quant
 ---
 

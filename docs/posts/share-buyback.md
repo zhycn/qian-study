@@ -1,6 +1,6 @@
 ---
 title: 回购（Share Buyback）
-description: 公司花钱买回自己的股票
+description: 股份回购是上市公司用自有资金买回股票并注销，减少流通股提升每股收益。美股年回购超万亿美元。但股价高时回购浪费资金，举债回购是危险信号
 category: corporate
 ---
 

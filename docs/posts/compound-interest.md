@@ -1,6 +1,6 @@
 ---
 title: 复利
-description: 世界第八大奇迹，利滚利的魔力
+description: 复利是利息也产生利息的利滚利效应——FV=PV×(1+r)^n，巴菲特 99% 的财富在 50 岁后获得，关键不是本金多大而是时间多长，尽早开始最重要
 category: basics
 ---
 

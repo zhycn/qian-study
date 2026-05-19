@@ -1,6 +1,6 @@
 ---
 title: 著名量化基金
-description: 文艺复兴、DE Shaw、Citadel，华尔街的算法巨头
+description: 量化基金就是华尔街的算法巨头，文艺复兴大奖章基金年化收益惊人，这些基金雇佣全球最聪明的科学家，用数学模型和算力在毫秒间做出投资决策
 category: quant
 ---
 

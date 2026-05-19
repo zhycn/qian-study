@@ -1,6 +1,6 @@
 ---
 title: LPR
-description: 贷款市场报价利率，中国房贷的定价基准
+description: 贷款市场报价利率就是中国贷款市场的团购价，十八家银行每月投票报出心中合理利率去掉最高最低取平均，你的房贷利率就在这个基础上加点
 category: money-banking
 ---
 

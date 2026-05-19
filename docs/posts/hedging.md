@@ -1,6 +1,6 @@
 ---
 title: 对冲
-description: 给投资买"保险"，降低风险
+description: 对冲就像给投资买保险，通过建立反向头寸抵消价格波动风险，不是为了赚钱而是减少不确定性，是企业风险管理和投资组合保护的核心工具
 category: derivatives
 ---
 

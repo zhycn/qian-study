@@ -1,6 +1,6 @@
 ---
 title: SPAC
-description: 空白支票公司，借壳上市的新玩法
+description: SPAC 是先上市募资再找目标合并的空白支票公司，让企业快速上市。比传统 IPO 速度快估值灵活，投资者合并前可赎回。但综合成本不低，大量合并后破发
 category: fintech
 ---
 

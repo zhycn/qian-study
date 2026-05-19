@@ -1,6 +1,6 @@
 ---
 title: Web3
-description: 去中心化的下一代互联网
+description: Web3 是基于区块链的下一代互联网，核心理念是去中心化让用户拥有数据身份和资产。从可读可写到可读可写可拥有，DApp 和 DeFi 是核心应用
 category: fintech
 ---
 

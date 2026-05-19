@@ -1,6 +1,6 @@
 ---
 title: 破产
-description: 资不抵债后的法律程序
+description: 破产是公司资不抵债时通过法律程序处理债务危机的制度——要么重整重生如通用汽车 40 天复活，要么清算关门如雷曼兄弟股东血本无归
 category: corporate
 ---
 

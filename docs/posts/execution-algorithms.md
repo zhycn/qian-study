@@ -1,6 +1,6 @@
 ---
 title: 执行算法
-description: VWAP、TWAP、冰山订单，如何聪明地买卖
+description: 执行算法是机构大单交易的隐身衣——VWAP 按成交量分布拆单、TWAP 按时间均匀拆单、冰山订单隐藏真实规模，把大单拆成小单悄悄执行以最小化市场冲击
 category: quant
 ---
 

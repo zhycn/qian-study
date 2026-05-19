@@ -1,6 +1,6 @@
 ---
 title: 并购（M&A）
-description: 公司之间的"联姻"与"吞并"
+description: 并购就是公司之间的结婚或吞并，两家合为一体或一家买下另一家，追求一加一大于二的协同效应，但超过一半的并购都未能实现预期价值
 category: corporate
 ---
 

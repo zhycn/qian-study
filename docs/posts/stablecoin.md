@@ -1,6 +1,6 @@
 ---
 title: 稳定币
-description: 价值锚定法币的加密货币
+description: 稳定币是与美元挂钩的加密货币，USDT 和 USDC 用法币抵押维持 1:1 锚定，DAI 用加密资产超额抵押。解决波动大痛点，是 DeFi 基石
 category: fintech
 ---
 

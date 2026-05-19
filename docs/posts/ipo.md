@@ -1,6 +1,6 @@
 ---
 title: IPO
-description: 公司第一次向公众卖股票
+description: 首次公开募股就是公司从私人俱乐部变成公共场所的第一次亮相，向公众公开发行股票让普通人也能成为股东，公司借此从市场筹集大量发展资金
 category: markets
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: ESG
-description: 环境、社会、治理，投资也要讲责任
+description: ESG 是环境、社会和治理三个维度的投资评估框架——给企业做品德考核，ESG 评分高的公司长期业绩更稳定，全球 ESG 资管规模已超 30 万亿美元
 category: fintech
 ---
 

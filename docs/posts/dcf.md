@@ -1,6 +1,6 @@
 ---
 title: DCF（现金流折现）
-description: 未来赚的钱折现到今天值多少
+description: DCF 现金流折现模型把公司未来赚的所有现金打个折换算成今天的价值——企业价值等于未来自由现金流按 WACC 折现之和，是投行估值的黄金标准
 category: corporate
 ---
 

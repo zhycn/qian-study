@@ -1,6 +1,6 @@
 ---
 title: 布雷顿森林体系
-description: 二战后建立的国际货币秩序，现代金融体系的起点
+description: 布雷顿森林体系是二战后建立的国际货币秩序——美元挂钩黄金、各国货币挂钩美元，创建了 IMF 和世界银行两大机构，1971 年尼克松冲击后瓦解
 category: international
 ---
 

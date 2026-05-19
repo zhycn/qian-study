@@ -1,6 +1,6 @@
 ---
 title: Python 量化生态
-description: pandas、numpy、zipline、backtrader，量化人的工具箱
+description: Python 就是量化投资界的瑞士军刀，不是最快的但什么活都能干，数据处理数值计算回测框架一应俱全，开源库让个人也能用上专业级工具
 category: quant
 ---
 

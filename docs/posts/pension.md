@@ -1,6 +1,6 @@
 ---
 title: 养老金
-description: 年轻时存钱，老了领钱
+description: 养老金就是年轻时每月存一点老了领钱，给未来的自己发工资靠复利滚雪球，社保替代率有限仅靠第一支柱难以维持理想的退休生活水平
 category: personal
 ---
 

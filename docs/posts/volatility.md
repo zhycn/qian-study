@@ -1,6 +1,6 @@
 ---
 title: 波动率
-description: 价格上蹿下跳的程度
+description: 波动率衡量资产价格波动幅度，用收益率标准差表示。不预测方向只衡量剧烈程度。历史波动率基于过去数据，隐含波动率从期权反推反映市场预期
 category: derivatives
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: SWIFT
-description: 国际银行间转账的"通讯系统"，全球金融的神经系统
+description: SWIFT 是全球银行间金融报文系统，连接 11000 多家金融机构，每天处理超 4200 万条报文。不碰钱只传指令，被踢出等于切断国际金融通信
 category: international
 ---
 

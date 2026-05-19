@@ -1,6 +1,6 @@
 ---
 title: 基准利率
-description: 利率的"锚"，影响所有借贷成本
+description: 基准利率是金融市场的定价之锚——央行通过调整基准利率影响所有贷款利率和存款利率，就像乐队调音的标准音，一动所有资产价格都跟着变
 category: money-banking
 ---
 

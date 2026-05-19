@@ -1,6 +1,6 @@
 ---
 title: 银行挤兑
-description: 大家一起取钱，银行真的会没钱
+description: 银行挤兑是大量储户集中取款的恐慌现象——部分准备金制度下银行无法同时满足所有人取款，一旦信心崩塌就会自我实现，数字时代挤兑速度更快
 category: money-banking
 ---
 

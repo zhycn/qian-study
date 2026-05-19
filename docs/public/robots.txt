@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zhycn.github.io/qian-study/sitemap.xml

@@ -1,6 +1,6 @@
 ---
 title: PPI
-description: 生产者价格指数，工厂出厂价的变化
+description: PPI 就是看工厂出厂价变化的先行指标，上游原材料涨价了过一段时间下游消费品价格也会跟着涨，但中间可能有企业利润吸收缓冲
 category: macro
 ---
 

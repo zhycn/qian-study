@@ -1,6 +1,6 @@
 ---
 title: VaR
-description: 在险价值，最多可能亏多少钱
+description: VaR 在险价值回答正常市场下投资组合最多亏多少。日 VaR 95% 是一百万，意味着亏损超百万概率仅 5%。巴塞尔协议要求银行用它计量风险
 category: derivatives
 ---
 

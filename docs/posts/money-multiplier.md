@@ -1,6 +1,6 @@
 ---
 title: 货币乘数
-description: 1 元基础货币如何变成 N 元广义货币
+description: 货币乘数就是银行体系的放大镜，央行投下一块钱基础货币种子，通过商业银行存贷款循环反复放大，最终能变成市场上流通的几块甚至十几块钱
 category: money-banking
 ---
 

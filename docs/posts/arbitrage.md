@@ -1,6 +1,6 @@
 ---
 title: 套利
-description: 利用价格差异无风险赚钱
+description: 套利是利用市场定价错误获取无风险利润的策略——同一资产在不同市场出现价差时同时买卖锁定收益，是维持一价定律和市场效率的核心力量
 category: derivatives
 ---
 

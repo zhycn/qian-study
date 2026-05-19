@@ -1,6 +1,6 @@
 ---
 title: 杠杆
-description: 用小资金撬动大交易的"放大镜"
+description: 杠杆就是用小资金撬动大交易的放大镜，借钱投资让收益和亏损都成倍放大，方向判断正确时是财富加速器，方向错误时就是财富粉碎机
 category: derivatives
 ---
 

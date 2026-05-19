@@ -1,6 +1,6 @@
 ---
 title: Smart Beta
-description: 介于主动和被动之间的聪明指数投资
+description: Smart Beta 是介于被动指数和主动管理之间的策略，按价值红利低波质量等因子调整权重。全球规模超 1.5 万亿美元，费率低但因子有周期性可能连续跑输
 category: quant
 ---
 

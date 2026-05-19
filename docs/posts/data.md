@@ -1,6 +1,6 @@
 ---
 title: 数据与分析
-description: 宏观经济、股票数据、基金数据、另类数据源
+description: 数据源就像投资界的情报网络，国家统计局和理杏仁提供宏观与估值数据，Tushare 和 AKShare 提供编程接口，好数据让你看清市场全貌不再盲人摸象
 category: tools
 ---
 

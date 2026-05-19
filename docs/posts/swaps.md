@@ -1,6 +1,6 @@
 ---
 title: 互换
-description: 双方交换现金流的金融合约
+description: 互换是场外衍生品最大品种，双方约定定期交换现金流。利率互换最常见，固定换浮动锁定成本。货币互换管理汇率风险，CDS 本质是信用保险
 category: derivatives
 ---
 

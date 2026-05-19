@@ -78,9 +78,6 @@ pnpm docs:preview
 │   ├── financial-history/        # 金融史
 │   ├── fintech/                  # 金融科技
 │   ├── international/            # 国际金融
-│   ├── investing/                # 投资理财
-│   ├── investment/               # 投资银行
-│   ├── learning-path/            # 学习路径
 │   ├── macro/                    # 宏观经济
 │   ├── money-banking/            # 货币银行学
 │   ├── personal-finance/         # 个人理财

@@ -35,8 +35,8 @@ features:
   - icon: 🎓
     title: 从入门到进阶
     details: 从"什么是金融"到"布莱克-斯科尔斯模型"，满足各阶段学习需求
-    link: /posts/learning-path
-    linkText: 查看学习路径
+    link: /posts/glossary
+    linkText: 开始探索
   - icon: 🔗
     title: 知识关联
     details: 词条之间相互链接，构建完整的金融知识网络

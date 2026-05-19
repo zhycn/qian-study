@@ -27,7 +27,6 @@ const categoryNames: Record<string, string> = {
 
 // 按分类顺序排列
 const categoryOrder = [
-  'reference',
   'basics',
   'money-banking',
   'markets',
@@ -157,7 +156,6 @@ export default withPwa(
       nav: [
         { text: '首页', link: '/' },
         { text: '金融百科', link: '/posts/glossary' },
-        { text: '学习路径', link: '/posts/learning-path' },
         { text: '工具资源', link: '/posts/tools-index' }
       ],
       sidebar: generateSidebar(),

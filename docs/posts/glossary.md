@@ -1,7 +1,7 @@
 ---
 title: 金融百科
-description:
-category: reference 188 个金融术语，用"大白话"解释金融世界的底层逻辑
+description: 188 个金融术语，用"大白话"解释金融世界的底层逻辑
+category: reference
 ---
 
 # 金融百科

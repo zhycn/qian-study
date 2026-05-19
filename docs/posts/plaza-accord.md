@@ -122,8 +122,8 @@ category: history
 
 - [亚洲金融风暴](/posts/asian-financial-crisis)：日本泡沫破裂后减少了对东南亚的投资，间接影响了亚洲经济格局
 - [资产负债表衰退](/posts/business-cycle)：辜朝明提出的概念，解释日本泡沫破裂后的经济困境
-- [量化宽松](/posts/quantitative-easing)：日本是 QE 政策的先行者，2001 年日本央行率先实施 QE 以对抗通缩
-- [货币政策](/posts/monetary-policy)：广场协议后的日本货币政策是"过度宽松"的经典反面教材
+- [量化宽松](/posts/business-cycle)：日本是 QE 政策的先行者，2001 年日本央行率先实施 QE 以对抗通缩
+- [货币政策](/posts/business-cycle)：广场协议后的日本货币政策是"过度宽松"的经典反面教材
 
 ## 延伸阅读
 

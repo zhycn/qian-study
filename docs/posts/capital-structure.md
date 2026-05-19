@@ -207,7 +207,7 @@ Jensen 和 Meckling（1976）指出，资本结构会影响管理层和股东之
 - [回购](/posts/share-buyback) 会改变资本结构（减少股权比例）
 - 资本结构数据来自 [资产负债表](/posts/balance-sheet)
 - [并购](/posts/ma) 融资会显著改变收购方的资本结构
-- 资本结构影响 [估值](/posts/valuation) 中的 EV 和股权价值关系
+- 资本结构影响 [估值](/posts/dcf) 中的 EV 和股权价值关系
 
 ## 延伸阅读
 

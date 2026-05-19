@@ -1,7 +1,7 @@
 ---
 title: 量化工具
-description:
-category: tools 量化投资平台、Python 库、数据源推荐
+description: 量化投资平台、Python 库、数据源推荐
+category: tools
 ---
 
 # 量化工具

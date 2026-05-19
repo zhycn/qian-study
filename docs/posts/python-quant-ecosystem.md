@@ -317,8 +317,16 @@ print(f"最大回撤: {max_dd:.2%}")
 - [回测](/posts/backtesting) - Backtrader、Zipline 等库是回测的主要工具
 - [量化交易平台](/posts/quant-platforms) - 大多数平台底层基于 Python 生态构建
 - [因子投资](/posts/factor-investing) - pandas 是因子计算和分析的核心工具
-- [机器学习投资](/posts/machine-learning-investing) - Scikit-learn 是 ML 投资的基础工具
+- [机器学习投资](/posts/deep-learning-quant) - Scikit-learn 是 ML 投资的基础工具
 - [量化风险管理](/posts/quant-risk-management) - PyPortfolioOpt 等库用于风险度量
+
+## 中国量化投资者特别提示
+
+- **数据合规**：使用 Tushare、AKShare 等数据源时，注意遵守《数据安全法》
+- **A 股特殊规则**：回测需考虑涨跌停限制、T+1 交易、停牌等因素
+- **实盘对接**：A 股实盘自动化交易需通过券商 API，个人投资者需满足一定资产门槛
+- **社区资源**：聚宽社区、掘金量化社区有大量中文教程和策略分享
+- **性能优化**：A 股全市场回测数据量大，建议使用 Polars 替代 pandas 提升性能
 
 ## 延伸阅读
 

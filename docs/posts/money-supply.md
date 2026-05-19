@@ -1,7 +1,7 @@
 ---
 title: M0/M1/M2
-description:
-category: money-banking 衡量市场上"钱"的不同口径
+description: 衡量市场上"钱"的不同口径
+category: money-banking
 ---
 
 # M0/M1/M2

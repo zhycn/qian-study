@@ -198,6 +198,14 @@ def vwap_execution(order_size, volume_profile, prices):
 - [量化风险管理](/posts/quant-risk-management) - 执行失败本身就是一种操作风险
 - [高频交易](/posts/high-frequency-trading) - 高频交易对执行算法的延迟要求极高
 
+## 中国投资者执行算法提示
+
+- **A 股特殊规则**：A 股有涨跌停限制、T+1 交易制度，执行算法需特殊处理
+- **流动性差异**：A 股大盘股流动性好，小盘股流动性差，算法参数需调整
+- **券商算法**：国内券商提供 VWAP、TWAP 等算法交易服务，个人投资者可直接使用
+- **成本考量**：A 股印花税（卖出 0.05%）和佣金（万 1-万 3）需纳入执行成本
+- **建议**：个人投资者资金量较小，通常不需要复杂执行算法，分批手动下单即可
+
 ## 延伸阅读
 
 - 《Algorithmic Trading and DMA》- Barry Johnson（执行算法的权威教材）

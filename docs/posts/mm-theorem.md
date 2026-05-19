@@ -1,7 +1,7 @@
 ---
 title: MM定理
-description:
-category: finance-theory 在理想条件下，公司价值与资本结构无关——借钱还是发股票，不影响公司值多少钱
+description: 在理想条件下，公司价值与资本结构无关——借钱还是发股票，不影响公司值多少钱
+category: finance-theory
 ---
 
 # MM定理
@@ -164,9 +164,9 @@ $$\text{WACC} = 0.6 \times 12\% + 0.4 \times 6\% \times 0.75 = 7.2\% + 1.8\% = 9
 ## 与其他概念的关系
 
 - [Wacc](/posts/wacc) - MM 定理直接影响了加权平均资本成本的计算
-- tax-shield - 税盾是 MM 定理有税版本的核心概念
-- financial-leverage - 财务杠杆的作用与 MM 定理密切相关
-- trade-off-theory - 权衡理论是 MM 定理的延伸，考虑税盾与破产成本的平衡
+- 税盾（Tax Shield） - 税盾是 MM 定理有税版本的核心概念
+- 财务杠杆（Financial Leverage） - 财务杠杆的作用与 MM 定理密切相关
+- 权衡理论（Trade-Off Theory） - 权衡理论是 MM 定理的延伸，考虑税盾与破产成本的平衡
 - [CAPM](/posts/capm) - CAPM 用于计算 MM 定理中的股权成本
 
 ## 延伸阅读

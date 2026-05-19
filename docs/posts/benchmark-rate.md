@@ -1,7 +1,7 @@
 ---
 title: 基准利率
-description:
-category: money-banking 利率的"锚"，影响所有借贷成本
+description: 利率的"锚"，影响所有借贷成本
+category: money-banking
 ---
 
 # 基准利率

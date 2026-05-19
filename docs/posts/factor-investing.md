@@ -172,9 +172,23 @@ $$f_i = \alpha + \beta_1 \cdot \text{Industry}_i + \beta_2 \cdot \text{Size}_i +
 
 - [Alpha 与 Beta](/posts/alpha-beta)：因子投资本质上是寻找结构化的 Beta 和 Alpha
 - [市场中性策略](/posts/market-neutral-strategy)：市场中性策略常用因子模型来剥离市场风险
-- [统计套利](/posts/statistical-arbitrage)：统计套利常利用因子暴露的偏离来构建交易
+- [统计套利](/posts/arbitrage)：统计套利常利用因子暴露的偏离来构建交易
 - [组合优化](/posts/portfolio-optimization)：因子投资是组合优化的重要输入
 - [有效市场假说](/posts/efficient-market-hypothesis)：因子溢价的持续存在对有效市场假说提出挑战
+
+## 中国投资者实践指南
+
+**A 股因子投资特点**：
+- A 股市场散户占比高，因子效应可能比成熟市场更显著
+- 小盘股因子在 A 股历史上表现突出，但需注意流动性风险
+- 政策因素对因子表现影响较大，如注册制改革、退市制度完善
+- 红利因子在 A 股长期有效，高股息策略受到越来越多投资者关注
+
+**实操建议**：
+- 使用 AKShare、Tushare 等免费数据源获取 A 股财务数据
+- 在 JoinQuant、RiceQuant 等平台上回测因子策略
+- 关注中证指数公司发布的 Smart Beta 指数，可直接购买对应 ETF
+- 因子投资需要耐心，单一因子可能连续 2-3 年跑输市场
 
 ## 延伸阅读
 

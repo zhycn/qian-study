@@ -240,11 +240,19 @@ for epoch in range(num_epochs):
 
 ## 与其他概念的关系
 
-- [机器学习投资](/posts/machine-learning-investing) - 深度学习是机器学习的子领域
+- [机器学习投资](/posts/deep-learning-quant) - 深度学习是机器学习的子领域
 - [另类数据](/posts/alternative-data) - 深度学习特别擅长处理另类数据中的非结构化信息
 - [高频交易](/posts/high-frequency-trading) - 深度学习在高频场景中有独特应用
 - [黑箱与可解释性](/posts/black-box-explainability) - 深度学习是最典型的黑箱模型
 - [过拟合](/posts/overfitting) - 深度学习在金融数据中极易过拟合
+
+## 中国投资者深度学习提示
+
+- **算力门槛**：深度学习需要 GPU 算力，个人投资者可考虑使用阿里云、腾讯云等云服务
+- **数据获取**：A 股数据可用 Tushare、AKShare 等免费数据源，但高频数据需付费
+- **实用建议**：个人投资者建议从树模型（XGBoost/LightGBM）开始，深度学习投入产出比可能不高
+- **Qlib 框架**：微软开源的 Qlib 支持 A 股数据，是 AI 量化的好起点
+- **合规注意**：使用深度学习进行量化交易需遵守交易所规定，避免异常交易行为
 
 ## 延伸阅读
 

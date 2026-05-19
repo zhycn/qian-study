@@ -1,7 +1,7 @@
 ---
 title: LPR
-description:
-category: money-banking 贷款市场报价利率，中国房贷的定价基准
+description: 贷款市场报价利率，中国房贷的定价基准
+category: money-banking
 ---
 
 # LPR

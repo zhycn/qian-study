@@ -1,7 +1,7 @@
 ---
 title: 前景理论
-description:
-category: finance-theory 卡尼曼：人在面对收益时风险厌恶，面对损失时风险偏好
+description: 卡尼曼：人在面对收益时风险厌恶，面对损失时风险偏好
+category: finance-theory
 ---
 
 # 前景理论

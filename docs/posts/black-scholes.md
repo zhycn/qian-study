@@ -1,7 +1,7 @@
 ---
 title: 布莱克-斯科尔斯模型
-description:
-category: finance-theory 期权定价的经典公式，金融学中最著名的数学模型之一，荣获诺贝尔奖
+description: 期权定价的经典公式，金融学中最著名的数学模型之一，荣获诺贝尔奖
+category: finance-theory
 ---
 
 # 布莱克-斯科尔斯模型
@@ -194,8 +194,8 @@ Delta 对冲是布莱克-斯科尔斯模型的核心应用：
 
 - [随机漫步](/posts/random-walk) - 布莱克-斯科尔斯模型假设股价服从几何布朗运动（随机漫步的连续形式）
 - [CAPM](/posts/capm) - 布莱克-斯科尔斯模型的推导不依赖 CAPM，而是基于无套利原理。这是两种不同的定价范式
-- [Volatility](/posts/volatility) - 波动率是布莱克-斯科尔斯模型中唯一不可直接观察的参数
-- implied-volatility - 隐含波动率是从期权价格反推出来的波动率，是布莱克-斯科尔斯模型的逆向应用
+- [波动率](/posts/volatility) - 波动率是布莱克-斯科尔斯模型中唯一不可直接观察的参数
+- [隐含波动率](/posts/volatility) - 隐含波动率是从期权价格反推出来的波动率，是布莱克-斯科尔斯模型的逆向应用
 - [MM定理](/posts/mm-theorem) - 默顿将布莱克-斯科尔斯模型应用于公司负债定价，建立了与 MM 定理的联系
 
 ## 延伸阅读

@@ -1,7 +1,7 @@
 ---
 title: 银行挤兑
-description:
-category: money-banking 大家一起取钱，银行真的会没钱
+description: 大家一起取钱，银行真的会没钱
+category: money-banking
 ---
 
 # 银行挤兑

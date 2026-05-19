@@ -210,10 +210,17 @@ def purged_cv_score(model, X, y, embargo_days=5, n_splits=5):
 ## 与其他概念的关系
 
 - [回测](/posts/backtesting) - 过拟合最常出现在回测环节
-- [策略衰减](/posts/strategy-decay) - 过拟合的策略衰减速度更快
+- [策略衰减](/posts/alpha-beta) - 过拟合的策略衰减速度更快
 - [量化风险管理](/posts/quant-risk-management) - 风险管理帮助控制过拟合策略造成的亏损
 - [因子投资](/posts/factor-investing) - 因子挖掘过程中极易产生过拟合
-- [机器学习投资](/posts/machine-learning-investing) - 机器学习模型过拟合风险更高
+- [机器学习投资](/posts/deep-learning-quant) - 机器学习模型过拟合风险更高
+
+## 中国投资者防过拟合提示
+
+- **A 股政策市特征**：A 股受政策影响较大，历史规律可能因政策变化而失效
+- **注册制改革**：A 股从核准制向注册制过渡，市场结构变化导致历史规律可能不适用
+- **涨跌停限制**：A 股涨跌停制度导致价格行为与成熟市场不同，回测需特殊处理
+- **建议**：A 股策略回测周期应包含 2015 年股灾、2018 年贸易战、2020 年疫情等极端事件
 
 ## 延伸阅读
 

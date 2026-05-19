@@ -236,7 +236,7 @@ $$
 
 - 过度负债（[资本结构](/posts/capital-structure) 失衡）是破产的主因
 - 破产前公司的 [资产负债表](/posts/balance-sheet) 通常已严重恶化
-- 破产清算时 [估值](/posts/valuation) 方法转向清算价值法
+- 破产清算时 [DCF（现金流折现）](/posts/dcf) 方法转向清算价值法
 - 破产成本是 [WACC](/posts/wacc) 中间接考虑的因素（财务困境成本）
 - 破产风险影响债务成本（Rd），进而影响 WACC
 - [并购](/posts/ma) 中的困境资产收购（Distressed M&A）是特殊的并购类型

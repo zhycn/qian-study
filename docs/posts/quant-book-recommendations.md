@@ -240,7 +240,15 @@ Advances in Financial ML → Qlib 文档 → 学术论文
 - [回测](/posts/backtesting) - 策略开发类书籍的重点内容
 - [因子投资](/posts/factor-investing) - Finding Alphas 等书籍的研究方向
 - [著名量化基金](/posts/famous-quant-funds) - 了解行业标杆，激发学习动力
-- [机器学习投资](/posts/machine-learning-investing) - Advances in Financial ML 等书籍的主题
+- [机器学习投资](/posts/deep-learning-quant) - Advances in Financial ML 等书籍的主题
+
+## 中国投资者阅读建议
+
+- **中文优先**：初学者可先阅读中文译本，建立直觉后再读英文原版
+- **A 股特色**：国外教材基于成熟市场，A 股投资者需结合中国市场特点理解
+- **实战结合**：边读书边在 JoinQuant 等平台实践，效果远好于纯理论学习
+- **政策关注**：A 股受政策影响较大，建议同时关注证监会、央行等官方政策文件
+- **社区学习**：加入聚宽社区、掘金量化社区等中文量化社区，交流学习经验
 
 ## 延伸阅读
 

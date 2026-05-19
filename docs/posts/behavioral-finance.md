@@ -1,7 +1,7 @@
 ---
 title: 行为金融学
-description:
-category: finance-theory 人不是理性的，心理偏差会系统性地影响投资决策
+description: 人不是理性的，心理偏差会系统性地影响投资决策
+category: finance-theory
 ---
 
 # 行为金融学

@@ -1,7 +1,7 @@
 ---
 title: 货币乘数
-description:
-category: money-banking 1 元基础货币如何变成 N 元广义货币
+description: 1 元基础货币如何变成 N 元广义货币
+category: money-banking
 ---
 
 # 货币乘数

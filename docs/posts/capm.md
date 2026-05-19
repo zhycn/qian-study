@@ -1,7 +1,7 @@
 ---
 title: CAPM
-description:
-category: finance-theory 资本资产定价模型，描述风险与收益之间的数学关系
+description: 资本资产定价模型，描述风险与收益之间的数学关系
+category: finance-theory
 ---
 
 # CAPM
@@ -158,7 +158,7 @@ $$\alpha = R_p - [R_f + \beta_p(R_m - R_f)]$$
 - [有效市场假说](/posts/efficient-market-hypothesis) - 有效市场假说是 CAPM 的前提假设之一
 - [布莱克-斯科尔斯模型](/posts/black-scholes) - 两者都建立在无套利定价原理之上
 - [Wacc](/posts/wacc) - 加权平均资本成本中股权成本的计算常用 CAPM
-- systematic-risk - 系统性风险是 CAPM 中唯一被定价的风险
+- [风险与收益](/posts/risk-return) - 系统性风险是 CAPM 中唯一被定价的风险
 - [行为金融学](/posts/behavioral-finance) - 行为金融学对 CAPM 的理性投资者假设提出了挑战
 
 ## 延伸阅读

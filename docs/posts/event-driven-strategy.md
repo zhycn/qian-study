@@ -197,9 +197,17 @@ def deal_failure_risk(deal_type, regulatory_risk, financing_risk):
 
 - [市场中性策略](/posts/market-neutral-strategy)：并购套利通常采用市场中性架构
 - [因子投资](/posts/factor-investing)：事件可以作为特殊因子纳入多因子模型
-- [行为金融学](/posts/behavioral-finance)：投资者对事件的反应不足或过度反应是事件驱动的基础
+- [行为金融学](/posts/herd-behavior)：投资者对事件的反应不足或过度反应是事件驱动的基础
 - [有效市场假说](/posts/efficient-market-hypothesis)：事件驱动策略的存在说明市场对信息的消化不是瞬间完成的
 - [信号生成](/posts/signal-generation)：事件是信号生成的重要触发条件
+
+## 中国投资者事件驱动提示
+
+- **A 股事件特征**：A 股政策事件、重组事件、财报事件对股价影响较大
+- **涨跌停限制**：A 股涨跌停制度可能导致事件驱动策略无法及时入场
+- **信息披露**：A 股信息披露制度日益完善，但内幕交易风险仍需警惕
+- **实操建议**：个人投资者可关注财报超预期、指数调整等公开事件，避免涉及内幕信息
+- **数据源**：巨潮资讯网、上交所、深交所官网是获取 A 股公告的权威渠道
 
 ## 延伸阅读
 

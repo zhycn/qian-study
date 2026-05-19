@@ -10,9 +10,9 @@ category: history
 
 ## 概述
 
-1997 年 7 月 2 日（来源：维基百科，1997），泰国政府宣布放弃实行了十余年的固定汇率制（fixed exchange rate regime），泰铢当天暴跌 17%（来源：IMF，1998）。这成为亚洲金融风暴（Asian Financial Crisis）的起点，也标志着"亚洲经济奇迹"的幻灭。
+1997 年 7 月 2 日（来源：IMF, "IMF Survey", July 1997），泰国政府宣布放弃实行了十余年的固定汇率制（fixed exchange rate regime），泰铢当天暴跌 17%（来源：IMF, "Thailand: Selected Issues", 1998）。这成为亚洲金融风暴（Asian Financial Crisis）的起点，也标志着"亚洲经济奇迹"的幻灭。
 
-在此之前，东南亚国家（泰国、印尼、马来西亚、菲律宾等）经历了十多年的经济高速增长，年均 GDP 增长率普遍在 8% 以上（来源：世界银行，1993），被世界银行誉为"东亚奇迹"（East Asian Miracle）。但这些繁荣背后隐藏着严重的结构性问题：外债高企、经常账户赤字（current account deficit）、房地产泡沫、以及脆弱的金融体系。
+在此之前，东南亚国家（泰国、印尼、马来西亚、菲律宾等）经历了十多年的经济高速增长，年均 GDP 增长率普遍在 8% 以上（来源：世界银行, "The East Asian Miracle: Economic Growth and Public Policy", 1993），被世界银行誉为"东亚奇迹"（East Asian Miracle）。但这些繁荣背后隐藏着严重的结构性问题：外债高企、经常账户赤字（current account deficit）、房地产泡沫、以及脆弱的金融体系。
 
 国际对冲基金（以乔治·索罗斯 George Soros 的量子基金 Quantum Fund 最为著名）看准了这些弱点，大举做空泰铢等货币。泰铢崩盘后，多米诺骨牌效应迅速蔓延：印尼盾暴跌 80%、马来西亚林吉特贬值 40%、菲律宾比索贬值 35%、韩元贬值 50%（来源：IMF，1998）。韩国外汇储备一度枯竭到只够支付几天进口，被迫向国际货币基金组织（IMF）申请 580 亿美元紧急贷款——这是 IMF 历史上最大规模的救助行动（来源：IMF，1997）。
 
@@ -131,7 +131,7 @@ category: history
 
 ## 与其他概念的关系
 
-- [不可能三角](/posts/exchange-rate)：固定汇率、资本自由流动和货币政策独立性不可兼得
+- [不可能三角](/posts/forex)：固定汇率、资本自由流动和货币政策独立性不可兼得
 - [广场协议](/posts/plaza-accord)：美元走强间接削弱了东南亚出口竞争力
 - [外汇储备](/posts/forex)：危机后各国疯狂囤积外汇储备的"创伤后应激反应"
 - [资本管制](/posts/capital-controls)：马来西亚在危机中实施资本管制，引发了广泛争议

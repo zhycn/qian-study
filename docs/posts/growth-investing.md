@@ -112,12 +112,11 @@ category: strategies
 ## 与其他概念的关系
 
 - [PEG 指标](/posts/pe-ratio) - 结合市盈率和增长率的估值工具
-- [护城河](/posts/value-investing) - 成长公司维持增长的关键
-- [价值投资](/posts/value-investing) - 成长投资的"对立"流派，但两者可以结合
+- [价值投资](/posts/value-investing) - 成长投资的"对立"流派，但两者可以结合（护城河概念详见此文）
 - [趋势跟踪](/posts/trend-following) - 成长股往往形成强烈的上升趋势
 - [技术分析](/posts/technical-analysis) - 辅助判断成长股的买卖时机
-- [S 曲线](/posts/growth-investing) - 描述成长公司生命周期的模型
-- [网络效应](/posts/growth-investing) - 很多成长公司的核心护城河
+- [指数投资](/posts/index-investing) - 成长与价值可结合使用
+- [规模经济](/posts/economies-of-scale) - 很多成长公司的核心竞争优势
 
 ## 延伸阅读
 

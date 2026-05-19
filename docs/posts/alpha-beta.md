@@ -201,6 +201,14 @@ $$\alpha_t = \alpha_0 \cdot e^{-\lambda t}$$
 - [市场中性策略](/posts/market-neutral-strategy)：市场中性策略追求纯 Alpha
 - [有效市场假说](/posts/efficient-market-hypothesis)：市场越有效，Alpha 越难获取
 
+## 中国投资者 Alpha/Beta 实践
+
+- **A 股 Beta 获取**：通过沪深 300、中证 500 等指数基金低成本获取市场收益
+- **A 股 Alpha 挑战**：A 股散户占比高，理论上 Alpha 机会更多，但竞争也在加剧
+- **指数增强基金**：A 股指数增强基金是获取 Beta + Alpha 的便捷工具
+- **量化私募**：国内量化私募产品众多，但需仔细甄别，关注长期业绩而非短期收益
+- **费率对比**：A 股指数基金费率已降至 0.15% 以下，主动基金费率 1.2%-1.5%
+
 ## 延伸阅读
 
 - Grinold, "The Fundamental Law of Active Management" (1989)

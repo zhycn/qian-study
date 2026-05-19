@@ -213,6 +213,14 @@ def portfolio_optimization(mu, Sigma, lambda_risk=1.0):
 - [交易成本分析](/posts/transaction-cost-analysis)：再平衡成本是组合优化的重要约束
 - [风险管理](/posts/quant-risk-management)：组合优化是风险管理的核心工具
 
+## 中国投资者组合优化提示
+
+- **A 股相关性特征**：A 股股票之间相关性较高，分散化效果可能不如成熟市场
+- **行业限制**：A 股行业集中度较高，组合优化需考虑行业分散
+- **做空限制**：A 股做空成本高、限制多，组合优化通常不允许做空
+- **实操建议**：个人投资者可使用 PyPortfolioOpt 等开源工具进行组合优化
+- **数据源**：A 股数据可用 Tushare、AKShare 等免费数据源获取
+
 ## 延伸阅读
 
 - Markowitz, "Portfolio Selection" (1952)

@@ -132,10 +132,10 @@ category: history
 
 ## 与其他概念的关系
 
-- [主权债务](/posts/sovereign-debt)：政府债务违约风险的核心概念，希腊是典型案例
-- [量化宽松](/posts/quantitative-easing)：欧洲央行在危机中推出大规模资产购买计划
+- [主权债务](/posts/subprime-crisis)：政府债务违约风险的核心概念，希腊是典型案例
+- [量化宽松](/posts/plaza-accord)：欧洲央行在危机中推出大规模资产购买计划
 - [次贷危机](/posts/subprime-crisis)：2008 年全球金融危机是欧债危机的外部触发因素
-- [货币政策](/posts/monetary-policy)：欧元区统一货币政策与各国差异化经济需求的矛盾
+- [货币政策](/posts/business-cycle)：欧元区统一货币政策与各国差异化经济需求的矛盾
 
 ## 延伸阅读
 

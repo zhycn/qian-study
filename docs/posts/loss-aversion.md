@@ -1,7 +1,7 @@
 ---
 title: 损失厌恶
-description:
-category: finance-theory 亏 100 块的痛苦远大于赚 100 块的快乐
+description: 亏 100 块的痛苦远大于赚 100 块的快乐
+category: finance-theory
 ---
 
 # 损失厌恶
@@ -37,7 +37,7 @@ category: finance-theory 亏 100 块的痛苦远大于赚 100 块的快乐
 
 $$v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda(-x)^\beta & x < 0 \end{cases}$$
 
-其中 $\lambda$ 就是损失厌恶系数（Loss Aversion Coefficient）。卡尼曼和特沃斯基的原始估计 $\lambda \approx 2.25$（来源：Tversky & Kahneman, 1992），后续研究的估计范围在 1.5 到 2.75 之间（来源：维基百科，损失厌恶）。
+其中 $\lambda$ 就是损失厌恶系数（Loss Aversion Coefficient）。卡尼曼和特沃斯基的原始估计 $\lambda \approx 2.25$（来源：Tversky & Kahneman, 1992），后续研究的估计范围在 1.5 到 2.75 之间（来源：行为经济学元分析研究）。
 
 这意味着：**1 元的损失在心理上的影响 ≈ 2.25 元的收益**。
 
@@ -148,7 +148,7 @@ Mehra 和 Prescott（1985）（来源：Mehra & Prescott, 1985）发现，历史
 ## 与其他概念的关系
 
 - [前景理论](/posts/prospect-theory) - 损失厌恶是前景理论的核心组成部分
-- disposition-effect - 处置效应是损失厌恶在投资中的表现
+- 处置效应（Disposition Effect） - 处置效应是损失厌恶在投资中的表现
 - [行为金融学](/posts/behavioral-finance) - 损失厌恶是行为金融学的基石概念之一
 - [过度自信](/posts/overconfidence) - 过度自信有时会与损失厌恶产生相反的效应（过度自信可能让人不愿止损）
 - [锚定效应](/posts/anchoring-effect) - 以买入价为锚，亏损时不愿卖出，是两种偏差的叠加

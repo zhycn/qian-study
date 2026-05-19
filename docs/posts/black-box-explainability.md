@@ -225,7 +225,14 @@ shap.force_plot(explainer.expected_value, shap_values[0], X_test.iloc[0])
 - [量化风险管理](/posts/quant-risk-management) - 风险管理需要理解模型的决策逻辑
 - [过拟合](/posts/overfitting) - 黑箱模型更容易过拟合，因为复杂的内部结构难以被审查
 - [深度学习与量化](/posts/deep-learning-quant) - 深度学习是最典型的黑箱模型
-- [机器学习投资](/posts/machine-learning-investing) - ML 投资的可解释性是核心议题
+- [机器学习投资](/posts/deep-learning-quant) - ML 投资的可解释性是核心议题
+
+## 中国监管与可解释性
+
+- **监管要求**：中国证监会对算法交易有透明度要求，金融机构需能够解释投资决策
+- **个人信息保护**：《个人信息保护法》要求算法决策具备可解释性
+- **金融科技监管**：央行金融科技创新监管试点强调算法透明度和公平性
+- **建议**：使用 SHAP、LIME 等工具提升模型可解释性，满足监管合规要求
 
 ## 延伸阅读
 

@@ -1,7 +1,7 @@
 ---
 title: 学习资源
-description:
-category: tools 金融课程、社区、播客、书籍推荐
+description: 金融课程、社区、播客、书籍推荐
+category: tools
 ---
 
 # 学习资源
@@ -16,7 +16,7 @@ category: tools 金融课程、社区、播客、书籍推荐
 | **金融学原理**      | Coursera | 宾大 Wharton            | 系统学习金融基础       | [链接](https://www.coursera.org/learn/wharton-finance)                |
 | **投资学**          | MIT OCW  | MIT Andrew Lo           | 世界级投资课程         | [链接](https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008) |
 | **行为金融学**      | Coursera | 杜克大学 Dan Ariely     | 心理学与金融的交叉     | [链接](https://www.coursera.org/learn/behavioral-finance)             |
-| **Python 量化金融** | Udemy    | 多位讲师                | 实战导向，边学边做     | [链接](https://www.udemy.com)                                         |
+| **Python 量化金融** | Udemy    | 多位讲师                | 实战导向，边学边做     | [链接](https://www.udemy.com/courses/search/?q=quantitative+finance+python) |
 | **CFA 课程**        | 各大平台 | CFA Institute           | 金融从业标准认证       | [官网](https://www.cfainstitute.org)                                  |
 
 ## 投资社区
@@ -73,4 +73,14 @@ category: tools 金融课程、社区、播客、书籍推荐
 - **零基础入门**：《小狗钱钱》+ 知行小酒馆
 - **系统学习**：Coursera 金融市场课程 + 《漫步华尔街》
 - **价值投资**：《聪明的投资者》+ 雪球社区
-- **量化方向**：《打开量化投资的黑箱》+ 聚宽平台
+- **量化方向**：《打开量化投资的黑箱》+ 聚宽平台/JoinQuant
+- **A 股实战**：雪球社区 + 集思录 + 《投资最重要的事》
+
+## 中国本土学习资源
+
+- **聚宽**（JoinQuant）：国内领先的量化交易平台，提供免费策略回测环境
+- **米筐**（RiceQuant）：量化投研平台，支持 A 股、期货、基金等多品种
+- **优矿**（Uqer）：通联数据旗下量化平台
+- **雪球**：国内最大投资社区，适合学习价值投资和跟踪市场动态
+- **集思录**：低风险投资社区，专注可转债、套利、分级基金等
+- **中国大学 MOOC**：中央财经大学、清华大学等高校的免费金融课程

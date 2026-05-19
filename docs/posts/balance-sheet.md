@@ -223,7 +223,7 @@ $$
 
 - 与 [利润表](/posts/income-statement) 配合使用：利润表的净利润进入资产负债表的未分配利润
 - 与 [现金流量表](/posts/cash-flow-statement) 结合：资产负债表的现金变动由现金流量表解释
-- 是计算 [估值](/posts/valuation) 的重要数据来源，尤其是 PB 倍数法
+- 是计算 [估值](/posts/dcf) 的重要数据来源，尤其是 PB 倍数法
 - [资本结构](/posts/capital-structure) 直接来自资产负债表的负债与权益比例
 - 过度负债可能最终导致 [破产](/posts/bankruptcy)
 

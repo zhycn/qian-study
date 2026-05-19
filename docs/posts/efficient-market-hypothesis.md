@@ -1,7 +1,7 @@
 ---
 title: 有效市场假说
-description:
-category: finance-theory 股价已经反映了所有已知信息，你很难持续跑赢市场
+description: 股价已经反映了所有已知信息，你很难持续跑赢市场
+category: finance-theory
 ---
 
 # 有效市场假说

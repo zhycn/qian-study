@@ -33,7 +33,7 @@ category: derivatives
 
 ### 期权定价
 
-期权定价是金融工程的核心课题。1973 年（来源：维基百科，1973 年），费希尔·布莱克（Fischer Black）和迈伦·斯科尔斯（Myron Scholes）提出了著名的 **Black-Scholes 模型**，为欧式期权提供了闭式定价公式：
+期权定价是金融工程的核心课题。1973 年，费希尔·布莱克（Fischer Black）和迈伦·斯科尔斯（Myron Scholes）提出了著名的 **Black-Scholes 模型**。
 
 $$C = S \times N(d_1) - K \times e^{-rT} \times N(d_2)$$
 

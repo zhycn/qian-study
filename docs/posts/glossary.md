@@ -1,6 +1,6 @@
 ---
 title: 金融百科
-description: 金融百科收录 188 个金融术语，用大白话解释金融世界的底层逻辑——从基础概念到量化投资，从个人理财到金融科技，让普通人也能看懂高冷术语
+description: 金融百科收录 264 个金融术语，用大白话解释金融世界的底层逻辑——从基础概念到量化投资，从个人理财到金融科技，让普通人也能看懂高冷术语
 category: reference
 ---
 
@@ -22,6 +22,10 @@ category: reference
 | [风险与收益](/posts/risk-return)     | 高收益必伴高风险，天下没有免费午餐       |
 | [复利](/posts/compound-interest)     | 世界第八大奇迹，利滚利的魔力             |
 | [机会成本](/posts/opportunity-cost)  | 选择 A 就意味着放弃 B 的价值             |
+| [货币时间价值](/posts/time-value-of-money) | 今天的 100 元比明天的 100 元更值钱     |
+| [名义利率 vs 实际利率](/posts/nominal-vs-real-rate) | 费雪方程：扣除通胀后的真实收益率 |
+| [购买力](/posts/purchasing-power) | 一笔钱能买到多少商品和服务           |
+| [资产 vs 负债](/posts/assets-vs-liabilities) | 你拥有的 vs 你欠的                   |
 
 ## 货币与银行
 
@@ -37,6 +41,12 @@ category: reference
 | [影子银行](/posts/shadow-banking)          | 不在监管视线内的"地下"信贷体系       |
 | [银行挤兑](/posts/bank-run)                | 大家一起取钱，银行真的会没钱         |
 | [最后贷款人](/posts/lender-of-last-resort) | 央行在危机时刻的"救市"角色           |
+| [投资银行](/posts/investment-bank) | 服务于企业客户的资本市场中介           |
+| [证券公司/券商](/posts/securities-firm) | 中国特色的投行，连接投资者和资本市场   |
+| [评级机构](/posts/credit-rating-agency) | 穆迪、标普、惠誉，债券市场的"裁判"     |
+| [政策性银行](/posts/policy-bank) | 国开行、进出口银行，服务国家战略       |
+| [信托公司](/posts/trust-company) | "受人之托，代人理财"的金融机构         |
+| [金融控股公司](/posts/financial-holding-company) | 一个集团控股多家金融牌照               |
 
 ## 投资市场
 
@@ -54,6 +64,14 @@ category: reference
 | [牛市与熊市](/posts/bull-bear-market) | 市场上涨叫牛，下跌叫熊           |
 | [做空](/posts/short-selling)          | 先借来卖，等跌了再买回来赚差价   |
 | [融资融券](/posts/margin-trading)     | 借钱买股，借股卖钱，杠杆交易     |
+| [REITs](/posts/reits) | 房地产投资信托，普通人也能当房东           |
+| [可转债](/posts/convertible-bond) | 可以变成股票的债券                         |
+| [优先股](/posts/preferred-stock) | 分红优先、投票靠后的股票                   |
+| [做市商](/posts/market-maker) | 提供流动性，买卖双向报价                   |
+| [一级市场 vs 二级市场](/posts/primary-secondary-market) | 发行市场 vs 交易市场                       |
+| [暗池交易](/posts/dark-pool) | 机构投资者的"秘密花园"                     |
+| [债券收益率曲线](/posts/yield-curve) | 预测经济衰退的"水晶球"                     |
+| [大宗商品市场](/posts/commodities-market) | 石油、黄金、铜的全球定价中心               |
 
 ## 衍生品与风控
 
@@ -69,6 +87,8 @@ category: reference
 | [VaR](/posts/var)           | 在险价值，最多可能亏多少钱       |
 | [保证金](/posts/margin)     | 衍生品交易的"押金"               |
 | [爆仓](/posts/liquidation)  | 亏到押金不够，被强制平仓         |
+| [CDS 信用违约互换](/posts/cds) | 债券的"保险单"，次贷危机的放大器   |
+| [MBS/CDO](/posts/mbs-cdo) | 把房贷打包成证券的金融工程             |
 
 ## 公司金融
 
@@ -84,6 +104,15 @@ category: reference
 | [并购](/posts/ma)                        | 公司之间的"联姻"与"吞并"             |
 | [回购](/posts/share-buyback)             | 公司花钱买回自己的股票               |
 | [破产](/posts/bankruptcy)                | 资不抵债后的法律程序                 |
+| [ROE/ROA/ROIC](/posts/roe-roa-roic) | 核心盈利能力指标，巴菲特最爱               |
+| [自由现金流 FCF](/posts/free-cash-flow) | 公司真正能自由支配的现金                 |
+| [财务比率分析](/posts/financial-ratios) | 流动比率、速动比率、资产负债率           |
+| [PE/VC](/posts/pe-vc) | 私募股权和风险投资，创业者的"伯乐"         |
+| [尽职调查](/posts/due-diligence) | 投资前的"全面体检"                         |
+| [股权激励](/posts/equity-incentive) | 用公司股份留住核心人才                     |
+| [商誉](/posts/goodwill) | 并购溢价形成的无形资产                     |
+| [对赌协议](/posts/vam-agreement) | 投资人与创业者的业绩承诺                   |
+| [借壳上市](/posts/backdoor-listing) | 不走 IPO 的曲线上市路                      |
 
 ## 宏观经济
 
@@ -99,6 +128,16 @@ category: reference
 | [经济周期](/posts/business-cycle)      | 繁荣、衰退、萧条、复苏的循环                   |
 | [滞胀](/posts/stagflation)             | 经济停滞 + 通货膨胀，最糟糕的组合              |
 | [黑天鹅](/posts/black-swan)            | 极罕见、影响极大的不可预测事件                 |
+| [PMI 采购经理指数](/posts/pmi) | 经济先行指标，50 是荣枯线                    |
+| [失业率/非农就业](/posts/unemployment-rate) | 最重要的劳动力市场指标                       |
+| [社会融资规模](/posts/social-financing) | 中国特有，实体经济获得的融资总量               |
+| [美联储](/posts/federal-reserve) | 全球最重要的央行                             |
+| [中国人民银行](/posts/pboc) | 中国的央行，货币政策的制定者                 |
+| [MLF/SLF/逆回购](/posts/mlf-slf-repo) | 中国央行的货币政策工具箱                     |
+| [前瞻性指引](/posts/forward-guidance) | 央行用沟通管理市场预期                       |
+| [消费者信心指数](/posts/consumer-confidence) | 老百姓对经济前景的预期                     |
+| [基尼系数](/posts/gini-coefficient) | 衡量收入不平等程度的指标                     |
+| [财政赤字率](/posts/fiscal-deficit) | 政府花的比赚的多多少                         |
 
 ## 个人理财
 
@@ -114,6 +153,7 @@ category: reference
 | [资产配置](/posts/asset-allocation) | 不把鸡蛋放在一个篮子里           |
 | [紧急备用金](/posts/emergency-fund) | 应对突发状况的"救命钱"           |
 | [信用评分](/posts/credit-score)     | 你的"金融身份证"分数             |
+| [预算与记账](/posts/budgeting-bookkeeping) | 管好自己的钱，从记录开始             |
 
 ## 金融科技
 
@@ -129,6 +169,12 @@ category: reference
 | [监管科技](/posts/regtech)           | 用技术帮金融机构满足监管要求     |
 | [大数据风控](/posts/big-data-credit) | 用海量数据评估信用风险           |
 | [数字人民币](/posts/digital-yuan)    | 中国央行发行的数字货币           |
+| [众筹](/posts/crowdfunding) | 众人拾柴火焰高，互联网融资新方式         |
+| [P2P 网贷](/posts/p2p-lending) | 个人对个人的借贷，中国有过完整周期     |
+| [供应链金融](/posts/supply-chain-finance) | 基于产业链的融资模式                     |
+| [嵌入式金融](/posts/embedded-finance) | 金融无处不在，就是不像银行             |
+| [BNPL 先买后付](/posts/bnpl) | 分期付款的消费信贷新玩法                 |
+| [RWA 代币化](/posts/rwa-tokenization) | 把现实世界资产搬上区块链               |
 
 ## 国际金融
 
@@ -144,6 +190,9 @@ category: reference
 | [特别提款权](/posts/sdr)               | IMF 创造的"超主权储备资产"                |
 | [主权债务](/posts/sovereign-debt)      | 国家借的债，也会还不起                    |
 | [贸易逆差/顺差](/posts/trade-balance)  | 进出口贸易的盈亏状况                      |
+| [IMF/世界银行](/posts/imf-world-bank) | 全球金融稳定的守护者                        |
+| [存托凭证 ADR/GDR](/posts/adr-gdr) | 跨境上市，让股票"出国"                    |
+| [外汇储备](/posts/forex-reserves) | 国家的"外汇家底"                            |
 
 ## 经济学经典理论
 
@@ -163,6 +212,10 @@ category: reference
 | [边际成本](/posts/marginal-cost)         | 多生产一件产品需要额外花的钱                 |
 | [规模经济](/posts/economies-of-scale)    | 产量越大，单位成本越低                       |
 | [帕累托最优](/posts/pareto-efficiency)   | 无法让任何人更好而不损害他人的状态           |
+| [系统性风险](/posts/systemic-risk) | 牵一发而动全身的金融 contagion             |
+| [道德风险](/posts/moral-hazard) | 有了保险就敢冒更大风险                     |
+| [压力测试](/posts/stress-testing) | 模拟极端情况下的银行"体检"                 |
+| [尾部风险](/posts/tail-risk) | 小概率但影响极大的极端事件                 |
 
 ## 金融学核心理论
 
@@ -180,6 +233,21 @@ category: reference
 | [均值回归](/posts/mean-reversion)                  | 涨多了会跌，跌多了会涨                 |
 | [随机漫步](/posts/random-walk)                     | 股价变动不可预测，像醉汉走路           |
 | [布莱克-斯科尔斯模型](/posts/black-scholes)        | 期权定价的经典公式，诺贝尔奖级成果     |
+| [确认偏误](/posts/confirmation-bias) | 只看支持自己观点的信息                         |
+| [处置效应](/posts/disposition-effect) | 过早止盈，死扛亏损                             |
+| [心理账户](/posts/mental-accounting) | 把钱分门别类放在不同"账户"                     |
+| [Fama-French 三因子/五因子](/posts/fama-french) | 因子投资的理论基础                             |
+| [安全边际](/posts/margin-of-safety) | 格雷厄姆：用 4 毛钱买 1 块钱的东西               |
+| [戴维斯双击/双杀](/posts/davis-double-play) | 盈利和估值同时上升/下降                        |
+| [框架效应](/posts/framing-effect) | 同一件事，不同说法影响决策                     |
+| [可得性启发](/posts/availability-heuristic) | 容易想到的事就觉得更可能发生                   |
+| [赌徒谬误](/posts/gamblers-fallacy) | 连开 10 把大，下一把一定是小？                   |
+| [代表性偏误](/posts/representativeness-bias) | 以貌取人的认知偏差                             |
+| [现状偏误](/posts/status-quo-bias) | 维持现状总比改变好                             |
+| [禀赋效应](/posts/endowment-effect) | 拥有的东西就觉得更值钱                         |
+| [叙事经济学](/posts/narrative-economics) | 席勒：故事如何影响经济                         |
+| [反脆弱](/posts/antifragile) | 塔勒布：从不确定性中获益                       |
+| [套利定价理论 APT](/posts/apt) | 多因子资产定价模型                             |
 
 ## 金融史与重大危机
 
@@ -197,6 +265,10 @@ category: reference
 | [瑞信倒闭](/posts/credit-suisse-collapse)     | 2023 年瑞士信贷被瑞银收购           |
 | [硅谷银行倒闭](/posts/svb-collapse)           | 2023 年美国银行挤兑事件             |
 | [日元套利交易](/posts/yen-carry-trade)        | 借低息日元投资全球资产              |
+| [明斯基时刻](/posts/minsky-moment) | 金融不稳定假说，繁荣中孕育危机               |
+| [LTCM 倒闭](/posts/ltcm-collapse) | 天才云集的对冲基金如何爆仓                     |
+| [雷曼兄弟倒闭](/posts/lehman-brothers) | 2008 金融海啸的标志性事件                    |
+| [2015 年中国股灾](/posts/china-stock-crash-2015) | 杠杆牛疯涨后的千股跌停                       |
 
 ## 金融监管与机构
 
@@ -212,6 +284,7 @@ category: reference
 | [宏观审慎监管](/posts/macro-prudential)      | 防范整个金融体系的系统性风险       |
 | [Dodd-Frank 法案](/posts/dodd-frank)         | 次贷危机后美国最严金融监管改革     |
 | [穿透式监管](/posts/penetrative-supervision) | 看透金融产品的底层资产             |
+| [沃尔克规则](/posts/volcker-rule) | 禁止银行用自有资金做投机交易               |
 
 ## 投资流派与方法论
 
@@ -225,6 +298,9 @@ category: reference
 | [趋势跟踪](/posts/trend-following)        | 顺势而为，涨的时候追，跌的时候跑     |
 | [逆向投资](/posts/contrarian-investing)   | 别人恐慌我贪婪，别人贪婪我恐慌       |
 | [全天候策略](/posts/all-weather-strategy) | 达利欧：什么经济环境下都能赚钱的组合 |
+| [动量策略](/posts/momentum-strategy) | 强者恒强，追涨杀跌的量化版本               |
+| [杠铃策略](/posts/barbell-strategy) | 塔勒布：极端配置，避开中间                 |
+| [核心-卫星策略](/posts/core-satellite-strategy) | 宽基指数打底，个股增强                       |
 
 ## 新金融概念
 

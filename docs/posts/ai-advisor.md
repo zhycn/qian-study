@@ -169,7 +169,7 @@ AI 投顾在中国的发展受到严格监管，主要政策节点：
 - [大数据风控](/posts/credit-score)：AI 投顾依赖大数据进行风险评估和资产配置
 - [开放金融](/posts/open-finance)：开放数据为 AI 投顾提供更全面的用户画像
 - [监管科技](/posts/regtech)：AI 投顾的合规运营需要 RegTech 支持
-- [DeFi](/posts/bitcoin)：DeFi 协议也提供自动化资产管理，但风险更高
+- [DeFi](/posts/defi)：DeFi 协议也提供自动化资产管理，但风险更高
 - [资产配置](/posts/asset-allocation)：AI 投顾的核心能力就是自动化资产配置
 - [行为金融学](/posts/herd-behavior)：AI 投顾通过算法克服人类认知偏差
 - [量化投资](/posts/quantitative-investing)：AI 投顾可视为量化投资在个人理财领域的应用

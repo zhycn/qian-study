@@ -47,7 +47,7 @@ $$\text{Impact} = \sigma \cdot \sqrt{\frac{Q}{V}} \cdot \text{Price}$$
 
 ### Almgren-Chriss 模型
 
-这是执行算法领域最经典的数学框架，由 Robert Almgren 和 Neil Chriss 在 2000 年提出（来源：Almgren & Chriss, "Optimal Execution of Portfolio Transactions", Journal of Trading, 2000）。模型将总成本分解为：
+这是执行算法领域最经典的数学框架，由 Robert Almgren 和 Neil Chriss 在 2000 年提出（来源：Almgren & Chriss, "Optimal Execution of Portfolio Transactions", Journal of Risk, 2000）。模型将总成本分解为：
 
 $$\text{Total Cost} = \text{Market Impact} + \text{Timing Risk}$$
 

@@ -235,7 +235,7 @@ Advances in Financial ML → Qlib 文档 → 学术论文
 
 ## 与其他概念的关系
 
-- [什么是量化投资](/posts/what-is-quant) - 入门书籍的核心主题
+- [什么是量化投资](/posts/quantitative-investing) - 入门书籍的核心主题
 - [Python 量化生态](/posts/python-quant-ecosystem) - Python for Finance 等书籍的实操基础
 - [回测](/posts/backtesting) - 策略开发类书籍的重点内容
 - [因子投资](/posts/factor-investing) - Finding Alphas 等书籍的研究方向

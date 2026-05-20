@@ -240,7 +240,7 @@ for epoch in range(num_epochs):
 
 ## 与其他概念的关系
 
-- [机器学习投资](/posts/deep-learning-quant) - 深度学习是机器学习的子领域
+- [机器学习投资](/posts/machine-learning-investing) - 深度学习是机器学习的子领域
 - [另类数据](/posts/alternative-data) - 深度学习特别擅长处理另类数据中的非结构化信息
 - [高频交易](/posts/high-frequency-trading) - 深度学习在高频场景中有独特应用
 - [黑箱与可解释性](/posts/black-box-explainability) - 深度学习是最典型的黑箱模型

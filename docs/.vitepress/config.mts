@@ -149,7 +149,10 @@ export default withPwa(
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:locale', content: 'zh_CN' }],
       ['meta', { property: 'og:site_name', content: 'Qian Study' }],
-      ['meta', { property: 'og:image', content: 'https://zhycn.github.io/qian-study/og-image.png' }],
+      [
+        'meta',
+        { property: 'og:image', content: 'https://zhycn.github.io/qian-study/og-image.png' }
+      ],
       ['meta', { property: 'og:image:width', content: '1200' }],
       ['meta', { property: 'og:image:height', content: '630' }],
       ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -157,7 +160,10 @@ export default withPwa(
       ['meta', { name: 'google-site-verification', content: '' }],
       ['meta', { name: 'baidu-site-verification', content: '' }],
       ['meta', { name: 'author', content: 'zhycn' }],
-      ['meta', { name: 'keywords', content: '金融术语,金融知识,投资理财,量化投资,金融百科,开源知识库' }]
+      [
+        'meta',
+        { name: 'keywords', content: '金融术语,金融知识,投资理财,量化投资,金融百科,开源知识库' }
+      ]
     ],
     themeConfig: {
       nav: [

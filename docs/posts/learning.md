@@ -10,14 +10,14 @@ category: tools
 
 ## 在线课程
 
-| 课程                | 平台     | 讲师/机构               | 特点                   | 链接                                                                  |
-| ------------------- | -------- | ----------------------- | ---------------------- | --------------------------------------------------------------------- |
-| **金融市场**        | Coursera | 耶鲁大学 Robert Shiller | 诺奖得主授课，通俗易懂 | [链接](https://www.coursera.org/learn/financial-markets-global)       |
-| **金融学原理**      | Coursera | 宾大 Wharton            | 系统学习金融基础       | [链接](https://www.coursera.org/learn/wharton-finance)                |
-| **投资学**          | MIT OCW  | MIT Andrew Lo           | 世界级投资课程         | [链接](https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008) |
-| **行为金融学**      | Coursera | 杜克大学 Dan Ariely     | 心理学与金融的交叉     | [链接](https://www.coursera.org/learn/behavioral-finance)             |
+| 课程                | 平台     | 讲师/机构               | 特点                   | 链接                                                                        |
+| ------------------- | -------- | ----------------------- | ---------------------- | --------------------------------------------------------------------------- |
+| **金融市场**        | Coursera | 耶鲁大学 Robert Shiller | 诺奖得主授课，通俗易懂 | [链接](https://www.coursera.org/learn/financial-markets-global)             |
+| **金融学原理**      | Coursera | 宾大 Wharton            | 系统学习金融基础       | [链接](https://www.coursera.org/learn/wharton-finance)                      |
+| **投资学**          | MIT OCW  | MIT Andrew Lo           | 世界级投资课程         | [链接](https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008)       |
+| **行为金融学**      | Coursera | 杜克大学 Dan Ariely     | 心理学与金融的交叉     | [链接](https://www.coursera.org/learn/behavioral-finance)                   |
 | **Python 量化金融** | Udemy    | 多位讲师                | 实战导向，边学边做     | [链接](https://www.udemy.com/courses/search/?q=quantitative+finance+python) |
-| **CFA 课程**        | 各大平台 | CFA Institute           | 金融从业标准认证       | [官网](https://www.cfainstitute.org)                                  |
+| **CFA 课程**        | 各大平台 | CFA Institute           | 金融从业标准认证       | [官网](https://www.cfainstitute.org)                                        |
 
 ## 投资社区
 

@@ -187,6 +187,33 @@ export default withPwa(
             ]
           },
           {
+            text: '学术泰斗',
+            collapsed: true,
+            items: [
+              { text: '哈里·马科维茨', link: '/figures/harry-markowitz' },
+              { text: '威廉·夏普', link: '/figures/william-sharpe' },
+              { text: '罗伯特·席勒', link: '/figures/robert-shiller' }
+            ]
+          },
+          {
+            text: '实战派大师',
+            collapsed: true,
+            items: [
+              { text: '约翰·内夫', link: '/figures/john-neff' },
+              { text: '马丁·惠特曼', link: '/figures/martin-whitman' },
+              { text: '塞斯·卡拉曼', link: '/figures/seth-klarman' },
+              { text: '盖伊·斯皮尔', link: '/figures/guy-spier' }
+            ]
+          },
+          {
+            text: '机构投资大师',
+            collapsed: true,
+            items: [
+              { text: '马克·塞勒恩', link: '/figures/mark-sellemen' },
+              { text: '大卫·史文森', link: '/figures/howard-hughes' }
+            ]
+          },
+          {
             text: '现代巨匠（1970s-2000s）',
             collapsed: true,
             items: [
@@ -229,7 +256,10 @@ export default withPwa(
               { text: '葛卫东', link: '/figures/weidong-ge' },
               { text: '王亚伟', link: '/figures/yawei-wang' },
               { text: '徐翔', link: '/figures/xiang-xu' },
-              { text: '赵丹阳', link: '/figures/danyang-zhao' }
+              { text: '赵丹阳', link: '/figures/danyang-zhao' },
+              { text: '陈光明', link: '/figures/guangming-chen' },
+              { text: '周蔚文', link: '/figures/shouwen-zhou' },
+              { text: '朱少醒', link: '/figures/shaoxing-zhu' }
             ]
           }
         ],

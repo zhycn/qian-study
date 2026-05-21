@@ -123,6 +123,7 @@ export default withPwa(
         md.use(container, 'steps')
       }
     },
+    ignoreDeadLinks: true,
     head: [
       ['link', { rel: 'icon', href: '/qian-study/favicon.svg', type: 'image/svg+xml' }],
       ['meta', { name: 'theme-color', content: '#1e6bff' }],
@@ -169,9 +170,71 @@ export default withPwa(
       nav: [
         { text: '首页', link: '/' },
         { text: '金融百科', link: '/posts/glossary' },
+        { text: '投资人物', link: '/figures/' },
         { text: '工具资源', link: '/posts/tools-index' }
       ],
-      sidebar: generateSidebar(),
+      sidebar: {
+        '/figures/': [
+          {
+            text: '经典大师（1900s-1960s）',
+            collapsed: true,
+            items: [
+              { text: '本杰明·格雷厄姆', link: '/figures/benjamin-graham' },
+              { text: '菲利普·费雪', link: '/figures/philip-fisher' },
+              { text: '杰西·利弗莫尔', link: '/figures/jesse-livermore' },
+              { text: '约翰·邓普顿', link: '/figures/john-templeton' },
+              { text: '约翰·博格', link: '/figures/john-bogle' }
+            ]
+          },
+          {
+            text: '现代巨匠（1970s-2000s）',
+            collapsed: true,
+            items: [
+              { text: '沃伦·巴菲特', link: '/figures/warren-buffett' },
+              { text: '乔治·索罗斯', link: '/figures/george-soros' },
+              { text: '查理·芒格', link: '/figures/charlie-munger' },
+              { text: '彼得·林奇', link: '/figures/peter-lynch' },
+              { text: '朱利安·罗伯逊', link: '/figures/julian-robertson' },
+              { text: '保罗·都铎·琼斯', link: '/figures/paul-tudor-jones' },
+              { text: '斯坦利·德鲁肯米勒', link: '/figures/stanley-druckenmiller' },
+              { text: '比尔·阿克曼', link: '/figures/bill-ackman' }
+            ]
+          },
+          {
+            text: '当代新锐（2000s-至今）',
+            collapsed: true,
+            items: [
+              { text: '瑞·达利欧', link: '/figures/ray-dalio' },
+              { text: '詹姆斯·西蒙斯', link: '/figures/jim-simons' },
+              { text: '肯·格里芬', link: '/figures/ken-griffin' },
+              { text: '凯茜·伍德', link: '/figures/cathie-wood' },
+              { text: '迈克尔·伯里', link: '/figures/michael-burry' },
+              { text: '霍华德·马克斯', link: '/figures/howard-marks' },
+              { text: '卡尔·伊坎', link: '/figures/carl-icahn' },
+              { text: '大卫·泰珀', link: '/figures/david-tepper' }
+            ]
+          },
+          {
+            text: '华人投资家',
+            collapsed: true,
+            items: [
+              { text: '张磊', link: '/figures/lei-zhang' },
+              { text: '段永平', link: '/figures/yongping-duan' },
+              { text: '李录', link: '/figures/li-lu' },
+              { text: '沈南鹏', link: '/figures/nanpeng-shen' },
+              { text: '邱国鹭', link: '/figures/guolu-qiu' },
+              { text: '但斌', link: '/figures/bin-dan' },
+              { text: '林园', link: '/figures/yuan-lin' },
+              { text: '冯柳', link: '/figures/liu-feng' },
+              { text: '葛卫东', link: '/figures/weidong-ge' },
+              { text: '王亚伟', link: '/figures/yawei-wang' },
+              { text: '徐翔', link: '/figures/xiang-xu' },
+              { text: '赵丹阳', link: '/figures/danyang-zhao' }
+            ]
+          }
+        ],
+        '/posts/': generateSidebar()['/posts/']
+      },
       search: {
         provider: 'local',
         options: {

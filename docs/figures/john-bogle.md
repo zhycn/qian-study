@@ -409,10 +409,10 @@ tags:
 
 ### 相关概念
 
-- [[index-fund|指数基金]]
-- [[passive-investing|被动投资]]
-- [[dca|定投]]
-- [[expense-ratio|管理费率]]
+- [指数基金](/posts/index-fund)
+- [被动投资](/posts/passive-investing)
+- [定投](/posts/dca)
+- [管理费率](/posts/expense-ratio)
 
 ### 相关人物
 

@@ -381,12 +381,12 @@ RJR Nabisco 是 1980 年代最著名的杠杆收购案例之一。
 
 ### 相关概念
 
-- [[activist-investing|激进投资]]
-- [[proxy-fight|代理权争夺]]
-- [[shareholder-rights|股东权利]]
-- [[leveraged-buyout|杠杆收购]]
-- [[poison-pill|毒丸计划]]
-- [[value-unlocking|价值释放]]
+- [激进投资](/posts/activist-investing)
+- [代理权争夺](/posts/proxy-fight)
+- [股东权利](/posts/shareholder-rights)
+- [杠杆收购](/posts/leveraged-buyout)
+- [毒丸计划](/posts/poison-pill)
+- [价值释放](/posts/value-unlocking)
 
 ### 相关人物
 

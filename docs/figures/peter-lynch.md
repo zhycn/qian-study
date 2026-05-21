@@ -415,10 +415,10 @@ The Limited 是林奇"快速成长股"投资的经典案例。
 
 ### 相关概念
 
-- [[peg-ratio|PEG 指标]]
-- [[growth-investing|成长投资]]
-- [[value-investing|价值投资]]
-- [[circle-of-competence|能力圈]]
+- [PEG 指标](/posts/peg-ratio)
+- [成长投资](/posts/growth-investing)
+- [价值投资](/posts/value-investing)
+- [能力圈](/posts/circle-of-competence)
 
 ### 相关人物
 

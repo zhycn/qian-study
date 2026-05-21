@@ -394,12 +394,12 @@ Citadel 的选股完全由模型驱动：
 
 ### 相关概念
 
-- [[multi-strategy-fund|多策略基金]]
-- [[market-making|做市商]]
-- [[high-frequency-trading|高频交易]]
-- [[quantitative-investing|量化投资]]
-- [[risk-management|风险管理]]
-- [[factor-investing|因子投资]]
+- [多策略基金](/posts/multi-strategy-fund)
+- [做市商](/posts/market-making)
+- [高频交易](/posts/high-frequency-trading)
+- [量化投资](/posts/quantitative-investing)
+- [风险管理](/posts/risk-management)
+- [因子投资](/posts/factor-investing)
 
 ### 相关人物
 

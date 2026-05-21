@@ -381,10 +381,10 @@ tags:
 
 ### 相关概念
 
-- [[long-short-equity|多空策略]]
-- [[fundamental-analysis|基本面分析]]
-- [[short-selling|做空]]
-- [[value-investing|价值投资]]
+- [多空策略](/posts/long-short-equity)
+- [基本面分析](/posts/fundamental-analysis)
+- [做空](/posts/short-selling)
+- [价值投资](/posts/value-investing)
 
 ### 相关人物
 

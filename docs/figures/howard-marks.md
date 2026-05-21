@@ -393,12 +393,12 @@ tags:
 
 ### 相关概念
 
-- [[second-level-thinking|第二层思维]]
-- [[market-cycle|市场周期]]
-- [[distressed-debt|困境债务]]
-- [[risk-control|风险控制]]
-- [[margin-of-safety|安全边际]]
-- [[contrarian-investing|逆向投资]]
+- [第二层思维](/posts/second-level-thinking)
+- [市场周期](/posts/market-cycle)
+- [困境债务](/posts/distressed-debt)
+- [风险控制](/posts/risk-control)
+- [安全边际](/posts/margin-of-safety)
+- [逆向投资](/posts/contrarian-investing)
 
 ### 相关人物
 

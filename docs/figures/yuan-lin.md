@@ -375,10 +375,10 @@ tags:
 
 ### 相关概念
 
-- [[value-investing|价值投资]]
-- [[economic-moat|经济护城河]]
-- [[long-term-investing|长期投资]]
-- [[pricing-power|定价权]]
+- [价值投资](/posts/value-investing)
+- [经济护城河](/posts/economic-moat)
+- [长期投资](/posts/long-term-investing)
+- [定价权](/posts/pricing-power)
 
 ### 相关人物
 

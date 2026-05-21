@@ -397,10 +397,10 @@ tags:
 
 ### 相关概念
 
-- [[value-investing|价值投资]]
-- [[contrarian-investing|逆向投资]]
-- [[global-investing|全球投资]]
-- [[margin-of-safety|安全边际]]
+- [价值投资](/posts/value-investing)
+- [逆向投资](/posts/contrarian-investing)
+- [全球投资](/posts/global-investing)
+- [安全边际](/posts/margin-of-safety)
 
 ### 相关人物
 

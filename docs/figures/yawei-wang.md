@@ -343,9 +343,9 @@ tags:
 
 ### 相关概念
 
-- [[contrarian-investing|逆向投资]]
-- [[value-investing|价值投资]]
-- [[independent-research|独立研究]]
+- [逆向投资](/posts/contrarian-investing)
+- [价值投资](/posts/value-investing)
+- [独立研究](/posts/independent-research)
 
 ### 相关人物
 

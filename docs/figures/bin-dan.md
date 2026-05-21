@@ -377,10 +377,10 @@ tags:
 
 ### 相关概念
 
-- [[value-investing|价值投资]]
-- [[long-term-investing|长期投资]]
-- [[economic-moat|经济护城河]]
-- [[compound-interest|复利]]
+- [价值投资](/posts/value-investing)
+- [长期投资](/posts/long-term-investing)
+- [经济护城河](/posts/economic-moat)
+- [复利](/posts/compound-interest)
 
 ### 相关人物
 

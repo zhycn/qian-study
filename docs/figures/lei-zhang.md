@@ -429,11 +429,11 @@ tags:
 
 ### 相关概念
 
-- [[value-investing|价值投资]]
-- [[long-term-investing|长期投资]]
-- [[economic-moat|经济护城河]]
-- [[circle-of-competence|能力圈]]
-- [[compound-interest|复利]]
+- [价值投资](/posts/value-investing)
+- [长期投资](/posts/long-term-investing)
+- [经济护城河](/posts/economic-moat)
+- [能力圈](/posts/circle-of-competence)
+- [复利](/posts/compound-interest)
 
 ### 相关人物
 

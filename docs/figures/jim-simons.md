@@ -384,12 +384,12 @@ tags:
 
 ### 相关概念
 
-- [[quantitative-investing|量化投资]]
-- [[statistical-arbitrage|统计套利]]
-- [[machine-learning|机器学习]]
-- [[high-frequency-trading|高频交易]]
-- [[factor-investing|因子投资]]
-- [[alternative-data|另类数据]]
+- [量化投资](/posts/quantitative-investing)
+- [统计套利](/posts/statistical-arbitrage)
+- [机器学习](/posts/machine-learning)
+- [高频交易](/posts/high-frequency-trading)
+- [因子投资](/posts/factor-investing)
+- [另类数据](/posts/alternative-data)
 
 ### 相关人物
 

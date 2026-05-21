@@ -352,10 +352,10 @@ tags:
 
 ### 相关概念
 
-- [[technical-analysis|技术分析]]
-- [[trend-following|趋势跟踪]]
-- [[risk-management|风险管理]]
-- [[elliott-wave|艾略特波浪理论]]
+- [技术分析](/posts/technical-analysis)
+- [趋势跟踪](/posts/trend-following)
+- [风险管理](/posts/risk-management)
+- [艾略特波浪理论](/posts/elliott-wave)
 
 ### 相关人物
 

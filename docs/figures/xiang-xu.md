@@ -370,10 +370,10 @@ tags:
 
 ### 相关概念
 
-- [[insider-trading|内幕交易]]（违法行为）
-- [[market-manipulation|市场操纵]]（违法行为）
-- [[value-investing|价值投资]]（合规投资方法）
-- [[long-term-investing|长期投资]]（合规投资方法）
+- [内幕交易](/posts/insider-trading)（违法行为）
+- [市场操纵](/posts/market-manipulation)（违法行为）
+- [价值投资](/posts/value-investing)（合规投资方法）
+- [长期投资](/posts/long-term-investing)（合规投资方法）
 
 ### 相关法规
 

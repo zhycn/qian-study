@@ -343,10 +343,10 @@ tags:
 
 ### 相关概念
 
-- [[value-investing|价值投资]]
-- [[contrarian-investing|逆向投资]]
-- [[economic-moat|经济护城河]]
-- [[margin-of-safety|安全边际]]
+- [价值投资](/posts/value-investing)
+- [逆向投资](/posts/contrarian-investing)
+- [经济护城河](/posts/economic-moat)
+- [安全边际](/posts/margin-of-safety)
 
 ### 相关人物
 

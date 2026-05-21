@@ -351,11 +351,11 @@ tags:
 
 ### 相关概念
 
-- [[value-investing|价值投资]]
-- [[margin-of-safety|安全边际]]
-- [[circle-of-competence|能力圈]]
-- [[economic-moat|经济护城河]]
-- [[compound-interest|复利]]
+- [价值投资](/posts/value-investing)
+- [安全边际](/posts/margin-of-safety)
+- [能力圈](/posts/circle-of-competence)
+- [经济护城河](/posts/economic-moat)
+- [复利](/posts/compound-interest)
 
 ### 相关人物
 

@@ -324,10 +324,10 @@ tags:
 
 ### 相关概念
 
-- [[contrarian-investing|逆向投资]]
-- [[value-investing|价值投资]]
-- [[margin-of-safety|安全边际]]
-- [[expected-value|期望值]]
+- [逆向投资](/posts/contrarian-investing)
+- [价值投资](/posts/value-investing)
+- [安全边际](/posts/margin-of-safety)
+- [期望值](/posts/expected-value)
 
 ### 相关人物
 

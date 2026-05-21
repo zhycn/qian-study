@@ -462,12 +462,12 @@ GEICO（政府雇员保险公司）与巴菲特的渊源可以追溯到 1951 年
 
 ### 相关概念
 
-- [[value-investing|价值投资]]
-- [[margin-of-safety|安全边际]]
-- [[economic-moat|经济护城河]]
-- [[compound-interest|复利]]
-- [[float|保险浮存金]]
-- [[circle-of-competence|能力圈]]
+- [价值投资](/posts/value-investing)
+- [安全边际](/posts/margin-of-safety)
+- [经济护城河](/posts/economic-moat)
+- [复利](/posts/compound-interest)
+- [保险浮存金](/posts/float)
+- [能力圈](/posts/circle-of-competence)
 
 ### 相关人物
 

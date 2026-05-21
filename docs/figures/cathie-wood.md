@@ -406,11 +406,11 @@ Capital Group 是一家以长期投资闻名的公司，强调深度基本面研
 
 ### 相关概念
 
-- [[disruptive-innovation|颠覆式创新]]
-- [[growth-investing|成长投资]]
-- [[thematic-investing|主题投资]]
-- [[innovation-curve|创新曲线]]
-- [[total-addressable-market|潜在市场规模]]
+- [颠覆式创新](/posts/disruptive-innovation)
+- [成长投资](/posts/growth-investing)
+- [主题投资](/posts/thematic-investing)
+- [创新曲线](/posts/innovation-curve)
+- [潜在市场规模](/posts/total-addressable-market)
 
 ### 相关人物
 

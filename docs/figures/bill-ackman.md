@@ -403,10 +403,10 @@ Howard Hughes Corporation 是阿克曼持有时间最长的投资之一。
 
 ### 相关概念
 
-- [[activist-investing|激进投资]]
-- [[short-selling|做空]]
-- [[concentrated-position|集中持仓]]
-- [[credit-default-swap|信用违约互换]]
+- [激进投资](/posts/activist-investing)
+- [做空](/posts/short-selling)
+- [集中持仓](/posts/concentrated-position)
+- [信用违约互换](/posts/credit-default-swap)
 
 ### 相关人物
 

@@ -409,10 +409,10 @@ tags:
 
 ### 相关概念
 
-- [[technical-analysis|技术分析]]
-- [[trend-following|趋势跟踪]]
-- [[stop-loss|止损]]
-- [[leverage|杠杆]]
+- [技术分析](/posts/technical-analysis)
+- [趋势跟踪](/posts/trend-following)
+- [止损](/posts/stop-loss)
+- [杠杆](/posts/leverage)
 
 ### 相关人物
 

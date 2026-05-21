@@ -373,12 +373,12 @@ Appaloosa 的策略非常明确：
 
 ### 相关概念
 
-- [[distressed-debt|困境债务]]
-- [[macro-hedge|宏观对冲]]
-- [[contrarian-investing|逆向投资]]
-- [[credit-analysis|信用分析]]
-- [[quantitative-easing|量化宽松]]
-- [[too-big-to-fail|大而不能倒]]
+- [困境债务](/posts/distressed-debt)
+- [宏观对冲](/posts/macro-hedge)
+- [逆向投资](/posts/contrarian-investing)
+- [信用分析](/posts/credit-analysis)
+- [量化宽松](/posts/quantitative-easing)
+- [大而不能倒](/posts/too-big-to-fail)
 
 ### 相关人物
 

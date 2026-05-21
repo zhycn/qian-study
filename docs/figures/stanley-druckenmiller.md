@@ -345,10 +345,10 @@ tags:
 
 ### 相关概念
 
-- [[macro-hedge|宏观对冲]]
-- [[reflexivity|反身性理论]]
-- [[risk-management|风险管理]]
-- [[concentrated-position|集中持仓]]
+- [宏观对冲](/posts/macro-hedge)
+- [反身性理论](/posts/reflexivity)
+- [风险管理](/posts/risk-management)
+- [集中持仓](/posts/concentrated-position)
 
 ### 相关人物
 

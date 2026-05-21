@@ -345,9 +345,9 @@ tags:
 
 ### 相关概念
 
-- [[macro-hedge|宏观对冲]]
-- [[trend-following|趋势跟踪]]
-- [[risk-management|风险管理]]
+- [宏观对冲](/posts/macro-hedge)
+- [趋势跟踪](/posts/trend-following)
+- [风险管理](/posts/risk-management)
 
 ### 相关人物
 

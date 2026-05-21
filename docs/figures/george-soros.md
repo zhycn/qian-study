@@ -411,11 +411,11 @@ tags:
 
 ### 相关概念
 
-- [[macro-hedge|宏观对冲]]
-- [[reflexivity|反身性理论]]
-- [[short-selling|做空]]
-- [[leverage|杠杆]]
-- [[fixed-exchange-rate|固定汇率制]]
+- [宏观对冲](/posts/macro-hedge)
+- [反身性理论](/posts/reflexivity)
+- [做空](/posts/short-selling)
+- [杠杆](/posts/leverage)
+- [固定汇率制](/posts/fixed-exchange-rate)
 
 ### 相关人物
 

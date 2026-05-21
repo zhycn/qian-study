@@ -389,10 +389,10 @@ tags:
 
 ### 相关概念
 
-- [[venture-capital|风险投资]]
-- [[network-effect|网络效应]]
-- [[platform-economy|平台经济]]
-- [[compound-interest|复利]]
+- [风险投资](/posts/venture-capital)
+- [网络效应](/posts/network-effect)
+- [平台经济](/posts/platform-economy)
+- [复利](/posts/compound-interest)
 
 ### 相关人物
 

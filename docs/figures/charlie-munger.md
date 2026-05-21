@@ -420,11 +420,11 @@ tags:
 
 ### 相关概念
 
-- [[mental-models|多元思维模型]]
-- [[economic-moat|经济护城河]]
-- [[circle-of-competence|能力圈]]
-- [[value-investing|价值投资]]
-- [[cognitive-bias|认知偏差]]
+- [多元思维模型](/posts/mental-models)
+- [经济护城河](/posts/economic-moat)
+- [能力圈](/posts/circle-of-competence)
+- [价值投资](/posts/value-investing)
+- [认知偏差](/posts/cognitive-bias)
 
 ### 相关人物
 

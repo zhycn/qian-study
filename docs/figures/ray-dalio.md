@@ -439,12 +439,12 @@ tags:
 
 ### 相关概念
 
-- [[risk-parity|风险平价]]
-- [[asset-allocation|资产配置]]
-- [[economic-cycle|经济周期]]
-- [[deleveraging|去杠杆]]
-- [[diversification|分散化]]
-- [[macro-hedge|宏观对冲]]
+- [风险平价](/posts/risk-parity)
+- [资产配置](/posts/asset-allocation)
+- [经济周期](/posts/economic-cycle)
+- [去杠杆](/posts/deleveraging)
+- [分散化](/posts/diversification)
+- [宏观对冲](/posts/macro-hedge)
 
 ### 相关人物
 

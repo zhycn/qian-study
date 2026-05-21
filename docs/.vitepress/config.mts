@@ -176,90 +176,84 @@ export default withPwa(
       sidebar: {
         '/figures/': [
           {
-            text: '经典大师（1900s-1960s）',
+            text: '价值投资派',
             collapsed: true,
             items: [
               { text: '本杰明·格雷厄姆', link: '/figures/benjamin-graham' },
-              { text: '菲利普·费雪', link: '/figures/philip-fisher' },
-              { text: '杰西·利弗莫尔', link: '/figures/jesse-livermore' },
+              { text: '沃伦·巴菲特', link: '/figures/warren-buffett' },
+              { text: '查理·芒格', link: '/figures/charlie-munger' },
+              { text: '塞斯·卡拉曼', link: '/figures/seth-klarman' },
+              { text: '约翰·内夫', link: '/figures/john-neff' },
+              { text: '马丁·惠特曼', link: '/figures/martin-whitman' },
+              { text: '盖伊·斯皮尔', link: '/figures/guy-spier' },
               { text: '约翰·邓普顿', link: '/figures/john-templeton' },
-              { text: '约翰·博格', link: '/figures/john-bogle' }
+              { text: '段永平', link: '/figures/yongping-duan' },
+              { text: '李录', link: '/figures/li-lu' },
+              { text: '陈光明', link: '/figures/guangming-chen' },
+              { text: '赵丹阳', link: '/figures/danyang-zhao' }
             ]
           },
           {
-            text: '学术泰斗',
+            text: '成长与趋势派',
             collapsed: true,
             items: [
+              { text: '菲利普·费雪', link: '/figures/philip-fisher' },
+              { text: '彼得·林奇', link: '/figures/peter-lynch' },
+              { text: '张磊', link: '/figures/lei-zhang' },
+              { text: '沈南鹏', link: '/figures/nanpeng-shen' },
+              { text: '凯茜·伍德', link: '/figures/cathie-wood' },
+              { text: '邱国鹭', link: '/figures/guolu-qiu' },
+              { text: '周蔚文', link: '/figures/shouwen-zhou' },
+              { text: '朱少醒', link: '/figures/shaoxing-zhu' }
+            ]
+          },
+          {
+            text: '宏观与对冲派',
+            collapsed: true,
+            items: [
+              { text: '乔治·索罗斯', link: '/figures/george-soros' },
+              { text: '瑞·达利欧', link: '/figures/ray-dalio' },
+              { text: '斯坦利·德鲁肯米勒', link: '/figures/stanley-druckenmiller' },
+              { text: '保罗·都铎·琼斯', link: '/figures/paul-tudor-jones' },
+              { text: '大卫·泰珀', link: '/figures/david-tepper' },
+              { text: '葛卫东', link: '/figures/weidong-ge' }
+            ]
+          },
+          {
+            text: '量化与技术派',
+            collapsed: true,
+            items: [
+              { text: '詹姆斯·西蒙斯', link: '/figures/jim-simons' },
+              { text: '肯·格里芬', link: '/figures/ken-griffin' },
+              { text: '杰西·利弗莫尔', link: '/figures/jesse-livermore' },
+              { text: '冯柳', link: '/figures/liu-feng' },
+              { text: '徐翔', link: '/figures/xiang-xu' }
+            ]
+          },
+          {
+            text: '指数与配置派',
+            collapsed: true,
+            items: [
+              { text: '约翰·博格', link: '/figures/john-bogle' },
               { text: '哈里·马科维茨', link: '/figures/harry-markowitz' },
               { text: '威廉·夏普', link: '/figures/william-sharpe' },
+              { text: '大卫·史文森', link: '/figures/howard-hughes' },
+              { text: '马克·塞勒恩', link: '/figures/mark-sellemen' },
               { text: '罗伯特·席勒', link: '/figures/robert-shiller' }
             ]
           },
           {
-            text: '实战派大师',
+            text: '激进与特殊策略',
             collapsed: true,
             items: [
-              { text: '约翰·内夫', link: '/figures/john-neff' },
-              { text: '马丁·惠特曼', link: '/figures/martin-whitman' },
-              { text: '塞斯·卡拉曼', link: '/figures/seth-klarman' },
-              { text: '盖伊·斯皮尔', link: '/figures/guy-spier' }
-            ]
-          },
-          {
-            text: '机构投资大师',
-            collapsed: true,
-            items: [
-              { text: '马克·塞勒恩', link: '/figures/mark-sellemen' },
-              { text: '大卫·史文森', link: '/figures/howard-hughes' }
-            ]
-          },
-          {
-            text: '现代巨匠（1970s-2000s）',
-            collapsed: true,
-            items: [
-              { text: '沃伦·巴菲特', link: '/figures/warren-buffett' },
-              { text: '乔治·索罗斯', link: '/figures/george-soros' },
-              { text: '查理·芒格', link: '/figures/charlie-munger' },
-              { text: '彼得·林奇', link: '/figures/peter-lynch' },
-              { text: '朱利安·罗伯逊', link: '/figures/julian-robertson' },
-              { text: '保罗·都铎·琼斯', link: '/figures/paul-tudor-jones' },
-              { text: '斯坦利·德鲁肯米勒', link: '/figures/stanley-druckenmiller' },
-              { text: '比尔·阿克曼', link: '/figures/bill-ackman' }
-            ]
-          },
-          {
-            text: '当代新锐（2000s-至今）',
-            collapsed: true,
-            items: [
-              { text: '瑞·达利欧', link: '/figures/ray-dalio' },
-              { text: '詹姆斯·西蒙斯', link: '/figures/jim-simons' },
-              { text: '肯·格里芬', link: '/figures/ken-griffin' },
-              { text: '凯茜·伍德', link: '/figures/cathie-wood' },
+              { text: '卡尔·伊坎', link: '/figures/carl-icahn' },
+              { text: '比尔·阿克曼', link: '/figures/bill-ackman' },
               { text: '迈克尔·伯里', link: '/figures/michael-burry' },
               { text: '霍华德·马克斯', link: '/figures/howard-marks' },
-              { text: '卡尔·伊坎', link: '/figures/carl-icahn' },
-              { text: '大卫·泰珀', link: '/figures/david-tepper' }
-            ]
-          },
-          {
-            text: '华人投资家',
-            collapsed: true,
-            items: [
-              { text: '张磊', link: '/figures/lei-zhang' },
-              { text: '段永平', link: '/figures/yongping-duan' },
-              { text: '李录', link: '/figures/li-lu' },
-              { text: '沈南鹏', link: '/figures/nanpeng-shen' },
-              { text: '邱国鹭', link: '/figures/guolu-qiu' },
+              { text: '朱利安·罗伯逊', link: '/figures/julian-robertson' },
               { text: '但斌', link: '/figures/bin-dan' },
               { text: '林园', link: '/figures/yuan-lin' },
-              { text: '冯柳', link: '/figures/liu-feng' },
-              { text: '葛卫东', link: '/figures/weidong-ge' },
-              { text: '王亚伟', link: '/figures/yawei-wang' },
-              { text: '徐翔', link: '/figures/xiang-xu' },
-              { text: '赵丹阳', link: '/figures/danyang-zhao' },
-              { text: '陈光明', link: '/figures/guangming-chen' },
-              { text: '周蔚文', link: '/figures/shouwen-zhou' },
-              { text: '朱少醒', link: '/figures/shaoxing-zhu' }
+              { text: '王亚伟', link: '/figures/yawei-wang' }
             ]
           }
         ],
